@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "exported_at": "2026-06-29T21:42:34.067013+00:00",
+    "exported_at": "2026-06-29T21:43:23.466726+00:00",
     "source": "komoot",
     "route_count": 73
   },
@@ -1007,8 +1007,7 @@
         },
         "region": null,
         "tags": [
-          "kalkkögel",
-          "skimo"
+          "kalkkögel"
         ]
       }
     },
@@ -2403,8 +2402,7 @@
         },
         "region": null,
         "tags": [
-          "sellrain",
-          "skimo"
+          "sellrain"
         ]
       }
     },
@@ -3569,8 +3567,7 @@
         },
         "region": null,
         "tags": [
-          "kühtai",
-          "skimo"
+          "kühtai"
         ]
       }
     },
@@ -4290,8 +4287,7 @@
         },
         "region": null,
         "tags": [
-          "axamer lizum",
-          "skimo"
+          "axamer lizum"
         ]
       }
     },
@@ -5321,7 +5317,6 @@
         },
         "region": null,
         "tags": [
-          "skimo",
           "wattental"
         ]
       }
@@ -5982,8 +5977,7 @@
         },
         "region": null,
         "tags": [
-          "brenner",
-          "skimo"
+          "brenner"
         ]
       }
     },
@@ -6938,8 +6932,7 @@
         },
         "region": null,
         "tags": [
-          "kalkkögel",
-          "skimo"
+          "kalkkögel"
         ]
       }
     },
@@ -8734,8 +8727,7 @@
         },
         "region": null,
         "tags": [
-          "brenner",
-          "skimo"
+          "brenner"
         ]
       }
     },
@@ -10150,7 +10142,6 @@
         },
         "region": null,
         "tags": [
-          "skimo",
           "tuxer alps"
         ]
       }
@@ -11381,7 +11372,6 @@
         },
         "region": null,
         "tags": [
-          "skimo",
           "tuxer alps"
         ]
       }
@@ -12927,8 +12917,7 @@
         },
         "region": null,
         "tags": [
-          "kühtai",
-          "skimo"
+          "kühtai"
         ]
       }
     },
@@ -13713,8 +13702,7 @@
         },
         "region": null,
         "tags": [
-          "brenner",
-          "skimo"
+          "brenner"
         ]
       }
     },
@@ -14339,8 +14327,7 @@
         },
         "region": null,
         "tags": [
-          "brenner",
-          "skimo"
+          "brenner"
         ]
       }
     },
@@ -15550,8 +15537,7 @@
         },
         "region": null,
         "tags": [
-          "kühtai",
-          "skimo"
+          "kühtai"
         ]
       }
     },
@@ -16781,8 +16767,7 @@
         },
         "region": null,
         "tags": [
-          "brenner",
-          "skimo"
+          "brenner"
         ]
       }
     },
@@ -18547,7 +18532,6 @@
         },
         "region": null,
         "tags": [
-          "skimo",
           "tuxer alps"
         ]
       }
@@ -19148,8 +19132,7 @@
         },
         "region": null,
         "tags": [
-          "pitztal",
-          "skimo"
+          "pitztal"
         ]
       }
     },
@@ -20164,8 +20147,7 @@
         },
         "region": null,
         "tags": [
-          "achensee",
-          "skimo"
+          "achensee"
         ]
       }
     },
@@ -20445,7 +20427,6 @@
         },
         "region": null,
         "tags": [
-          "skimo",
           "stubai"
         ]
       }
@@ -21481,8 +21462,7 @@
         },
         "region": null,
         "tags": [
-          "sellrain",
-          "skimo"
+          "sellrain"
         ]
       }
     },
@@ -22152,8 +22132,7 @@
         },
         "region": null,
         "tags": [
-          "sellrain",
-          "skimo"
+          "sellrain"
         ]
       }
     },
@@ -23548,8 +23527,7 @@
         },
         "region": null,
         "tags": [
-          "sellrain",
-          "skimo"
+          "sellrain"
         ]
       }
     },
@@ -24299,8 +24277,7 @@
         },
         "region": null,
         "tags": [
-          "sellrain",
-          "skimo"
+          "sellrain"
         ]
       }
     },
@@ -25375,8 +25352,7 @@
         },
         "region": null,
         "tags": [
-          "kaunertal",
-          "skimo"
+          "kaunertal"
         ]
       }
     },
@@ -26111,7 +26087,6 @@
         },
         "region": null,
         "tags": [
-          "skimo",
           "stubai"
         ]
       }
@@ -26958,7 +26933,6 @@
         "region": null,
         "tags": [
           "pitztal",
-          "skimo",
           "ötztal"
         ]
       }
@@ -28230,7 +28204,6 @@
         "region": null,
         "tags": [
           "pitztal",
-          "skimo",
           "ötztal"
         ]
       }
@@ -29581,7 +29554,6 @@
         },
         "region": null,
         "tags": [
-          "skimo",
           "stubai"
         ]
       }
@@ -30882,8 +30854,7 @@
         },
         "region": null,
         "tags": [
-          "sellrain",
-          "skimo"
+          "sellrain"
         ]
       }
     },
@@ -31813,8 +31784,7 @@
         },
         "region": null,
         "tags": [
-          "imst",
-          "skimo"
+          "imst"
         ]
       }
     },
@@ -32924,8 +32894,7 @@
         },
         "region": null,
         "tags": [
-          "karwendel",
-          "skimo"
+          "karwendel"
         ]
       }
     },
@@ -34630,8 +34599,7 @@
         },
         "region": null,
         "tags": [
-          "brenner",
-          "skimo"
+          "brenner"
         ]
       }
     },
@@ -35986,8 +35954,7 @@
         },
         "region": null,
         "tags": [
-          "karwendel",
-          "skimo"
+          "karwendel"
         ]
       }
     },
@@ -37902,8 +37869,7 @@
         },
         "region": null,
         "tags": [
-          "landeck",
-          "skimo"
+          "landeck"
         ]
       }
     },
@@ -38648,8 +38614,7 @@
         },
         "region": null,
         "tags": [
-          "brenner",
-          "skimo"
+          "brenner"
         ]
       }
     },
@@ -39594,8 +39559,7 @@
         },
         "region": null,
         "tags": [
-          "brenner",
-          "skimo"
+          "brenner"
         ]
       }
     },
@@ -39930,8 +39894,7 @@
         },
         "region": null,
         "tags": [
-          "sellrain",
-          "skimo"
+          "sellrain"
         ]
       }
     },
@@ -41616,8 +41579,7 @@
         },
         "region": null,
         "tags": [
-          "sellrain",
-          "skimo"
+          "sellrain"
         ]
       }
     },
@@ -42677,8 +42639,7 @@
         },
         "region": null,
         "tags": [
-          "inntal",
-          "skimo"
+          "inntal"
         ]
       }
     },
@@ -44038,7 +43999,6 @@
         },
         "region": null,
         "tags": [
-          "skimo",
           "south tyrol"
         ]
       }
@@ -45358,8 +45318,7 @@
         },
         "region": null,
         "tags": [
-          "sellrain",
-          "skimo"
+          "sellrain"
         ]
       }
     },
@@ -47654,8 +47613,7 @@
         },
         "region": null,
         "tags": [
-          "sellrain",
-          "skimo"
+          "sellrain"
         ]
       }
     },
@@ -48445,7 +48403,6 @@
         },
         "region": null,
         "tags": [
-          "skimo",
           "stubai"
         ]
       }
@@ -49761,8 +49718,7 @@
         },
         "region": null,
         "tags": [
-          "brenner",
-          "skimo"
+          "brenner"
         ]
       }
     },
@@ -51197,8 +51153,7 @@
         },
         "region": null,
         "tags": [
-          "kaunertal",
-          "skimo"
+          "kaunertal"
         ]
       }
     },
@@ -52468,7 +52423,6 @@
         },
         "region": null,
         "tags": [
-          "skimo",
           "stubai"
         ]
       }
@@ -53709,8 +53663,7 @@
         },
         "region": null,
         "tags": [
-          "brenner",
-          "skimo"
+          "brenner"
         ]
       }
     },
@@ -54330,8 +54283,7 @@
         },
         "region": null,
         "tags": [
-          "sellrain",
-          "skimo"
+          "sellrain"
         ]
       }
     },
@@ -55711,7 +55663,6 @@
         },
         "region": null,
         "tags": [
-          "skimo",
           "south tyrol"
         ]
       }
@@ -56887,7 +56838,6 @@
         },
         "region": null,
         "tags": [
-          "skimo",
           "tuxer alps"
         ]
       }
@@ -58038,8 +57988,7 @@
         },
         "region": null,
         "tags": [
-          "axamer lizum",
-          "skimo"
+          "axamer lizum"
         ]
       }
     },
@@ -59434,7 +59383,6 @@
         },
         "region": null,
         "tags": [
-          "skimo",
           "wattental"
         ]
       }
@@ -61555,8 +61503,7 @@
         },
         "region": null,
         "tags": [
-          "pitztal",
-          "skimo"
+          "pitztal"
         ]
       }
     },
