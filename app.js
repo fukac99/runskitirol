@@ -83,7 +83,7 @@ const osmStreets = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 });
 
-openTopo.addTo(map);
+(SINGLE_ROUTE_SLUG ? openTopo : (mapboxOutdoors ?? esriTopo)).addTo(map);
 
 const baseLayers = {};
 if (mapboxOutdoors) baseLayers["Mapbox Outdoors"] = mapboxOutdoors;
