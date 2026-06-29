@@ -119,11 +119,11 @@ every 10 minutes
 Each tick should:
 
 1. Run the PM pass.
-2. Process at most one active changeset unless the user explicitly asks for parallel execution.
+2. Launch up to five parallel subagents per tick for independent `Todo` issues. Each subagent works on its own branch with strict non-overlapping file ownership.
 3. Update Linear with the current state.
 4. Stop when there is no actionable `Todo` work or when blocked on `Human Review`.
 
-This keeps review load manageable and avoids creating a pile of unattended PRs.
+When running parallel subagents, assign clear file ownership to each so changes don't conflict. If two issues must edit the same file, run them sequentially or in separate ticks.
 
 ## Stop Conditions
 
@@ -142,26 +142,43 @@ Use this as the recurring loop prompt:
 ```text
 Run the runskitirol engineering loop:
 1. PM pass: inspect RUN Linear issues, completed work, repo state, and known blockers. Create or update Linear issues for newly discovered work without duplicating existing issues.
-2. Execution pass: pick actionable RUN issues in Todo, move one to In Progress, implement it on a branch tied to the issue, validate it, open a PR, and move it to In Review.
+2. Execution pass: pick up to 5 independent actionable RUN issues in Todo, move them to In Progress, launch parallel subagents (one per issue, each on its own branch with non-overlapping file ownership), validate, open PRs, and move to In Review.
 3. Human decision pass: if explicit human input is required, create or move a Linear issue to Human Review with options and a recommendation. When a Human Review issue has a decision and is moved back to Todo, apply the decision, record what changed, and move the decision issue to Done.
 Always make a PR for every changeset and never push directly to main.
 ```
 
 ## Current Project Shape
 
-Initial work:
+Done:
 
-- `RUN-1`: ingest RUN collection data.
-- `RUN-2`: ingest SKIMO collection data.
+- `RUN-1`: Ingest RUN Komoot collection into baseline data files.
+- `RUN-2`: Ingest SKIMO Komoot collection into baseline data files.
+- `RUN-3`: Define route data contract and override workflow.
+- `RUN-4`: Build visible end-to-end route map slice.
+- `RUN-5`: Render all routes on an interactive free map.
+- `RUN-6`: Add route list, search, and filters.
+- `RUN-9`: Set up GitHub Pages deployment.
+- `RUN-12`: Thicken route lines for easier clicking.
+- `RUN-13`: Remove RUN/SKIMO switch from the top banner.
+- `RUN-14`: Match RUN map banner look/feel to runskitirol.com/trails.
+- `RUN-15`: Match SKIMO map banner look/feel to runskitirol.com/skimo.
 
-Remaining backlog:
+In Progress:
 
-- data contract and overrides
-- static GitHub Pages app shell
-- route map rendering
-- route list/search/filters
-- single-route and Squarespace embed modes
-- blog URL and metadata enrichment
-- GitHub Pages deployment
-- validation and QA
-- launch and rollback plan
+- `RUN-17`: Replace distance and climb inputs with range sliders.
+- `RUN-18`: Fix tags filter not working.
+- `RUN-19`: Restyle route detail popups to match themed banners and remove collection badge.
+
+Todo:
+
+- `RUN-8`: Map blog posts to routes and enrich metadata.
+
+Blocked:
+
+- `RUN-7`: Support single-route and Squarespace embed modes.
+- `RUN-10`: Add lightweight QA and data validation.
+- `RUN-11`: Prepare launch and Squarespace replacement plan.
+
+Backlog:
+
+- `RUN-16`: Add rating filters and show blog URL in route details (blocked by RUN-8).
