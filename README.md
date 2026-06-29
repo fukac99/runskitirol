@@ -33,6 +33,16 @@ Manual metadata that is not available from Komoot, such as blog URLs, tags, and 
 
 See `docs/data-contract.md` for the full route data contract, required and optional fields, stable route ID/slug rules, and the override workflow.
 
+## Local Preview
+
+The map is a static GitHub Pages-ready app with no build step. Preview it from the repository root with a local web server so the browser can fetch files from `data/`:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open http://localhost:8000/ in a browser.
+
 ## Project Workflow
 
 - `PLAN.md`: product and implementation plan.
