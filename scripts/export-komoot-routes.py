@@ -31,8 +31,6 @@ COLLECTIONS = [
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 OVERRIDES_PATH = DATA_DIR / "route-overrides.json"
-ROUTES_JSON_PATH = DATA_DIR / "routes.json"
-ROUTES_GEOJSON_PATH = DATA_DIR / "routes.geojson"
 
 
 def routes_json_path(collection_key: str) -> Path:
@@ -167,6 +165,8 @@ def build_route_record(
         "changed_at": metadata.get("changed_at"),
         "komoot_url": f"https://www.komoot.com/tour/{route_id}",
         "blog_url": override.get("blog_url"),
+        "difficulty": override.get("difficulty"),
+        "ratings": override.get("ratings"),
         "region": override.get("region"),
         "tags": override.get("tags", []),
     }
@@ -191,6 +191,8 @@ def build_feature(record: dict[str, Any], geometry: list[dict[str, Any]]) -> dic
             "elevation_up_m": record["elevation_up_m"],
             "komoot_url": record["komoot_url"],
             "blog_url": record["blog_url"],
+            "difficulty": record["difficulty"],
+            "ratings": record["ratings"],
             "region": record["region"],
             "tags": record["tags"],
         },
@@ -251,11 +253,6 @@ def main() -> int:
         write_json(per_json, routes_payload(exported_at, [collection], collection_records))
         write_json(per_geojson, geojson_payload(exported_at, collection_features))
         written_paths.extend([per_json, per_geojson])
-
-    # Combined files, kept for back-compat and validation.
-    write_json(ROUTES_JSON_PATH, routes_payload(exported_at, COLLECTIONS, records))
-    write_json(ROUTES_GEOJSON_PATH, geojson_payload(exported_at, features))
-    written_paths.extend([ROUTES_JSON_PATH, ROUTES_GEOJSON_PATH])
 
     overridden_ids = set(overrides)
     exported_ids = {record["id"] for record in records}

@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "exported_at": "2026-06-29T21:19:57.680462+00:00",
+    "exported_at": "2026-06-29T21:35:54.222257+00:00",
     "source": "komoot",
     "route_count": 73
   },
@@ -996,12 +996,19 @@
         "distance_km": 32.41,
         "elevation_up_m": 2887.4,
         "komoot_url": "https://www.komoot.com/tour/1912333048",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/fotscher-express",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 9,
+          "objective_danger": 3,
+          "landscape": 8,
+          "busy": 5
+        },
         "region": null,
         "tags": [
-          "long",
-          "mountain",
-          "skitour"
+          "kalkkögel",
+          "skimo"
         ]
       }
     },
@@ -2385,12 +2392,19 @@
         "distance_km": 10.19,
         "elevation_up_m": 1170.1,
         "komoot_url": "https://www.komoot.com/tour/1912335201",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/lampsenspitze",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 5,
+          "objective_danger": 3,
+          "landscape": 7,
+          "busy": 7
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "medium",
-          "skitour"
+          "sellrain",
+          "skimo"
         ]
       }
     },
@@ -3544,12 +3558,19 @@
         "distance_km": 8.15,
         "elevation_up_m": 780.8,
         "komoot_url": "https://www.komoot.com/tour/1912336962",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/pirchkogel",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 2,
+          "objective_danger": 2,
+          "landscape": 5,
+          "busy": 7
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "kühtai",
+          "skimo"
         ]
       }
     },
@@ -4258,12 +4279,19 @@
         "distance_km": 4.29,
         "elevation_up_m": 1120.9,
         "komoot_url": "https://www.komoot.com/tour/1912341259",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/axamer-kogele",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 3,
+          "objective_danger": 2,
+          "landscape": 4,
+          "busy": 4
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "axamer lizum",
+          "skimo"
         ]
       }
     },
@@ -5282,12 +5310,19 @@
         "distance_km": 9.85,
         "elevation_up_m": 1277.2,
         "komoot_url": "https://www.komoot.com/tour/1912343251",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/hirzer",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 5,
+          "objective_danger": 3,
+          "landscape": 6,
+          "busy": 3
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "skimo",
+          "wattental"
         ]
       }
     },
@@ -5936,12 +5971,19 @@
         "distance_km": 4.57,
         "elevation_up_m": 985.8,
         "komoot_url": "https://www.komoot.com/tour/1912413735",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/egger-berg",
+        "difficulty": "easy",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 2,
+          "objective_danger": 1,
+          "landscape": 5,
+          "busy": 6
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "brenner",
+          "skimo"
         ]
       }
     },
@@ -6885,12 +6927,19 @@
         "distance_km": 4.21,
         "elevation_up_m": 929.1,
         "komoot_url": "https://www.komoot.com/tour/1912415029",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/ampferstein",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 6,
+          "fitness": 5,
+          "objective_danger": 4,
+          "landscape": 8,
+          "busy": 7
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "kalkkögel",
+          "skimo"
         ]
       }
     },
@@ -8674,12 +8723,19 @@
         "distance_km": 14.5,
         "elevation_up_m": 873.5,
         "komoot_url": "https://www.komoot.com/tour/1912416289",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/grubenkopf",
+        "difficulty": "easy",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 4,
+          "objective_danger": 2,
+          "landscape": 7,
+          "busy": 4
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "medium",
-          "skitour"
+          "brenner",
+          "skimo"
         ]
       }
     },
@@ -10083,12 +10139,19 @@
         "distance_km": 22.67,
         "elevation_up_m": 2178.4,
         "komoot_url": "https://www.komoot.com/tour/1912417840",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/geier-round-from-navis",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 8,
+          "objective_danger": 6,
+          "landscape": 9,
+          "busy": 2
+        },
         "region": null,
         "tags": [
-          "medium",
-          "mountain",
-          "skitour"
+          "skimo",
+          "tuxer alps"
         ]
       }
     },
@@ -11307,12 +11370,19 @@
         "distance_km": 14.44,
         "elevation_up_m": 1171.5,
         "komoot_url": "https://www.komoot.com/tour/1912424679",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/gilfert",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 5,
+          "objective_danger": 3,
+          "landscape": 4,
+          "busy": 5
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "medium",
-          "skitour"
+          "skimo",
+          "tuxer alps"
         ]
       }
     },
@@ -12846,12 +12916,19 @@
         "distance_km": 8.25,
         "elevation_up_m": 678.1,
         "komoot_url": "https://www.komoot.com/tour/1912427260",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/mitterzeigerkopf",
+        "difficulty": "easy",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 2,
+          "objective_danger": 4,
+          "landscape": 6,
+          "busy": 7
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "kühtai",
+          "skimo"
         ]
       }
     },
@@ -13625,12 +13702,19 @@
         "distance_km": 3.5,
         "elevation_up_m": 797.8,
         "komoot_url": "https://www.komoot.com/tour/1912429388",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/silleskogel",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 3,
+          "objective_danger": 3,
+          "landscape": 5,
+          "busy": 8
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "brenner",
+          "skimo"
         ]
       }
     },
@@ -14244,12 +14328,19 @@
         "distance_km": 6.64,
         "elevation_up_m": 1201.2,
         "komoot_url": "https://www.komoot.com/tour/1912430690",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/pfoner-kreuzjochl",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 4,
+          "objective_danger": 3,
+          "landscape": 5,
+          "busy": 4
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "brenner",
+          "skimo"
         ]
       }
     },
@@ -15448,12 +15539,19 @@
         "distance_km": 7.93,
         "elevation_up_m": 1076.0,
         "komoot_url": "https://www.komoot.com/tour/1912434822",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/gaiskogel-north",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 5,
+          "objective_danger": 7,
+          "landscape": 6,
+          "busy": 1
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "kühtai",
+          "skimo"
         ]
       }
     },
@@ -16672,12 +16770,19 @@
         "distance_km": 10.17,
         "elevation_up_m": 941.4,
         "komoot_url": "https://www.komoot.com/tour/1912435919",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/lampermahdspitze",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 4,
+          "objective_danger": 5,
+          "landscape": 7,
+          "busy": 6
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "medium",
-          "skitour"
+          "brenner",
+          "skimo"
         ]
       }
     },
@@ -18431,12 +18536,19 @@
         "distance_km": 11.96,
         "elevation_up_m": 927.0,
         "komoot_url": "https://www.komoot.com/tour/1912437580",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/rosslaufspitze",
+        "difficulty": "easy",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 3,
+          "objective_danger": 2,
+          "landscape": 6,
+          "busy": 7
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "medium",
-          "skitour"
+          "skimo",
+          "tuxer alps"
         ]
       }
     },
@@ -19025,12 +19137,19 @@
         "distance_km": 7.51,
         "elevation_up_m": 1886.8,
         "komoot_url": "https://www.komoot.com/tour/1912442531",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/waze-spitze",
+        "difficulty": "very hard",
+        "ratings": {
+          "technical_difficulty": 9,
+          "fitness": 8,
+          "objective_danger": 8,
+          "landscape": 10,
+          "busy": 2
+        },
         "region": null,
         "tags": [
-          "mountain",
-          "short",
-          "skitour"
+          "pitztal",
+          "skimo"
         ]
       }
     },
@@ -20034,12 +20153,19 @@
         "distance_km": 7.05,
         "elevation_up_m": 432.7,
         "komoot_url": "https://www.komoot.com/tour/1912443723",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/rofanspitze",
+        "difficulty": "easy",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 5,
+          "objective_danger": 3,
+          "landscape": 7,
+          "busy": 9
+        },
         "region": null,
         "tags": [
-          "flat",
-          "short",
-          "skitour"
+          "achensee",
+          "skimo"
         ]
       }
     },
@@ -20308,12 +20434,19 @@
         "distance_km": 5.28,
         "elevation_up_m": 1582.8,
         "komoot_url": "https://www.komoot.com/tour/1912446061",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/ruderhofspitze-south",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 7,
+          "objective_danger": 7,
+          "landscape": 9,
+          "busy": 6
+        },
         "region": null,
         "tags": [
-          "mountain",
-          "short",
-          "skitour"
+          "skimo",
+          "stubai"
         ]
       }
     },
@@ -21337,12 +21470,19 @@
         "distance_km": 8.14,
         "elevation_up_m": 1512.9,
         "komoot_url": "https://www.komoot.com/tour/1912447125",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/lusener-spitze",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 6,
+          "fitness": 7,
+          "objective_danger": 5,
+          "landscape": 9,
+          "busy": 3
+        },
         "region": null,
         "tags": [
-          "mountain",
-          "short",
-          "skitour"
+          "sellrain",
+          "skimo"
         ]
       }
     },
@@ -22001,12 +22141,19 @@
         "distance_km": 10.23,
         "elevation_up_m": 1448.7,
         "komoot_url": "https://www.komoot.com/tour/1912448310",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/winnerbacher-weisskogel",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 8,
+          "objective_danger": 6,
+          "landscape": 9,
+          "busy": 4
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "medium",
-          "skitour"
+          "sellrain",
+          "skimo"
         ]
       }
     },
@@ -23390,12 +23537,19 @@
         "distance_km": 20.24,
         "elevation_up_m": 1846.4,
         "komoot_url": "https://www.komoot.com/tour/1912450118",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/hinterear-brunnenkogel-traverse",
+        "difficulty": "very hard",
+        "ratings": {
+          "technical_difficulty": 9,
+          "fitness": 8,
+          "objective_danger": 7,
+          "landscape": 10,
+          "busy": 4
+        },
         "region": null,
         "tags": [
-          "medium",
-          "mountain",
-          "skitour"
+          "sellrain",
+          "skimo"
         ]
       }
     },
@@ -24134,12 +24288,19 @@
         "distance_km": 9.65,
         "elevation_up_m": 1514.1,
         "komoot_url": "https://www.komoot.com/tour/1912459151",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/hoher-seeblaskogel",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 8,
+          "objective_danger": 6,
+          "landscape": 9,
+          "busy": 5
+        },
         "region": null,
         "tags": [
-          "mountain",
-          "short",
-          "skitour"
+          "sellrain",
+          "skimo"
         ]
       }
     },
@@ -25203,12 +25364,19 @@
         "distance_km": 9.27,
         "elevation_up_m": 1560.9,
         "komoot_url": "https://www.komoot.com/tour/1912460350",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/gsallkopf",
+        "difficulty": "very hard",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 8,
+          "objective_danger": 8,
+          "landscape": 10,
+          "busy": 2
+        },
         "region": null,
         "tags": [
-          "mountain",
-          "short",
-          "skitour"
+          "kaunertal",
+          "skimo"
         ]
       }
     },
@@ -25932,12 +26100,19 @@
         "distance_km": 7.59,
         "elevation_up_m": 726.2,
         "komoot_url": "https://www.komoot.com/tour/1912461706",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/zuckerhutl",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 5,
+          "objective_danger": 5,
+          "landscape": 8,
+          "busy": 9
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "skimo",
+          "stubai"
         ]
       }
     },
@@ -26771,12 +26946,19 @@
         "distance_km": 20.14,
         "elevation_up_m": 2112.4,
         "komoot_url": "https://www.komoot.com/tour/1912463684",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/pitztal-spring-skimo",
+        "difficulty": "very hard",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 9,
+          "landscape": 10,
+          "busy": 4
+        },
         "region": null,
         "tags": [
-          "medium",
-          "mountain",
-          "skitour"
+          "pitztal",
+          "skimo",
+          "ötztal"
         ]
       }
     },
@@ -28036,12 +28218,10 @@
         "elevation_up_m": 1664.0,
         "komoot_url": "https://www.komoot.com/tour/1912464418",
         "blog_url": null,
+        "difficulty": null,
+        "ratings": null,
         "region": null,
-        "tags": [
-          "long",
-          "mountain",
-          "skitour"
-        ]
+        "tags": []
       }
     },
     {
@@ -29379,12 +29559,19 @@
         "distance_km": 5.66,
         "elevation_up_m": 877.6,
         "komoot_url": "https://www.komoot.com/tour/1978722153",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/seblaskreuz",
+        "difficulty": "easy",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 2,
+          "objective_danger": 2,
+          "landscape": 5,
+          "busy": 8
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "skimo",
+          "stubai"
         ]
       }
     },
@@ -30673,12 +30860,19 @@
         "distance_km": 9.62,
         "elevation_up_m": 1221.8,
         "komoot_url": "https://www.komoot.com/tour/1990244932",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/zischgeles",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 6,
+          "objective_danger": 6,
+          "landscape": 9,
+          "busy": 7
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "mountaineering",
-          "short"
+          "sellrain",
+          "skimo"
         ]
       }
     },
@@ -31597,12 +31791,19 @@
         "distance_km": 15.94,
         "elevation_up_m": 1714.6,
         "komoot_url": "https://www.komoot.com/tour/1999382483",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/muttekopf",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 7,
+          "objective_danger": 7,
+          "landscape": 8,
+          "busy": 3
+        },
         "region": null,
         "tags": [
-          "medium",
-          "mountain",
-          "skitour"
+          "imst",
+          "skimo"
         ]
       }
     },
@@ -32701,12 +32902,19 @@
         "distance_km": 15.18,
         "elevation_up_m": 1300.6,
         "komoot_url": "https://www.komoot.com/tour/2008143758",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/gacher-tod",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 4,
+          "objective_danger": 8,
+          "landscape": 8,
+          "busy": 3
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "medium",
-          "skitour"
+          "karwendel",
+          "skimo"
         ]
       }
     },
@@ -34400,12 +34608,19 @@
         "distance_km": 6.87,
         "elevation_up_m": 840.7,
         "komoot_url": "https://www.komoot.com/tour/2015760139",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/jochgrubenkopf",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 2,
+          "objective_danger": 6,
+          "landscape": 6,
+          "busy": 3
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "brenner",
+          "skimo"
         ]
       }
     },
@@ -35749,12 +35964,19 @@
         "distance_km": 11.34,
         "elevation_up_m": 1310.8,
         "komoot_url": "https://www.komoot.com/tour/2024021697",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/reither-spitze",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 4,
+          "objective_danger": 7,
+          "landscape": 7,
+          "busy": 9
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "medium",
-          "skitour"
+          "karwendel",
+          "skimo"
         ]
       }
     },
@@ -37658,12 +37880,19 @@
         "distance_km": 17.34,
         "elevation_up_m": 1719.9,
         "komoot_url": "https://www.komoot.com/tour/2031618111",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/dawinkopf",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 6,
+          "fitness": 6,
+          "objective_danger": 7,
+          "landscape": 8,
+          "busy": 4
+        },
         "region": null,
         "tags": [
-          "medium",
-          "mountain",
-          "skitour"
+          "landeck",
+          "skimo"
         ]
       }
     },
@@ -38397,12 +38626,19 @@
         "distance_km": 3.04,
         "elevation_up_m": 648.6,
         "komoot_url": "https://www.komoot.com/tour/2040317239",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/ottenspitze",
+        "difficulty": "easy",
+        "ratings": {
+          "technical_difficulty": 1,
+          "fitness": 2,
+          "objective_danger": 2,
+          "landscape": 5,
+          "busy": 6
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "brenner",
+          "skimo"
         ]
       }
     },
@@ -39336,12 +39572,19 @@
         "distance_km": 5.84,
         "elevation_up_m": 1072.1,
         "komoot_url": "https://www.komoot.com/tour/2049640232",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/schafseitenspitze",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 6,
+          "objective_danger": 5,
+          "landscape": 7,
+          "busy": 2
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "brenner",
+          "skimo"
         ]
       }
     },
@@ -39665,12 +39908,19 @@
         "distance_km": 20.96,
         "elevation_up_m": 1462.2,
         "komoot_url": "https://www.komoot.com/tour/2058591613",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/hintere-sonnenwand",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 7,
+          "objective_danger": 4,
+          "landscape": 9,
+          "busy": 1
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "medium",
-          "skitour"
+          "sellrain",
+          "skimo"
         ]
       }
     },
@@ -41344,12 +41594,19 @@
         "distance_km": 17.32,
         "elevation_up_m": 2143.9,
         "komoot_url": "https://www.komoot.com/tour/2062090597",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/roter-kogel-and-lusener-villerspitze",
+        "difficulty": "very hard",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 8,
+          "objective_danger": 7,
+          "landscape": 9,
+          "busy": 2
+        },
         "region": null,
         "tags": [
-          "medium",
-          "mountain",
-          "skitour"
+          "sellrain",
+          "skimo"
         ]
       }
     },
@@ -42398,12 +42655,19 @@
         "distance_km": 10.65,
         "elevation_up_m": 1035.8,
         "komoot_url": "https://www.komoot.com/tour/2068471871",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/kellerjoch",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 3,
+          "objective_danger": 6,
+          "landscape": 7,
+          "busy": 5
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "medium",
-          "skitour"
+          "inntal",
+          "skimo"
         ]
       }
     },
@@ -43752,12 +44016,19 @@
         "distance_km": 8.88,
         "elevation_up_m": 853.8,
         "komoot_url": "https://www.komoot.com/tour/2079435311",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/forcella-del-nevaio",
+        "difficulty": "easy",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 3,
+          "objective_danger": 3,
+          "landscape": 7,
+          "busy": 8
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "skimo",
+          "south tyrol"
         ]
       }
     },
@@ -45066,12 +45337,18 @@
         "distance_km": 60.15,
         "elevation_up_m": 5850.2,
         "komoot_url": "https://www.komoot.com/tour/2100413717",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/orient-express",
+        "difficulty": "severe",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 10,
+          "objective_danger": 8,
+          "landscape": 10
+        },
         "region": null,
         "tags": [
-          "extreme",
-          "skitour",
-          "ultra"
+          "sellrain",
+          "skimo"
         ]
       }
     },
@@ -47355,12 +47632,19 @@
         "distance_km": 7.21,
         "elevation_up_m": 1048.0,
         "komoot_url": "https://www.komoot.com/tour/2104529470",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/oberstkogel-north-couloir",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 5,
+          "objective_danger": 6,
+          "landscape": 9,
+          "busy": 3
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "sellrain",
+          "skimo"
         ]
       }
     },
@@ -48139,12 +48423,19 @@
         "distance_km": 5.27,
         "elevation_up_m": 868.1,
         "komoot_url": "https://www.komoot.com/tour/2128904942",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/innere-sommerwand",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 6,
+          "objective_danger": 7,
+          "landscape": 9,
+          "busy": 6
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "skimo",
+          "stubai"
         ]
       }
     },
@@ -49448,12 +49739,19 @@
         "distance_km": 8.88,
         "elevation_up_m": 1058.4,
         "komoot_url": "https://www.komoot.com/tour/2145208001",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/vennspitze-padauner-berg",
+        "difficulty": "easy",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 4,
+          "objective_danger": 3,
+          "landscape": 7,
+          "busy": 9
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "brenner",
+          "skimo"
         ]
       }
     },
@@ -50877,12 +51175,19 @@
         "distance_km": 10.7,
         "elevation_up_m": 1301.9,
         "komoot_url": "https://www.komoot.com/tour/2178608808",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/hintere-olgrubenspitze",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 7,
+          "objective_danger": 7,
+          "landscape": 9,
+          "busy": 1
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "medium",
-          "skitour"
+          "kaunertal",
+          "skimo"
         ]
       }
     },
@@ -52141,12 +52446,19 @@
         "distance_km": 14.95,
         "elevation_up_m": 1454.4,
         "komoot_url": "https://www.komoot.com/tour/2197059741",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/hinterer-daunkopf",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 6,
+          "objective_danger": 3,
+          "landscape": 8,
+          "busy": 7
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "medium",
-          "skitour"
+          "skimo",
+          "stubai"
         ]
       }
     },
@@ -53375,12 +53687,19 @@
         "distance_km": 8.25,
         "elevation_up_m": 1032.0,
         "komoot_url": "https://www.komoot.com/tour/2221216419",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/westliche-schoeberspitze",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 6,
+          "fitness": 4,
+          "objective_danger": 3,
+          "landscape": 7,
+          "busy": 2
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "brenner",
+          "skimo"
         ]
       }
     },
@@ -53989,12 +54308,19 @@
         "distance_km": 10.14,
         "elevation_up_m": 1481.1,
         "komoot_url": "https://www.komoot.com/tour/2237385149",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/langentaler-weisser-kogel",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 6,
+          "objective_danger": 4,
+          "landscape": 8,
+          "busy": 5
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "medium",
-          "skitour"
+          "sellrain",
+          "skimo"
         ]
       }
     },
@@ -55363,12 +55689,19 @@
         "distance_km": 21.78,
         "elevation_up_m": 2123.3,
         "komoot_url": "https://www.komoot.com/tour/2255313241",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/monte-cevedale",
+        "difficulty": "very hard",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 8,
+          "objective_danger": 7,
+          "landscape": 10,
+          "busy": 5
+        },
         "region": null,
         "tags": [
-          "medium",
-          "mountain",
-          "skitour"
+          "skimo",
+          "south tyrol"
         ]
       }
     },
@@ -56532,12 +56865,19 @@
         "distance_km": 8.11,
         "elevation_up_m": 834.6,
         "komoot_url": "https://www.komoot.com/tour/1912419696",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/largoz",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 4,
+          "objective_danger": 3,
+          "landscape": 5,
+          "busy": 8
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "short",
-          "skitour"
+          "skimo",
+          "tuxer alps"
         ]
       }
     },
@@ -57677,12 +58017,10 @@
         "elevation_up_m": 954.7,
         "komoot_url": "https://www.komoot.com/tour/2704222976",
         "blog_url": null,
+        "difficulty": null,
+        "ratings": null,
         "region": null,
-        "tags": [
-          "hilly",
-          "short",
-          "skitour"
-        ]
+        "tags": []
       }
     },
     {
@@ -59065,12 +59403,19 @@
         "distance_km": 16.29,
         "elevation_up_m": 1064.9,
         "komoot_url": "https://www.komoot.com/tour/2711586045",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/mosler-sonnenspitze",
+        "difficulty": "easy",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 4,
+          "objective_danger": 2,
+          "landscape": 6,
+          "busy": 5
+        },
         "region": null,
         "tags": [
-          "hilly",
-          "medium",
-          "skitour"
+          "skimo",
+          "wattental"
         ]
       }
     },
@@ -61179,12 +61524,19 @@
         "distance_km": 18.63,
         "elevation_up_m": 1934.3,
         "komoot_url": "https://www.komoot.com/tour/2716878206",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/rofelewand",
+        "difficulty": "very hard",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 9,
+          "objective_danger": 7,
+          "landscape": 10,
+          "busy": 3
+        },
         "region": null,
         "tags": [
-          "medium",
-          "mountain",
-          "skitour"
+          "pitztal",
+          "skimo"
         ]
       }
     },
@@ -61804,6 +62156,14 @@
         "elevation_up_m": 966.1,
         "komoot_url": "https://www.komoot.com/tour/2723870963",
         "blog_url": "https://www.runskitirol.com/skimo/vorderer-wilder-turm",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 9,
+          "fitness": 6,
+          "objective_danger": 7,
+          "landscape": 8,
+          "busy": 7
+        },
         "region": null,
         "tags": [
           "hard",
@@ -62422,6 +62782,14 @@
         "elevation_up_m": 1371.8,
         "komoot_url": "https://www.komoot.com/tour/2734282729",
         "blog_url": "https://www.runskitirol.com/skimo/brandenburger-haus-from-vent",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 6,
+          "objective_danger": 3,
+          "landscape": 10,
+          "busy": 6
+        },
         "region": null,
         "tags": [
           "hard",
@@ -63965,6 +64333,14 @@
         "elevation_up_m": 1482.6,
         "komoot_url": "https://www.komoot.com/tour/2740536971",
         "blog_url": "https://www.runskitirol.com/skimo/rappenspitze-luntskopf-from-pertisau",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 6,
+          "fitness": 6,
+          "objective_danger": 5,
+          "landscape": 7,
+          "busy": 3
+        },
         "region": null,
         "tags": [
           "hard",
@@ -65233,6 +65609,14 @@
         "elevation_up_m": 1058.9,
         "komoot_url": "https://www.komoot.com/tour/2747933167",
         "blog_url": "https://www.runskitirol.com/skimo/klammerschober",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 1,
+          "fitness": 4,
+          "objective_danger": 1,
+          "landscape": 5,
+          "busy": 4
+        },
         "region": null,
         "tags": [
           "hard",
@@ -66286,6 +66670,14 @@
         "elevation_up_m": 978.0,
         "komoot_url": "https://www.komoot.com/tour/2755844632",
         "blog_url": "https://www.runskitirol.com/skimo/steinernes-lamm",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 3,
+          "objective_danger": 7,
+          "landscape": 7,
+          "busy": 5
+        },
         "region": null,
         "tags": [
           "medium",
@@ -67429,6 +67821,13 @@
         "elevation_up_m": 847.4,
         "komoot_url": "https://www.komoot.com/tour/2763686695",
         "blog_url": "https://www.runskitirol.com/skimo/rosskopf-from-scheibe",
+        "difficulty": "easy",
+        "ratings": {
+          "technical_difficulty": 1,
+          "fitness": 3,
+          "landscape": 7,
+          "busy": 3
+        },
         "region": null,
         "tags": [
           "easy"
@@ -69716,6 +70115,14 @@
         "elevation_up_m": 1661.7,
         "komoot_url": "https://www.komoot.com/tour/2773088656",
         "blog_url": "https://www.runskitirol.com/skimo/ochsenkopf-barenkopf",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 6,
+          "objective_danger": 5,
+          "landscape": 7,
+          "busy": 4
+        },
         "region": null,
         "tags": [
           "hard",
@@ -70939,6 +71346,14 @@
         "elevation_up_m": 1262.3,
         "komoot_url": "https://www.komoot.com/tour/2787298079",
         "blog_url": "https://www.runskitirol.com/skimo/tullenkogel",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 4,
+          "objective_danger": 3,
+          "landscape": 7,
+          "busy": 3
+        },
         "region": null,
         "tags": [
           "medium"
@@ -72351,6 +72766,14 @@
         "elevation_up_m": 1091.8,
         "komoot_url": "https://www.komoot.com/tour/2795034464",
         "blog_url": "https://www.runskitirol.com/skimo/archbrandkopfl",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 4,
+          "objective_danger": 2,
+          "landscape": 4,
+          "busy": 7
+        },
         "region": null,
         "tags": [
           "medium",
@@ -73294,6 +73717,14 @@
         "elevation_up_m": 1169.7,
         "komoot_url": "https://www.komoot.com/tour/2806193280",
         "blog_url": "https://www.runskitirol.com/skimo/steinmandlspitze",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 5,
+          "objective_danger": 5,
+          "landscape": 9,
+          "busy": 3
+        },
         "region": null,
         "tags": [
           "medium"
@@ -75841,6 +76272,14 @@
         "elevation_up_m": 2664.0,
         "komoot_url": "https://www.komoot.com/tour/2822267155",
         "blog_url": "https://www.runskitirol.com/skimo/krovenzreiben",
+        "difficulty": "very hard",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 9,
+          "objective_danger": 6,
+          "landscape": 7,
+          "busy": 4
+        },
         "region": null,
         "tags": [
           "very hard",
@@ -77059,6 +77498,14 @@
         "elevation_up_m": 1112.6,
         "komoot_url": "https://www.komoot.com/tour/2830628138",
         "blog_url": "https://www.runskitirol.com/skimo/kraspesspitz",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 7,
+          "objective_danger": 7,
+          "landscape": 9,
+          "busy": 4
+        },
         "region": null,
         "tags": [
           "hard",
@@ -78447,6 +78894,14 @@
         "elevation_up_m": 1046.2,
         "komoot_url": "https://www.komoot.com/tour/2853406377",
         "blog_url": "https://www.runskitirol.com/skimo/padasterkogel",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 6,
+          "objective_danger": 4,
+          "landscape": 7,
+          "busy": 4
+        },
         "region": null,
         "tags": [
           "medium",
@@ -79775,6 +80230,14 @@
         "elevation_up_m": 1123.2,
         "komoot_url": "https://www.komoot.com/tour/2869962573",
         "blog_url": "https://www.runskitirol.com/skimo/glungezer",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 6,
+          "objective_danger": 3,
+          "landscape": 5,
+          "busy": 10
+        },
         "region": null,
         "tags": [
           "medium",
@@ -82668,6 +83131,14 @@
         "elevation_up_m": 1609.3,
         "komoot_url": "https://www.komoot.com/tour/2886725783",
         "blog_url": "https://www.runskitirol.com/skimo/keilspitze",
+        "difficulty": "very hard",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 8,
+          "objective_danger": 8,
+          "landscape": 9,
+          "busy": 3
+        },
         "region": null,
         "tags": [
           "very hard",
@@ -84011,6 +84482,14 @@
         "elevation_up_m": 1629.8,
         "komoot_url": "https://www.komoot.com/tour/2898831103",
         "blog_url": "https://www.runskitirol.com/skimo/rostizkogel",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 8,
+          "objective_danger": 7,
+          "landscape": 10,
+          "busy": 2
+        },
         "region": null,
         "tags": [
           "hard",
@@ -84709,6 +85188,14 @@
         "elevation_up_m": 1191.0,
         "komoot_url": "https://www.komoot.com/tour/2913780157",
         "blog_url": "https://www.runskitirol.com/skimo/essener-spitze",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 7,
+          "objective_danger": 7,
+          "landscape": 10,
+          "busy": 3
+        },
         "region": null,
         "tags": [
           "hard",
@@ -85632,6 +86119,14 @@
         "elevation_up_m": 1498.9,
         "komoot_url": "https://www.komoot.com/tour/2940218167",
         "blog_url": "https://www.runskitirol.com/skimo/k2",
+        "difficulty": "very hard",
+        "ratings": {
+          "technical_difficulty": 6,
+          "fitness": 7,
+          "objective_danger": 7,
+          "landscape": 10,
+          "busy": 5
+        },
         "region": null,
         "tags": [
           "very hard",
@@ -87190,6 +87685,14 @@
         "elevation_up_m": 1490.0,
         "komoot_url": "https://www.komoot.com/tour/2948555523",
         "blog_url": "https://www.runskitirol.com/skimo/linker-fernerkogel",
+        "difficulty": "very hard",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 6,
+          "objective_danger": 6,
+          "landscape": 8,
+          "busy": 4
+        },
         "region": null,
         "tags": [
           "very hard",
@@ -87413,6 +87916,14 @@
         "elevation_up_m": 914.0,
         "komoot_url": "https://www.komoot.com/tour/2963497024",
         "blog_url": "https://www.runskitirol.com/skimo/mittlere-schwenzerspitze",
+        "difficulty": "medium",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 4,
+          "objective_danger": 4,
+          "landscape": 8,
+          "busy": 2
+        },
         "region": null,
         "tags": [
           "medium",
