@@ -117,6 +117,8 @@ data/route-overrides.json
 
 The import script should merge Komoot data with these overrides.
 
+The detailed schema, required and optional fields, stable ID/slug rules, and override workflow are documented in `docs/data-contract.md`.
+
 ## Import Script
 
 Create a script:

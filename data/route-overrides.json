@@ -1,3 +1,13 @@
 {
-  "routes": {}
+  "routes": {},
+  "_examples": {
+    "1234567890": {
+      "slug": "example-route",
+      "blog_url": "https://www.runskitirol.com/blog/example-route",
+      "region": "Example Region",
+      "tags": [
+        "example-tag"
+      ]
+    }
+  }
 }
