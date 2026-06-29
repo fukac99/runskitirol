@@ -151,6 +151,7 @@ async function loadRoutes() {
 
     fitToVisible(true);
     populateTagOptions(allRoutes);
+    initSliderRanges(allRoutes);
     applyStateFromUrl();
   } catch (error) {
     console.error(error);
@@ -167,12 +168,16 @@ async function fetchJson(url) {
 // --- Filtering -------------------------------------------------------------
 
 function readFilters() {
+  const dmin = Number(ui.dmin.value);
+  const dmax = Number(ui.dmax.value);
+  const emin = Number(ui.emin.value);
+  const emax = Number(ui.emax.value);
   return {
     q: ui.search.value.trim().toLowerCase(),
-    dmin: parseNumber(ui.dmin.value),
-    dmax: parseNumber(ui.dmax.value),
-    emin: parseNumber(ui.emin.value),
-    emax: parseNumber(ui.emax.value),
+    dmin: dmin > Number(ui.dmin.min) ? dmin : null,
+    dmax: dmax < Number(ui.dmax.max) ? dmax : null,
+    emin: emin > Number(ui.emin.min) ? emin : null,
+    emax: emax < Number(ui.emax.max) ? emax : null,
     tag: ui.tag.value,
   };
 }
@@ -256,13 +261,15 @@ function renderPopup(route) {
   const blog = route.blog_url
     ? `<a class="route-link" href="${escapeAttr(route.blog_url)}" target="_blank" rel="noopener">Blog post</a>`
     : "";
+  const tags =
+    Array.isArray(route.tags) && route.tags.length
+      ? `<div class="popup-tags">${route.tags.map((t) => `<span class="popup-tag">${escapeHtml(t)}</span>`).join("")}</div>`
+      : "";
   return `
     <div class="route-popup">
-      <span class="route-badge ${escapeHtml(route.collection)}">${escapeHtml(
-        COLLECTION_LABELS[route.collection] || route.collection
-      )}</span>
       <h3>${escapeHtml(route.name)}</h3>
       <p class="popup-meta">${formatDistance(route)} &middot; ${formatClimb(route)}</p>
+      ${tags}
       <div class="popup-links">
         <a class="route-link" href="${escapeAttr(route.komoot_url)}" target="_blank" rel="noopener">Komoot route</a>
         ${blog}
@@ -280,17 +287,25 @@ function buildFilterBar() {
     <a class="brand" href="index.html" aria-label="Back to overview">Run.Ski.Tirol</a>
     <div class="filters">
       <input id="f-search" type="search" placeholder="Search by name" aria-label="Search routes by name">
-      <span class="range" role="group" aria-label="Distance range (km)">
-        <label>Distance km</label>
-        <input id="f-dmin" type="number" min="0" inputmode="numeric" placeholder="min" aria-label="Minimum distance km">
-        <span aria-hidden="true">–</span>
-        <input id="f-dmax" type="number" min="0" inputmode="numeric" placeholder="max" aria-label="Maximum distance km">
+      <span class="range-slider" role="group" aria-label="Distance range (km)">
+        <span class="range-slider__header">
+          <label>Distance km</label>
+          <span class="range-slider__values"><span id="f-dmin-val">0</span> – <span id="f-dmax-val">0</span></span>
+        </span>
+        <span class="range-slider__track">
+          <input id="f-dmin" type="range" min="0" max="100" value="0" aria-label="Minimum distance km">
+          <input id="f-dmax" type="range" min="0" max="100" value="100" aria-label="Maximum distance km">
+        </span>
       </span>
-      <span class="range" role="group" aria-label="Climb range (m)">
-        <label>Climb m</label>
-        <input id="f-emin" type="number" min="0" inputmode="numeric" placeholder="min" aria-label="Minimum climb m">
-        <span aria-hidden="true">–</span>
-        <input id="f-emax" type="number" min="0" inputmode="numeric" placeholder="max" aria-label="Maximum climb m">
+      <span class="range-slider" role="group" aria-label="Climb range (m)">
+        <span class="range-slider__header">
+          <label>Climb m</label>
+          <span class="range-slider__values"><span id="f-emin-val">0</span> – <span id="f-emax-val">0</span></span>
+        </span>
+        <span class="range-slider__track">
+          <input id="f-emin" type="range" min="0" max="3000" value="0" aria-label="Minimum climb m">
+          <input id="f-emax" type="range" min="0" max="3000" value="3000" aria-label="Maximum climb m">
+        </span>
       </span>
       <select id="f-tag" aria-label="Filter by tag">
         <option value="">All tags</option>
@@ -306,24 +321,81 @@ function buildFilterBar() {
     dmax: bar.querySelector("#f-dmax"),
     emin: bar.querySelector("#f-emin"),
     emax: bar.querySelector("#f-emax"),
+    dminVal: bar.querySelector("#f-dmin-val"),
+    dmaxVal: bar.querySelector("#f-dmax-val"),
+    eminVal: bar.querySelector("#f-emin-val"),
+    emaxVal: bar.querySelector("#f-emax-val"),
     tag: bar.querySelector("#f-tag"),
     reset: bar.querySelector("#f-reset"),
     count: bar.querySelector("#results-count"),
   };
 }
 
+function syncSliderLabels() {
+  ui.dminVal.textContent = ui.dmin.value;
+  ui.dmaxVal.textContent = ui.dmax.value;
+  ui.eminVal.textContent = ui.emin.value;
+  ui.emaxVal.textContent = ui.emax.value;
+}
+
+function clampSliders(minEl, maxEl) {
+  if (Number(minEl.value) > Number(maxEl.value)) {
+    minEl.value = maxEl.value;
+  }
+}
+
 function wireFilterEvents() {
   const onInput = debounce(() => applyFilters(), 200);
   ui.search.addEventListener("input", onInput);
-  [ui.dmin, ui.dmax, ui.emin, ui.emax].forEach((el) =>
-    el.addEventListener("input", onInput)
+  [ui.dmin, ui.dmax].forEach((el) =>
+    el.addEventListener("input", () => {
+      clampSliders(ui.dmin, ui.dmax);
+      syncSliderLabels();
+      onInput();
+    })
+  );
+  [ui.emin, ui.emax].forEach((el) =>
+    el.addEventListener("input", () => {
+      clampSliders(ui.emin, ui.emax);
+      syncSliderLabels();
+      onInput();
+    })
   );
   ui.tag.addEventListener("change", () => applyFilters());
   ui.reset.addEventListener("click", () => {
-    [ui.search, ui.dmin, ui.dmax, ui.emin, ui.emax].forEach((el) => (el.value = ""));
+    ui.search.value = "";
+    ui.dmin.value = ui.dmin.min;
+    ui.dmax.value = ui.dmax.max;
+    ui.emin.value = ui.emin.min;
+    ui.emax.value = ui.emax.max;
     ui.tag.value = "";
+    syncSliderLabels();
     applyFilters({ fit: true });
   });
+}
+
+function initSliderRanges(routes) {
+  if (!routes.length) return;
+  const distances = routes.map((r) => Number(r.distance_km)).filter(Number.isFinite);
+  const climbs = routes.map((r) => Number(r.elevation_up_m)).filter(Number.isFinite);
+
+  const floorTo = (v, step) => Math.floor(v / step) * step;
+  const ceilTo = (v, step) => Math.ceil(v / step) * step;
+
+  const dMin = floorTo(Math.min(...distances), 5);
+  const dMax = ceilTo(Math.max(...distances), 5);
+  const eMin = floorTo(Math.min(...climbs), 100);
+  const eMax = ceilTo(Math.max(...climbs), 100);
+
+  [ui.dmin, ui.dmax].forEach((el) => { el.min = dMin; el.max = dMax; });
+  ui.dmin.value = dMin;
+  ui.dmax.value = dMax;
+
+  [ui.emin, ui.emax].forEach((el) => { el.min = eMin; el.max = eMax; });
+  ui.emin.value = eMin;
+  ui.emax.value = eMax;
+
+  syncSliderLabels();
 }
 
 function populateTagOptions(routes) {
@@ -353,6 +425,7 @@ function applyStateFromUrl() {
   if (params.has("emax")) ui.emax.value = params.get("emax");
   if (params.has("tag")) ui.tag.value = params.get("tag");
 
+  syncSliderLabels();
   applyFilters({ skipUrl: true });
 
   const slug = params.get("route");
@@ -369,10 +442,10 @@ function writeStateToUrl(filters) {
     else params.set(key, value);
   };
   set("q", ui.search.value.trim());
-  set("dmin", ui.dmin.value.trim());
-  set("dmax", ui.dmax.value.trim());
-  set("emin", ui.emin.value.trim());
-  set("emax", ui.emax.value.trim());
+  set("dmin", filters.dmin);
+  set("dmax", filters.dmax);
+  set("emin", filters.emin);
+  set("emax", filters.emax);
   set("tag", filters.tag);
   const query = params.toString();
   const url = query ? `${window.location.pathname}?${query}` : window.location.pathname;
