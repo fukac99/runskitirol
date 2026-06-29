@@ -22,6 +22,7 @@ const AUSTRIA_BOUNDS = L.latLngBounds(
 const map = L.map("map", {
   maxBounds: AUSTRIA_BOUNDS.pad(0.35),
   minZoom: 6,
+  preferCanvas: true,
   scrollWheelZoom: true,
 });
 
@@ -41,6 +42,7 @@ const routeList = document.querySelector("#route-list");
 
 const routeLayers = new Map();
 let activeLayer = null;
+const canvasRenderer = L.canvas({ padding: 0.5 });
 
 loadRoutes();
 
@@ -92,6 +94,7 @@ function renderStats(routes, exportedCount) {
 
 function renderMap(geojsonData, routeById) {
   const routesLayer = L.geoJSON(geojsonData, {
+    renderer: canvasRenderer,
     style: (feature) => {
       const route = routeById.get(feature.properties.id) || feature.properties;
       return collectionStyles[route.collection] || collectionStyles.run;
@@ -102,12 +105,6 @@ function renderMap(geojsonData, routeById) {
       routeLayers.set(route.id, layer);
       layer.bindPopup(renderPopup(route));
       layer.on("click", () => selectRoute(route, layer));
-      layer.on("mouseover", () => layer.setStyle({ weight: 5, opacity: 1 }));
-      layer.on("mouseout", () => {
-        if (layer !== activeLayer) {
-          layer.setStyle(collectionStyles[route.collection] || collectionStyles.run);
-        }
-      });
     },
   }).addTo(map);
 
