@@ -1206,7 +1206,8 @@
         "technical_difficulty": 8,
         "fitness": 9,
         "landscape": 10,
-        "busy": 4
+        "busy": 4,
+        "objective_danger": 5
       },
       "difficulty": "very hard",
       "tags": [
@@ -1221,7 +1222,8 @@
         "technical_difficulty": 8,
         "fitness": 9,
         "landscape": 10,
-        "busy": 4
+        "busy": 4,
+        "objective_danger": 5
       },
       "difficulty": "very hard",
       "tags": [
@@ -2115,7 +2117,8 @@
         "technical_difficulty": 1,
         "fitness": 3,
         "landscape": 7,
-        "busy": 3
+        "busy": 3,
+        "objective_danger": 1
       },
       "difficulty": "easy",
       "tags": [

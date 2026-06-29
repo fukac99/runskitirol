@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "exported_at": "2026-06-29T21:39:03.430964+00:00",
+    "exported_at": "2026-06-29T21:42:34.067013+00:00",
     "source": "komoot",
     "route_count": 73
   },
@@ -26952,7 +26952,8 @@
           "technical_difficulty": 8,
           "fitness": 9,
           "landscape": 10,
-          "busy": 4
+          "busy": 4,
+          "objective_danger": 5
         },
         "region": null,
         "tags": [
@@ -28223,7 +28224,8 @@
           "technical_difficulty": 8,
           "fitness": 9,
           "landscape": 10,
-          "busy": 4
+          "busy": 4,
+          "objective_danger": 5
         },
         "region": null,
         "tags": [
@@ -67844,7 +67846,8 @@
           "technical_difficulty": 1,
           "fitness": 3,
           "landscape": 7,
-          "busy": 3
+          "busy": 3,
+          "objective_danger": 1
         },
         "region": null,
         "tags": [
