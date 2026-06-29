@@ -71,6 +71,15 @@ Feature fields:
 - `properties.blog_url` (optional string or `null`): same blog URL as `routes.json`.
 - `properties.region` (optional string or `null`): same region as `routes.json`.
 
+### Per-collection files
+
+The exporter also writes one pair of files per collection so each map page downloads only the routes it needs:
+
+- `data/routes.run.json` and `data/routes.run.geojson`
+- `data/routes.skimo.json` and `data/routes.skimo.geojson`
+
+Each per-collection file uses the exact same schema as the combined `routes.json` / `routes.geojson`, but contains only the routes for that collection. The combined files are still written for validation and back-compat. Do not edit any of these generated files by hand.
+
 ### `data/route-overrides.json`
 
 Hand-edited metadata merged into generated route records. This is the only data file that should normally be edited manually.

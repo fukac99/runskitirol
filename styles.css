@@ -1,5 +1,11 @@
 :root {
   color-scheme: light;
+  --run: #e35f28;
+  --skimo: #2077b4;
+  --ink: #1c2530;
+  --muted: #5b6775;
+  --line: #e2e6eb;
+  --bar-h: 56px;
 }
 
 * {
@@ -11,10 +17,247 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--ink);
 }
 
-.map-shell,
+/* --- Map page layout: fixed top bar, full-bleed map below ----------------- */
+
+body:has(#map) {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.topbar {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 14px;
+  min-height: var(--bar-h);
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 1px 4px rgba(20, 30, 45, 0.06);
+  flex-wrap: wrap;
+  z-index: 1000;
+}
+
 #map {
+  flex: 1 1 auto;
   width: 100%;
-  height: 100%;
+  min-height: 0;
+}
+
+.brand {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.collection-switch {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.collection-switch a {
+  padding: 5px 12px;
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.collection-switch a.is-active {
+  background: var(--ink);
+  color: #fff;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.filters input,
+.filters select,
+.filters button {
+  font: inherit;
+  font-size: 13px;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+}
+
+.filters input[type="search"] {
+  min-width: 180px;
+}
+
+.filters input[type="number"] {
+  width: 64px;
+}
+
+.range {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.range label {
+  font-size: 12px;
+  color: var(--muted);
+  margin-right: 2px;
+}
+
+.filters button {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.filters button:hover {
+  background: #f4f6f8;
+}
+
+.results-count {
+  margin-left: auto;
+  font-size: 13px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* --- Route popup ---------------------------------------------------------- */
+
+.route-popup h3 {
+  margin: 6px 0 2px;
+  font-size: 15px;
+}
+
+.route-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--run);
+}
+
+.route-badge.skimo {
+  background: var(--skimo);
+}
+
+.popup-meta {
+  margin: 2px 0 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.popup-links {
+  display: flex;
+  gap: 12px;
+}
+
+.route-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--skimo);
+  text-decoration: none;
+}
+
+.route-link:hover {
+  text-decoration: underline;
+}
+
+/* --- Landing page --------------------------------------------------------- */
+
+body.landing {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(160deg, #f4f7fa, #e9eef3);
+  padding: 24px;
+}
+
+.landing-shell {
+  max-width: 760px;
+  width: 100%;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--muted);
+  margin: 0;
+}
+
+.landing-header h1 {
+  margin: 4px 0 8px;
+  font-size: 34px;
+}
+
+.landing-header .intro {
+  margin: 0 0 24px;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.landing-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.landing-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 22px;
+  border-radius: 16px;
+  text-decoration: none;
+  color: #fff;
+  background: var(--run);
+  box-shadow: 0 8px 24px rgba(20, 30, 45, 0.14);
+  transition: transform 0.12s ease;
+}
+
+.landing-card.skimo {
+  background: var(--skimo);
+}
+
+.landing-card:hover {
+  transform: translateY(-3px);
+}
+
+.landing-card-kicker {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.85;
+}
+
+.landing-card-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.landing-card-cta {
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+@media (max-width: 560px) {
+  .landing-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .results-count {
+    margin-left: 0;
+  }
 }
