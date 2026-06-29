@@ -43,6 +43,10 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000/ in a browser.
 
+## Basemap
+
+The visible route map uses the free hosted `basemap.at` terrain layer for Austria-focused visual inspection. Route overlays, metadata, and links remain controlled by this static app.
+
 ## Project Workflow
 
 - `PLAN.md`: product and implementation plan.

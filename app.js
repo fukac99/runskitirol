@@ -14,13 +14,21 @@ const collectionStyles = {
   },
 };
 
+const AUSTRIA_BOUNDS = L.latLngBounds(
+  L.latLng(46.0, 9.4),
+  L.latLng(49.2, 17.2)
+);
+
 const map = L.map("map", {
+  maxBounds: AUSTRIA_BOUNDS.pad(0.35),
+  minZoom: 6,
   scrollWheelZoom: true,
 });
 
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+L.tileLayer("https://mapsneu.wien.gv.at/basemap/bmapgelaende/grau/google3857/{z}/{y}/{x}.jpeg", {
   maxZoom: 19,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  minZoom: 6,
+  attribution: '<a href="https://www.basemap.at/">basemap.at</a>',
 }).addTo(map);
 
 const loadStatus = document.querySelector("#load-status");
