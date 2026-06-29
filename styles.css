@@ -113,45 +113,113 @@ body:has(#map) {
 
 /* --- Route popup ---------------------------------------------------------- */
 
+.route-popup {
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  border-top: 3px solid var(--muted);
+  padding-top: 4px;
+}
+
 .route-popup h3 {
-  margin: 6px 0 2px;
-  font-size: 15px;
-}
-
-.route-badge {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 999px;
-  font-size: 11px;
+  margin: 4px 0 2px;
+  font-size: 16px;
   font-weight: 700;
-  color: #fff;
-  background: var(--run);
-}
-
-.route-badge.skimo {
-  background: var(--skimo);
+  line-height: 1.25;
 }
 
 .popup-meta {
-  margin: 2px 0 8px;
+  margin: 2px 0 6px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 12.5px;
+  letter-spacing: 0.01em;
+}
+
+.popup-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.popup-tag {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 999px;
+  font-size: 10.5px;
+  font-weight: 600;
+  background: #e9eef3;
+  color: #3a4a5c;
 }
 
 .popup-links {
   display: flex;
-  gap: 12px;
+  gap: 8px;
 }
 
 .route-link {
-  font-size: 13px;
+  display: inline-block;
+  font-size: 12px;
   font-weight: 600;
-  color: var(--skimo);
+  padding: 3px 10px;
+  border-radius: 6px;
   text-decoration: none;
+  color: #1a6e73;
+  background: #e8f4f5;
+  transition: background 0.15s, color 0.15s;
 }
 
 .route-link:hover {
-  text-decoration: underline;
+  background: #d0eaec;
+  text-decoration: none;
+}
+
+/* Themed popups — RUN */
+body.theme-run .route-popup {
+  border-top-color: var(--rst-teal);
+}
+
+body.theme-run .popup-tag {
+  background: rgba(30, 134, 141, 0.12);
+  color: var(--rst-teal-dark);
+}
+
+body.theme-run .route-link {
+  color: var(--rst-teal-dark);
+  background: rgba(30, 134, 141, 0.1);
+}
+
+body.theme-run .route-link:hover {
+  background: rgba(30, 134, 141, 0.2);
+}
+
+/* Themed popups — SKIMO */
+body.theme-skimo .route-popup {
+  border-top-color: var(--skimo-header-bg);
+}
+
+body.theme-skimo .popup-tag {
+  background: hsla(183.78, 64.91%, 33.53%, 0.12);
+  color: hsl(183.85, 65%, 23.53%);
+}
+
+body.theme-skimo .route-link {
+  color: hsl(183.85, 65%, 23.53%);
+  background: hsla(183.78, 64.91%, 33.53%, 0.1);
+}
+
+body.theme-skimo .route-link:hover {
+  background: hsla(183.78, 64.91%, 33.53%, 0.2);
+}
+
+/* Leaflet popup wrapper overrides */
+body.theme-run .leaflet-popup-content-wrapper,
+body.theme-skimo .leaflet-popup-content-wrapper {
+  border-radius: 10px;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.15);
+}
+
+body.theme-run .leaflet-popup-content,
+body.theme-skimo .leaflet-popup-content {
+  margin: 10px 14px;
 }
 
 /* --- Landing page --------------------------------------------------------- */
