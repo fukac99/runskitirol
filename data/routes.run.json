@@ -93,7 +93,7 @@
       "date": "2024-09-28T14:31:43.795Z",
       "changed_at": "2024-09-28T14:31:58.313Z",
       "komoot_url": "https://www.komoot.com/tour/1885947526",
-      "blog_url": "https://www.runskitirol.com/trails/achensee-loop",
+      "blog_url": "https://www.runskitirol.com/trails/Rofan-loop",
       "difficulty": "trail running",
       "ratings": {
         "technical_difficulty": 5,
@@ -102,7 +102,7 @@
         "landscape": 8,
         "busy": 5
       },
-      "region": "Achensee"
+      "region": "Rofan"
     },
     {
       "id": "1885950629",
@@ -287,7 +287,7 @@
         "landscape": 10,
         "busy": 1
       },
-      "region": "Kalkkögel"
+      "region": "Sellrain"
     },
     {
       "id": "1885970945",
@@ -411,7 +411,7 @@
         "landscape": 7,
         "busy": 8
       },
-      "region": "Achensee"
+      "region": "Rofan"
     },
     {
       "id": "1885980888",
@@ -473,7 +473,7 @@
         "landscape": 4,
         "busy": 2
       },
-      "region": "Innsbruck"
+      "region": "Inntal"
     },
     {
       "id": "1885984764",
@@ -535,7 +535,7 @@
         "landscape": 3,
         "busy": 2
       },
-      "region": "Innsbruck"
+      "region": "Inntal"
     },
     {
       "id": "1885989951",
@@ -566,7 +566,7 @@
         "landscape": 6,
         "busy": 1
       },
-      "region": "Wattener Lizum"
+      "region": "Tux Alps"
     },
     {
       "id": "1885992440",
@@ -969,7 +969,7 @@
         "landscape": 7,
         "busy": 1
       },
-      "region": "South Tirol"
+      "region": "Karwendel"
     },
     {
       "id": "1886021935",
@@ -1062,7 +1062,7 @@
         "landscape": 7,
         "busy": 4
       },
-      "region": "Nordkette"
+      "region": "Inntal"
     },
     {
       "id": "1886029122",
@@ -1372,7 +1372,7 @@
         "landscape": 10,
         "busy": 3
       },
-      "region": "Zillertal"
+      "region": "Tux Alps"
     },
     {
       "id": "1886051627",
@@ -1651,7 +1651,7 @@
         "landscape": 8,
         "busy": 6
       },
-      "region": "Achensee"
+      "region": "Rofan"
     },
     {
       "id": "1908341806",
@@ -1682,7 +1682,7 @@
         "landscape": 7,
         "busy": 1
       },
-      "region": "Achensee"
+      "region": "Rofan"
     },
     {
       "id": "1919740787",
@@ -1868,7 +1868,7 @@
         "landscape": 8,
         "busy": 4
       },
-      "region": "Achensee"
+      "region": "Rofan"
     },
     {
       "id": "2292281886",
@@ -1992,7 +1992,7 @@
         "landscape": 6,
         "busy": 3
       },
-      "region": "Wattener Lizum"
+      "region": "Tux Alps"
     },
     {
       "id": "2386986320",
@@ -2023,7 +2023,7 @@
         "landscape": 8,
         "busy": 5
       },
-      "region": "Inntal"
+      "region": "Rofan"
     },
     {
       "id": "2383051016",
@@ -2147,7 +2147,7 @@
         "landscape": 6,
         "busy": 6
       },
-      "region": "Inntal"
+      "region": "Karwendel"
     },
     {
       "id": "2459672960",
@@ -2178,7 +2178,7 @@
         "landscape": 7,
         "busy": 3
       },
-      "region": "East Tirol"
+      "region": "South Tirol"
     },
     {
       "id": "2397269622",
@@ -2333,7 +2333,7 @@
         "landscape": 6,
         "busy": 8
       },
-      "region": "Wipptal"
+      "region": "Brenner"
     },
     {
       "id": "2596521887",
@@ -2519,7 +2519,7 @@
         "landscape": 7,
         "busy": 5
       },
-      "region": "Wipptal"
+      "region": "Brenner"
     },
     {
       "id": "2680185402",
@@ -2581,7 +2581,7 @@
         "landscape": 10,
         "busy": 8
       },
-      "region": "Stubai"
+      "region": "South Tirol"
     },
     {
       "id": "2965888891",

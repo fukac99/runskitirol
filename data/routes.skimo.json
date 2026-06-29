@@ -164,7 +164,7 @@
         "landscape": 6,
         "busy": 3
       },
-      "region": "Wattental"
+      "region": "Tux Alps"
     },
     {
       "id": "1912413735",
@@ -567,7 +567,7 @@
         "landscape": 7,
         "busy": 9
       },
-      "region": "Achensee"
+      "region": "Rofan"
     },
     {
       "id": "1912446061",
@@ -1620,7 +1620,7 @@
         "landscape": 6,
         "busy": 5
       },
-      "region": "Wattental"
+      "region": "Tux Alps"
     },
     {
       "id": "2716878206",
@@ -1775,7 +1775,7 @@
         "landscape": 5,
         "busy": 4
       },
-      "region": "Wipptal"
+      "region": "Brenner"
     },
     {
       "id": "2755844632",
@@ -1806,7 +1806,7 @@
         "landscape": 7,
         "busy": 5
       },
-      "region": "Wipptal"
+      "region": "Brenner"
     },
     {
       "id": "2763686695",
@@ -2023,7 +2023,7 @@
         "landscape": 9,
         "busy": 4
       },
-      "region": "Stubai"
+      "region": "Kühtai"
     },
     {
       "id": "2853406377",
@@ -2054,7 +2054,7 @@
         "landscape": 7,
         "busy": 4
       },
-      "region": "Wipptal"
+      "region": "Brenner"
     },
     {
       "id": "2869962573",
@@ -2116,7 +2116,7 @@
         "landscape": 9,
         "busy": 3
       },
-      "region": "Dolomites"
+      "region": "East Tirol"
     },
     {
       "id": "2898831103",
