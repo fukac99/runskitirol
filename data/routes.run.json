@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-29T21:43:23.466726+00:00",
+  "exported_at": "2026-06-29T21:46:49.983107+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -40,10 +40,7 @@
         "landscape": 8,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "inntal"
-      ]
+      "region": "Inntal"
     },
     {
       "id": "1885942841",
@@ -74,10 +71,7 @@
         "landscape": 7,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "karwendel"
-      ]
+      "region": "Karwendel"
     },
     {
       "id": "1885947526",
@@ -108,10 +102,7 @@
         "landscape": 8,
         "busy": 5
       },
-      "region": null,
-      "tags": [
-        "achensee"
-      ]
+      "region": "Achensee"
     },
     {
       "id": "1885950629",
@@ -141,10 +132,7 @@
         "objective_danger": 2,
         "landscape": 8
       },
-      "region": null,
-      "tags": [
-        "sellrain"
-      ]
+      "region": "Sellrain"
     },
     {
       "id": "1885953847",
@@ -175,10 +163,7 @@
         "landscape": 8,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "nordkette"
-      ]
+      "region": "Nordkette"
     },
     {
       "id": "1885958052",
@@ -209,10 +194,7 @@
         "landscape": 9,
         "busy": 3
       },
-      "region": null,
-      "tags": [
-        "east tirol"
-      ]
+      "region": "East Tirol"
     },
     {
       "id": "1885961892",
@@ -243,10 +225,7 @@
         "landscape": 8,
         "busy": 4
       },
-      "region": null,
-      "tags": [
-        "kalkkogel"
-      ]
+      "region": "Kalkkögel"
     },
     {
       "id": "1885964386",
@@ -277,10 +256,7 @@
         "landscape": 6,
         "busy": 7
       },
-      "region": null,
-      "tags": [
-        "nordkette"
-      ]
+      "region": "Nordkette"
     },
     {
       "id": "1885967300",
@@ -311,10 +287,7 @@
         "landscape": 10,
         "busy": 1
       },
-      "region": null,
-      "tags": [
-        "kalkkogel"
-      ]
+      "region": "Kalkkögel"
     },
     {
       "id": "1885970945",
@@ -345,10 +318,7 @@
         "landscape": 8,
         "busy": 6
       },
-      "region": null,
-      "tags": [
-        "nordkette"
-      ]
+      "region": "Nordkette"
     },
     {
       "id": "1885973796",
@@ -379,10 +349,7 @@
         "landscape": 7,
         "busy": 1
       },
-      "region": null,
-      "tags": [
-        "unterland"
-      ]
+      "region": "Unterland"
     },
     {
       "id": "1885976286",
@@ -413,10 +380,7 @@
         "landscape": 6,
         "busy": 6
       },
-      "region": null,
-      "tags": [
-        "stubaital"
-      ]
+      "region": "Stubai"
     },
     {
       "id": "1885978799",
@@ -447,11 +411,7 @@
         "landscape": 7,
         "busy": 8
       },
-      "region": null,
-      "tags": [
-        "achensee",
-        "rofangebirge"
-      ]
+      "region": "Achensee"
     },
     {
       "id": "1885980888",
@@ -482,10 +442,7 @@
         "landscape": 7,
         "busy": 1
       },
-      "region": null,
-      "tags": [
-        "stubaital"
-      ]
+      "region": "Stubai"
     },
     {
       "id": "1885982866",
@@ -516,10 +473,7 @@
         "landscape": 4,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "innsbruck"
-      ]
+      "region": "Innsbruck"
     },
     {
       "id": "1885984764",
@@ -550,10 +504,7 @@
         "landscape": 6,
         "busy": 5
       },
-      "region": null,
-      "tags": [
-        "brenner"
-      ]
+      "region": "Brenner"
     },
     {
       "id": "1885987145",
@@ -584,10 +535,7 @@
         "landscape": 3,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "innsbruck"
-      ]
+      "region": "Innsbruck"
     },
     {
       "id": "1885989951",
@@ -618,10 +566,7 @@
         "landscape": 6,
         "busy": 1
       },
-      "region": null,
-      "tags": [
-        "wattener lizum"
-      ]
+      "region": "Wattener Lizum"
     },
     {
       "id": "1885992440",
@@ -652,10 +597,7 @@
         "landscape": 7,
         "busy": 8
       },
-      "region": null,
-      "tags": [
-        "stubaital"
-      ]
+      "region": "Stubai"
     },
     {
       "id": "1885995454",
@@ -686,10 +628,7 @@
         "landscape": 7,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "fernpass"
-      ]
+      "region": "Fernpass"
     },
     {
       "id": "1885997422",
@@ -720,10 +659,7 @@
         "landscape": 7,
         "busy": 3
       },
-      "region": null,
-      "tags": [
-        "sellrain"
-      ]
+      "region": "Sellrain"
     },
     {
       "id": "1885999914",
@@ -754,10 +690,7 @@
         "landscape": 9,
         "busy": 4
       },
-      "region": null,
-      "tags": [
-        "inntal"
-      ]
+      "region": "Inntal"
     },
     {
       "id": "1886001829",
@@ -788,10 +721,7 @@
         "landscape": 6,
         "busy": 7
       },
-      "region": null,
-      "tags": [
-        "karwendel"
-      ]
+      "region": "Karwendel"
     },
     {
       "id": "1886003796",
@@ -822,10 +752,7 @@
         "landscape": 8,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "south tirol"
-      ]
+      "region": "South Tirol"
     },
     {
       "id": "1886005907",
@@ -856,10 +783,7 @@
         "landscape": 7,
         "busy": 7
       },
-      "region": null,
-      "tags": [
-        "inntal"
-      ]
+      "region": "Inntal"
     },
     {
       "id": "1886008036",
@@ -890,10 +814,7 @@
         "landscape": 9,
         "busy": 7
       },
-      "region": null,
-      "tags": [
-        "karwendel"
-      ]
+      "region": "Karwendel"
     },
     {
       "id": "1886010487",
@@ -924,10 +845,7 @@
         "landscape": 7,
         "busy": 7
       },
-      "region": null,
-      "tags": [
-        "sellrain"
-      ]
+      "region": "Sellrain"
     },
     {
       "id": "1886012344",
@@ -958,10 +876,7 @@
         "landscape": 9,
         "busy": 3
       },
-      "region": null,
-      "tags": [
-        "south tirol"
-      ]
+      "region": "South Tirol"
     },
     {
       "id": "1886015292",
@@ -992,10 +907,7 @@
         "landscape": 8,
         "busy": 7
       },
-      "region": null,
-      "tags": [
-        "nordkette"
-      ]
+      "region": "Nordkette"
     },
     {
       "id": "1886017482",
@@ -1026,10 +938,7 @@
         "landscape": 7,
         "busy": 4
       },
-      "region": null,
-      "tags": [
-        "stubaital"
-      ]
+      "region": "Stubai"
     },
     {
       "id": "1886019684",
@@ -1060,10 +969,7 @@
         "landscape": 7,
         "busy": 1
       },
-      "region": null,
-      "tags": [
-        "south tirol"
-      ]
+      "region": "South Tirol"
     },
     {
       "id": "1886021935",
@@ -1094,10 +1000,7 @@
         "landscape": 9,
         "busy": 3
       },
-      "region": null,
-      "tags": [
-        "kalkkogel"
-      ]
+      "region": "Kalkkögel"
     },
     {
       "id": "1886024307",
@@ -1128,10 +1031,7 @@
         "landscape": 6,
         "busy": 5
       },
-      "region": null,
-      "tags": [
-        "unterland"
-      ]
+      "region": "Unterland"
     },
     {
       "id": "1886026518",
@@ -1162,10 +1062,7 @@
         "landscape": 7,
         "busy": 4
       },
-      "region": null,
-      "tags": [
-        "nordkette"
-      ]
+      "region": "Nordkette"
     },
     {
       "id": "1886029122",
@@ -1196,10 +1093,7 @@
         "landscape": 4,
         "busy": 7
       },
-      "region": null,
-      "tags": [
-        "kalkkogel"
-      ]
+      "region": "Kalkkögel"
     },
     {
       "id": "1886031506",
@@ -1230,10 +1124,7 @@
         "landscape": 7,
         "busy": 3
       },
-      "region": null,
-      "tags": [
-        "south tirol"
-      ]
+      "region": "South Tirol"
     },
     {
       "id": "1886033707",
@@ -1264,10 +1155,7 @@
         "landscape": 6,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "brenner"
-      ]
+      "region": "Brenner"
     },
     {
       "id": "1886035845",
@@ -1298,10 +1186,7 @@
         "landscape": 6,
         "busy": 6
       },
-      "region": null,
-      "tags": [
-        "wilder kaiser"
-      ]
+      "region": "Wilder Kaiser"
     },
     {
       "id": "1886037946",
@@ -1332,10 +1217,7 @@
         "landscape": 8,
         "busy": 6
       },
-      "region": null,
-      "tags": [
-        "south tirol"
-      ]
+      "region": "South Tirol"
     },
     {
       "id": "1886040343",
@@ -1366,10 +1248,7 @@
         "landscape": 6,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "karwendel"
-      ]
+      "region": "Karwendel"
     },
     {
       "id": "1886043082",
@@ -1400,10 +1279,7 @@
         "landscape": 6,
         "busy": 3
       },
-      "region": null,
-      "tags": [
-        "karwendel"
-      ]
+      "region": "Karwendel"
     },
     {
       "id": "1886045060",
@@ -1434,10 +1310,7 @@
         "landscape": 7,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "karwendel"
-      ]
+      "region": "Karwendel"
     },
     {
       "id": "1886047351",
@@ -1468,10 +1341,7 @@
         "landscape": 7,
         "busy": 3
       },
-      "region": null,
-      "tags": [
-        "ötztal"
-      ]
+      "region": "Ötztal"
     },
     {
       "id": "1886049262",
@@ -1502,10 +1372,7 @@
         "landscape": 10,
         "busy": 3
       },
-      "region": null,
-      "tags": [
-        "zillertal"
-      ]
+      "region": "Zillertal"
     },
     {
       "id": "1886051627",
@@ -1536,10 +1403,7 @@
         "landscape": 10,
         "busy": 3
       },
-      "region": null,
-      "tags": [
-        "zillertal"
-      ]
+      "region": "Zillertal"
     },
     {
       "id": "1886053820",
@@ -1570,10 +1434,7 @@
         "landscape": 9,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "ehrwald"
-      ]
+      "region": "Ehrwald"
     },
     {
       "id": "1886055917",
@@ -1604,10 +1465,7 @@
         "landscape": 8,
         "busy": 6
       },
-      "region": null,
-      "tags": [
-        "stubaital"
-      ]
+      "region": "Stubai"
     },
     {
       "id": "1886057795",
@@ -1638,10 +1496,7 @@
         "landscape": 4,
         "busy": 6
       },
-      "region": null,
-      "tags": [
-        "south tirol"
-      ]
+      "region": "South Tirol"
     },
     {
       "id": "1886059788",
@@ -1672,10 +1527,7 @@
         "landscape": 3,
         "busy": 5
       },
-      "region": null,
-      "tags": [
-        "inntal"
-      ]
+      "region": "Inntal"
     },
     {
       "id": "1886061598",
@@ -1706,10 +1558,7 @@
         "landscape": 9,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "brenner"
-      ]
+      "region": "Brenner"
     },
     {
       "id": "1886063622",
@@ -1740,10 +1589,7 @@
         "landscape": 8,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "inntal"
-      ]
+      "region": "Inntal"
     },
     {
       "id": "1887896750",
@@ -1774,10 +1620,7 @@
         "landscape": 7,
         "busy": 5
       },
-      "region": null,
-      "tags": [
-        "wilder kaiser"
-      ]
+      "region": "Wilder Kaiser"
     },
     {
       "id": "1901212314",
@@ -1808,10 +1651,7 @@
         "landscape": 8,
         "busy": 6
       },
-      "region": null,
-      "tags": [
-        "achensee"
-      ]
+      "region": "Achensee"
     },
     {
       "id": "1908341806",
@@ -1842,10 +1682,7 @@
         "landscape": 7,
         "busy": 1
       },
-      "region": null,
-      "tags": [
-        "achensee"
-      ]
+      "region": "Achensee"
     },
     {
       "id": "1919740787",
@@ -1876,10 +1713,7 @@
         "landscape": 4,
         "busy": 7
       },
-      "region": null,
-      "tags": [
-        "inntal"
-      ]
+      "region": "Inntal"
     },
     {
       "id": "1932968411",
@@ -1910,10 +1744,7 @@
         "landscape": 10,
         "busy": 3
       },
-      "region": null,
-      "tags": [
-        "wilder kaiser"
-      ]
+      "region": "Wilder Kaiser"
     },
     {
       "id": "1945409277",
@@ -1944,10 +1775,7 @@
         "landscape": 9,
         "busy": 4
       },
-      "region": null,
-      "tags": [
-        "karwendel"
-      ]
+      "region": "Karwendel"
     },
     {
       "id": "1953604945",
@@ -1978,10 +1806,7 @@
         "landscape": 8,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "karwendel"
-      ]
+      "region": "Karwendel"
     },
     {
       "id": "1961279260",
@@ -2012,10 +1837,7 @@
         "landscape": 8,
         "busy": 3
       },
-      "region": null,
-      "tags": [
-        "stubaital"
-      ]
+      "region": "Stubai"
     },
     {
       "id": "2273994833",
@@ -2046,10 +1868,7 @@
         "landscape": 8,
         "busy": 4
       },
-      "region": null,
-      "tags": [
-        "achensee"
-      ]
+      "region": "Achensee"
     },
     {
       "id": "2292281886",
@@ -2080,10 +1899,7 @@
         "landscape": 9,
         "busy": 6
       },
-      "region": null,
-      "tags": [
-        "south tirol"
-      ]
+      "region": "South Tirol"
     },
     {
       "id": "2328935595",
@@ -2114,10 +1930,7 @@
         "landscape": 8,
         "busy": 5
       },
-      "region": null,
-      "tags": [
-        "kitzbuhel"
-      ]
+      "region": "Kitzbühel"
     },
     {
       "id": "2348290705",
@@ -2148,10 +1961,7 @@
         "landscape": 8,
         "busy": 4
       },
-      "region": null,
-      "tags": [
-        "karwendel"
-      ]
+      "region": "Karwendel"
     },
     {
       "id": "2361467862",
@@ -2182,10 +1992,7 @@
         "landscape": 6,
         "busy": 3
       },
-      "region": null,
-      "tags": [
-        "wattener lizum"
-      ]
+      "region": "Wattener Lizum"
     },
     {
       "id": "2386986320",
@@ -2216,10 +2023,7 @@
         "landscape": 8,
         "busy": 5
       },
-      "region": null,
-      "tags": [
-        "inntal"
-      ]
+      "region": "Inntal"
     },
     {
       "id": "2383051016",
@@ -2250,10 +2054,7 @@
         "landscape": 7,
         "busy": 8
       },
-      "region": null,
-      "tags": [
-        "karwendel"
-      ]
+      "region": "Karwendel"
     },
     {
       "id": "2422163656",
@@ -2284,10 +2085,7 @@
         "landscape": 9,
         "busy": 5
       },
-      "region": null,
-      "tags": [
-        "karwendel"
-      ]
+      "region": "Karwendel"
     },
     {
       "id": "2446691411",
@@ -2318,10 +2116,7 @@
         "landscape": 8,
         "busy": 4
       },
-      "region": null,
-      "tags": [
-        "east tirol"
-      ]
+      "region": "East Tirol"
     },
     {
       "id": "2453102089",
@@ -2352,10 +2147,7 @@
         "landscape": 6,
         "busy": 6
       },
-      "region": null,
-      "tags": [
-        "inntal"
-      ]
+      "region": "Inntal"
     },
     {
       "id": "2459672960",
@@ -2386,8 +2178,7 @@
         "landscape": 7,
         "busy": 3
       },
-      "region": null,
-      "tags": []
+      "region": "East Tirol"
     },
     {
       "id": "2397269622",
@@ -2418,10 +2209,7 @@
         "landscape": 9,
         "busy": 4
       },
-      "region": null,
-      "tags": [
-        "Lechtal"
-      ]
+      "region": "Lechtal"
     },
     {
       "id": "2398304488",
@@ -2452,10 +2240,7 @@
         "landscape": 9,
         "busy": 5
       },
-      "region": null,
-      "tags": [
-        "Lechtal"
-      ]
+      "region": "Lechtal"
     },
     {
       "id": "2544729658",
@@ -2486,8 +2271,7 @@
         "landscape": 8,
         "busy": 2
       },
-      "region": null,
-      "tags": []
+      "region": "Wipptal"
     },
     {
       "id": "2554812057",
@@ -2518,10 +2302,7 @@
         "landscape": 9,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "Tux Alps"
-      ]
+      "region": "Tux Alps"
     },
     {
       "id": "2524030567",
@@ -2552,10 +2333,7 @@
         "landscape": 6,
         "busy": 8
       },
-      "region": null,
-      "tags": [
-        "Wipptal"
-      ]
+      "region": "Wipptal"
     },
     {
       "id": "2596521887",
@@ -2586,8 +2364,7 @@
         "landscape": 8,
         "busy": 2
       },
-      "region": null,
-      "tags": []
+      "region": "East Tirol"
     },
     {
       "id": "2539144978",
@@ -2618,10 +2395,7 @@
         "landscape": 3,
         "busy": 2
       },
-      "region": null,
-      "tags": [
-        "Inntal"
-      ]
+      "region": "Inntal"
     },
     {
       "id": "2631908628",
@@ -2652,8 +2426,7 @@
         "landscape": 9,
         "busy": 4
       },
-      "region": null,
-      "tags": []
+      "region": "Pitztal"
     },
     {
       "id": "2647617360",
@@ -2684,10 +2457,7 @@
         "landscape": 8,
         "busy": 5
       },
-      "region": null,
-      "tags": [
-        "Stubai"
-      ]
+      "region": "Stubai"
     },
     {
       "id": "2667722344",
@@ -2718,8 +2488,7 @@
         "landscape": 5,
         "busy": 3
       },
-      "region": null,
-      "tags": []
+      "region": "Inntal"
     },
     {
       "id": "2656062361",
@@ -2750,10 +2519,7 @@
         "landscape": 7,
         "busy": 5
       },
-      "region": null,
-      "tags": [
-        "Wipptal"
-      ]
+      "region": "Wipptal"
     },
     {
       "id": "2680185402",
@@ -2784,10 +2550,7 @@
         "landscape": 7,
         "busy": 6
       },
-      "region": null,
-      "tags": [
-        "Wetterstein"
-      ]
+      "region": "Wetterstein"
     },
     {
       "id": "2688640205",
@@ -2818,10 +2581,7 @@
         "landscape": 10,
         "busy": 8
       },
-      "region": null,
-      "tags": [
-        "Stubai"
-      ]
+      "region": "Stubai"
     },
     {
       "id": "2965888891",
@@ -2852,8 +2612,7 @@
         "landscape": 7,
         "busy": 6
       },
-      "region": null,
-      "tags": []
+      "region": "South Tirol"
     },
     {
       "id": "3001580901",
@@ -2884,8 +2643,7 @@
         "landscape": 6,
         "busy": 3
       },
-      "region": null,
-      "tags": []
+      "region": "Inntal"
     },
     {
       "id": "3020018189",
@@ -2916,10 +2674,7 @@
         "landscape": 7,
         "busy": 1
       },
-      "region": null,
-      "tags": [
-        "Rofan"
-      ]
+      "region": "Rofan"
     },
     {
       "id": "3028696793",
@@ -2950,10 +2705,7 @@
         "landscape": 10,
         "busy": 1
       },
-      "region": null,
-      "tags": [
-        "Stubai"
-      ]
+      "region": "Stubai"
     },
     {
       "id": "2998802280",
@@ -2984,8 +2736,7 @@
         "landscape": 6,
         "busy": 2
       },
-      "region": null,
-      "tags": []
+      "region": "Unterland"
     },
     {
       "id": "2927296867",
@@ -3016,8 +2767,7 @@
         "landscape": 7,
         "busy": 5
       },
-      "region": null,
-      "tags": []
+      "region": "Inntal"
     }
   ]
 }

@@ -168,7 +168,6 @@ def build_route_record(
         "difficulty": override.get("difficulty"),
         "ratings": override.get("ratings"),
         "region": override.get("region"),
-        "tags": override.get("tags", []),
     }
 
 
@@ -194,7 +193,6 @@ def build_feature(record: dict[str, Any], geometry: list[dict[str, Any]]) -> dic
             "difficulty": record["difficulty"],
             "ratings": record["ratings"],
             "region": record["region"],
-            "tags": record["tags"],
         },
     }
 

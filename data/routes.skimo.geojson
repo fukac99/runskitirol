@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "exported_at": "2026-06-29T21:43:23.466726+00:00",
+    "exported_at": "2026-06-29T21:46:49.983107+00:00",
     "source": "komoot",
     "route_count": 73
   },
@@ -1005,10 +1005,7 @@
           "landscape": 8,
           "busy": 5
         },
-        "region": null,
-        "tags": [
-          "kalkkögel"
-        ]
+        "region": "Kalkkögel"
       }
     },
     {
@@ -2400,10 +2397,7 @@
           "landscape": 7,
           "busy": 7
         },
-        "region": null,
-        "tags": [
-          "sellrain"
-        ]
+        "region": "Sellrain"
       }
     },
     {
@@ -3565,10 +3559,7 @@
           "landscape": 5,
           "busy": 7
         },
-        "region": null,
-        "tags": [
-          "kühtai"
-        ]
+        "region": "Kühtai"
       }
     },
     {
@@ -4285,10 +4276,7 @@
           "landscape": 4,
           "busy": 4
         },
-        "region": null,
-        "tags": [
-          "axamer lizum"
-        ]
+        "region": "Axamer Lizum"
       }
     },
     {
@@ -5315,10 +5303,7 @@
           "landscape": 6,
           "busy": 3
         },
-        "region": null,
-        "tags": [
-          "wattental"
-        ]
+        "region": "Wattental"
       }
     },
     {
@@ -5975,10 +5960,7 @@
           "landscape": 5,
           "busy": 6
         },
-        "region": null,
-        "tags": [
-          "brenner"
-        ]
+        "region": "Brenner"
       }
     },
     {
@@ -6930,10 +6912,7 @@
           "landscape": 8,
           "busy": 7
         },
-        "region": null,
-        "tags": [
-          "kalkkögel"
-        ]
+        "region": "Kalkkögel"
       }
     },
     {
@@ -8725,10 +8704,7 @@
           "landscape": 7,
           "busy": 4
         },
-        "region": null,
-        "tags": [
-          "brenner"
-        ]
+        "region": "Brenner"
       }
     },
     {
@@ -10140,10 +10116,7 @@
           "landscape": 9,
           "busy": 2
         },
-        "region": null,
-        "tags": [
-          "tuxer alps"
-        ]
+        "region": "Tux Alps"
       }
     },
     {
@@ -11370,10 +11343,7 @@
           "landscape": 4,
           "busy": 5
         },
-        "region": null,
-        "tags": [
-          "tuxer alps"
-        ]
+        "region": "Tux Alps"
       }
     },
     {
@@ -12915,10 +12885,7 @@
           "landscape": 6,
           "busy": 7
         },
-        "region": null,
-        "tags": [
-          "kühtai"
-        ]
+        "region": "Kühtai"
       }
     },
     {
@@ -13700,10 +13667,7 @@
           "landscape": 5,
           "busy": 8
         },
-        "region": null,
-        "tags": [
-          "brenner"
-        ]
+        "region": "Brenner"
       }
     },
     {
@@ -14325,10 +14289,7 @@
           "landscape": 5,
           "busy": 4
         },
-        "region": null,
-        "tags": [
-          "brenner"
-        ]
+        "region": "Brenner"
       }
     },
     {
@@ -15535,10 +15496,7 @@
           "landscape": 6,
           "busy": 1
         },
-        "region": null,
-        "tags": [
-          "kühtai"
-        ]
+        "region": "Kühtai"
       }
     },
     {
@@ -16765,10 +16723,7 @@
           "landscape": 7,
           "busy": 6
         },
-        "region": null,
-        "tags": [
-          "brenner"
-        ]
+        "region": "Brenner"
       }
     },
     {
@@ -18530,10 +18485,7 @@
           "landscape": 6,
           "busy": 7
         },
-        "region": null,
-        "tags": [
-          "tuxer alps"
-        ]
+        "region": "Tux Alps"
       }
     },
     {
@@ -19130,10 +19082,7 @@
           "landscape": 10,
           "busy": 2
         },
-        "region": null,
-        "tags": [
-          "pitztal"
-        ]
+        "region": "Pitztal"
       }
     },
     {
@@ -20145,10 +20094,7 @@
           "landscape": 7,
           "busy": 9
         },
-        "region": null,
-        "tags": [
-          "achensee"
-        ]
+        "region": "Achensee"
       }
     },
     {
@@ -20425,10 +20371,7 @@
           "landscape": 9,
           "busy": 6
         },
-        "region": null,
-        "tags": [
-          "stubai"
-        ]
+        "region": "Stubai"
       }
     },
     {
@@ -21460,10 +21403,7 @@
           "landscape": 9,
           "busy": 3
         },
-        "region": null,
-        "tags": [
-          "sellrain"
-        ]
+        "region": "Sellrain"
       }
     },
     {
@@ -22130,10 +22070,7 @@
           "landscape": 9,
           "busy": 4
         },
-        "region": null,
-        "tags": [
-          "sellrain"
-        ]
+        "region": "Sellrain"
       }
     },
     {
@@ -23525,10 +23462,7 @@
           "landscape": 10,
           "busy": 4
         },
-        "region": null,
-        "tags": [
-          "sellrain"
-        ]
+        "region": "Sellrain"
       }
     },
     {
@@ -24275,10 +24209,7 @@
           "landscape": 9,
           "busy": 5
         },
-        "region": null,
-        "tags": [
-          "sellrain"
-        ]
+        "region": "Sellrain"
       }
     },
     {
@@ -25350,10 +25281,7 @@
           "landscape": 10,
           "busy": 2
         },
-        "region": null,
-        "tags": [
-          "kaunertal"
-        ]
+        "region": "Kaunertal"
       }
     },
     {
@@ -26085,10 +26013,7 @@
           "landscape": 8,
           "busy": 9
         },
-        "region": null,
-        "tags": [
-          "stubai"
-        ]
+        "region": "Stubai"
       }
     },
     {
@@ -26930,11 +26855,7 @@
           "busy": 4,
           "objective_danger": 5
         },
-        "region": null,
-        "tags": [
-          "pitztal",
-          "ötztal"
-        ]
+        "region": "Pitztal"
       }
     },
     {
@@ -28201,11 +28122,7 @@
           "busy": 4,
           "objective_danger": 5
         },
-        "region": null,
-        "tags": [
-          "pitztal",
-          "ötztal"
-        ]
+        "region": "Pitztal"
       }
     },
     {
@@ -29552,10 +29469,7 @@
           "landscape": 5,
           "busy": 8
         },
-        "region": null,
-        "tags": [
-          "stubai"
-        ]
+        "region": "Stubai"
       }
     },
     {
@@ -30852,10 +30766,7 @@
           "landscape": 9,
           "busy": 7
         },
-        "region": null,
-        "tags": [
-          "sellrain"
-        ]
+        "region": "Sellrain"
       }
     },
     {
@@ -31782,10 +31693,7 @@
           "landscape": 8,
           "busy": 3
         },
-        "region": null,
-        "tags": [
-          "imst"
-        ]
+        "region": "Imst"
       }
     },
     {
@@ -32892,10 +32800,7 @@
           "landscape": 8,
           "busy": 3
         },
-        "region": null,
-        "tags": [
-          "karwendel"
-        ]
+        "region": "Karwendel"
       }
     },
     {
@@ -34597,10 +34502,7 @@
           "landscape": 6,
           "busy": 3
         },
-        "region": null,
-        "tags": [
-          "brenner"
-        ]
+        "region": "Brenner"
       }
     },
     {
@@ -35952,10 +35854,7 @@
           "landscape": 7,
           "busy": 9
         },
-        "region": null,
-        "tags": [
-          "karwendel"
-        ]
+        "region": "Karwendel"
       }
     },
     {
@@ -37867,10 +37766,7 @@
           "landscape": 8,
           "busy": 4
         },
-        "region": null,
-        "tags": [
-          "landeck"
-        ]
+        "region": "Landeck"
       }
     },
     {
@@ -38612,10 +38508,7 @@
           "landscape": 5,
           "busy": 6
         },
-        "region": null,
-        "tags": [
-          "brenner"
-        ]
+        "region": "Brenner"
       }
     },
     {
@@ -39557,10 +39450,7 @@
           "landscape": 7,
           "busy": 2
         },
-        "region": null,
-        "tags": [
-          "brenner"
-        ]
+        "region": "Brenner"
       }
     },
     {
@@ -39892,10 +39782,7 @@
           "landscape": 9,
           "busy": 1
         },
-        "region": null,
-        "tags": [
-          "sellrain"
-        ]
+        "region": "Sellrain"
       }
     },
     {
@@ -41577,10 +41464,7 @@
           "landscape": 9,
           "busy": 2
         },
-        "region": null,
-        "tags": [
-          "sellrain"
-        ]
+        "region": "Sellrain"
       }
     },
     {
@@ -42637,10 +42521,7 @@
           "landscape": 7,
           "busy": 5
         },
-        "region": null,
-        "tags": [
-          "inntal"
-        ]
+        "region": "Inntal"
       }
     },
     {
@@ -43997,10 +43878,7 @@
           "landscape": 7,
           "busy": 8
         },
-        "region": null,
-        "tags": [
-          "south tyrol"
-        ]
+        "region": "South Tirol"
       }
     },
     {
@@ -45316,10 +45194,7 @@
           "objective_danger": 8,
           "landscape": 10
         },
-        "region": null,
-        "tags": [
-          "sellrain"
-        ]
+        "region": "Sellrain"
       }
     },
     {
@@ -47611,10 +47486,7 @@
           "landscape": 9,
           "busy": 3
         },
-        "region": null,
-        "tags": [
-          "sellrain"
-        ]
+        "region": "Sellrain"
       }
     },
     {
@@ -48401,10 +48273,7 @@
           "landscape": 9,
           "busy": 6
         },
-        "region": null,
-        "tags": [
-          "stubai"
-        ]
+        "region": "Stubai"
       }
     },
     {
@@ -49716,10 +49585,7 @@
           "landscape": 7,
           "busy": 9
         },
-        "region": null,
-        "tags": [
-          "brenner"
-        ]
+        "region": "Brenner"
       }
     },
     {
@@ -51151,10 +51017,7 @@
           "landscape": 9,
           "busy": 1
         },
-        "region": null,
-        "tags": [
-          "kaunertal"
-        ]
+        "region": "Kaunertal"
       }
     },
     {
@@ -52421,10 +52284,7 @@
           "landscape": 8,
           "busy": 7
         },
-        "region": null,
-        "tags": [
-          "stubai"
-        ]
+        "region": "Stubai"
       }
     },
     {
@@ -53661,10 +53521,7 @@
           "landscape": 7,
           "busy": 2
         },
-        "region": null,
-        "tags": [
-          "brenner"
-        ]
+        "region": "Brenner"
       }
     },
     {
@@ -54281,10 +54138,7 @@
           "landscape": 8,
           "busy": 5
         },
-        "region": null,
-        "tags": [
-          "sellrain"
-        ]
+        "region": "Sellrain"
       }
     },
     {
@@ -55661,10 +55515,7 @@
           "landscape": 10,
           "busy": 5
         },
-        "region": null,
-        "tags": [
-          "south tyrol"
-        ]
+        "region": "South Tirol"
       }
     },
     {
@@ -56836,10 +56687,7 @@
           "landscape": 5,
           "busy": 8
         },
-        "region": null,
-        "tags": [
-          "tuxer alps"
-        ]
+        "region": "Tux Alps"
       }
     },
     {
@@ -57986,10 +57834,7 @@
           "landscape": 7,
           "busy": 7
         },
-        "region": null,
-        "tags": [
-          "axamer lizum"
-        ]
+        "region": "Axamer Lizum"
       }
     },
     {
@@ -59381,10 +59226,7 @@
           "landscape": 6,
           "busy": 5
         },
-        "region": null,
-        "tags": [
-          "wattental"
-        ]
+        "region": "Wattental"
       }
     },
     {
@@ -61501,10 +61343,7 @@
           "landscape": 10,
           "busy": 3
         },
-        "region": null,
-        "tags": [
-          "pitztal"
-        ]
+        "region": "Pitztal"
       }
     },
     {
@@ -62131,11 +61970,7 @@
           "landscape": 8,
           "busy": 7
         },
-        "region": null,
-        "tags": [
-          "hard",
-          "Stubai"
-        ]
+        "region": "Stubai"
       }
     },
     {
@@ -62757,11 +62592,7 @@
           "landscape": 10,
           "busy": 6
         },
-        "region": null,
-        "tags": [
-          "hard",
-          "Ötztal"
-        ]
+        "region": "Ötztal"
       }
     },
     {
@@ -64308,11 +64139,7 @@
           "landscape": 7,
           "busy": 3
         },
-        "region": null,
-        "tags": [
-          "hard",
-          "Karwendel"
-        ]
+        "region": "Karwendel"
       }
     },
     {
@@ -65584,11 +65411,7 @@
           "landscape": 5,
           "busy": 4
         },
-        "region": null,
-        "tags": [
-          "hard",
-          "Wipptal"
-        ]
+        "region": "Wipptal"
       }
     },
     {
@@ -66645,11 +66468,7 @@
           "landscape": 7,
           "busy": 5
         },
-        "region": null,
-        "tags": [
-          "medium",
-          "Wipptal"
-        ]
+        "region": "Wipptal"
       }
     },
     {
@@ -67796,10 +67615,7 @@
           "busy": 3,
           "objective_danger": 1
         },
-        "region": null,
-        "tags": [
-          "easy"
-        ]
+        "region": "Kaunertal"
       }
     },
     {
@@ -70091,11 +69907,7 @@
           "landscape": 7,
           "busy": 4
         },
-        "region": null,
-        "tags": [
-          "hard",
-          "Karwendel"
-        ]
+        "region": "Karwendel"
       }
     },
     {
@@ -71322,10 +71134,7 @@
           "landscape": 7,
           "busy": 3
         },
-        "region": null,
-        "tags": [
-          "medium"
-        ]
+        "region": "East Tirol"
       }
     },
     {
@@ -72742,11 +72551,7 @@
           "landscape": 4,
           "busy": 7
         },
-        "region": null,
-        "tags": [
-          "medium",
-          "Inntal"
-        ]
+        "region": "Inntal"
       }
     },
     {
@@ -73693,10 +73498,7 @@
           "landscape": 9,
           "busy": 3
         },
-        "region": null,
-        "tags": [
-          "medium"
-        ]
+        "region": "Fernpass"
       }
     },
     {
@@ -76248,11 +76050,7 @@
           "landscape": 7,
           "busy": 4
         },
-        "region": null,
-        "tags": [
-          "very hard",
-          "Karwendel"
-        ]
+        "region": "Karwendel"
       }
     },
     {
@@ -77474,11 +77272,7 @@
           "landscape": 9,
           "busy": 4
         },
-        "region": null,
-        "tags": [
-          "hard",
-          "Stubai"
-        ]
+        "region": "Stubai"
       }
     },
     {
@@ -78870,11 +78664,7 @@
           "landscape": 7,
           "busy": 4
         },
-        "region": null,
-        "tags": [
-          "medium",
-          "Wipptal"
-        ]
+        "region": "Wipptal"
       }
     },
     {
@@ -80206,11 +79996,7 @@
           "landscape": 5,
           "busy": 10
         },
-        "region": null,
-        "tags": [
-          "medium",
-          "Tux Alps"
-        ]
+        "region": "Tux Alps"
       }
     },
     {
@@ -83107,11 +82893,7 @@
           "landscape": 9,
           "busy": 3
         },
-        "region": null,
-        "tags": [
-          "very hard",
-          "Dolomites"
-        ]
+        "region": "Dolomites"
       }
     },
     {
@@ -84458,11 +84240,7 @@
           "landscape": 10,
           "busy": 2
         },
-        "region": null,
-        "tags": [
-          "hard",
-          "Pitztal"
-        ]
+        "region": "Pitztal"
       }
     },
     {
@@ -85164,11 +84942,7 @@
           "landscape": 10,
           "busy": 3
         },
-        "region": null,
-        "tags": [
-          "hard",
-          "Ötztal"
-        ]
+        "region": "Ötztal"
       }
     },
     {
@@ -86095,11 +85869,7 @@
           "landscape": 10,
           "busy": 5
         },
-        "region": null,
-        "tags": [
-          "very hard",
-          "Pitztal"
-        ]
+        "region": "Pitztal"
       }
     },
     {
@@ -87661,11 +87431,7 @@
           "landscape": 8,
           "busy": 4
         },
-        "region": null,
-        "tags": [
-          "very hard",
-          "Pitztal"
-        ]
+        "region": "Pitztal"
       }
     },
     {
@@ -87892,11 +87658,7 @@
           "landscape": 8,
           "busy": 2
         },
-        "region": null,
-        "tags": [
-          "medium",
-          "Ötztal"
-        ]
+        "region": "Ötztal"
       }
     }
   ]
