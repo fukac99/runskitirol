@@ -241,3 +241,116 @@ body.landing {
     margin-left: 0;
   }
 }
+
+/* RUN-14: RUN banner theme (matches runskitirol.com/trails) ----------------
+   Brand tokens lifted from the Run.Ski.Tirol Squarespace theme:
+   - Font: Poppins (loaded in run.html), site uses 300-700 weights
+   - Primary brand teal: #1e868d  (theme "black"/primary swatch)
+   - Dark teal:          #155e63  (darkAccent)
+   - Accent green:       #76b39d  (accent)
+   - White wordmark/nav on the colored banner
+   All rules are scoped under body.theme-run so only run.html is affected. */
+
+body.theme-run {
+  --rst-teal: #1e868d;
+  --rst-teal-dark: #155e63;
+  --rst-green: #76b39d;
+  --rst-on-brand: #ffffff;
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+body.theme-run .topbar {
+  background: var(--rst-teal);
+  border-bottom: 1px solid var(--rst-teal-dark);
+  box-shadow: 0 2px 12px rgba(21, 94, 99, 0.28);
+  gap: 10px 14px;
+}
+
+/* Wordmark — matches the white logo treatment on the site header */
+body.theme-run .brand {
+  color: var(--rst-on-brand);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+}
+
+body.theme-run .brand:hover {
+  opacity: 0.85;
+}
+
+/* RUN / SKIMO switch — white pills on the teal banner */
+body.theme-run .collection-switch {
+  border-color: rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+body.theme-run .collection-switch a {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+body.theme-run .collection-switch a.is-active {
+  background: #fff;
+  color: var(--rst-teal-dark);
+}
+
+/* Filter controls — white fields stay legible on the teal banner */
+body.theme-run .filters input,
+body.theme-run .filters select,
+body.theme-run .filters button {
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  color: var(--ink);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: 8px;
+}
+
+body.theme-run .filters input::placeholder {
+  color: var(--muted);
+}
+
+body.theme-run .filters input:focus,
+body.theme-run .filters select:focus {
+  outline: none;
+  border-color: var(--rst-green);
+  box-shadow: 0 0 0 3px rgba(118, 179, 157, 0.55);
+}
+
+body.theme-run .range label {
+  color: rgba(255, 255, 255, 0.92);
+  font-weight: 500;
+}
+
+body.theme-run .filters .range span[aria-hidden="true"] {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Reset button uses the brand accent green */
+body.theme-run .filters button {
+  background: var(--rst-green);
+  color: #10342c;
+  border-color: transparent;
+  font-weight: 600;
+}
+
+body.theme-run .filters button:hover {
+  background: #69a890;
+}
+
+body.theme-run .results-count {
+  color: #fff;
+  font-weight: 500;
+}
+
+@media (max-width: 560px) {
+  body.theme-run .brand {
+    font-size: 16px;
+  }
+
+  body.theme-run .results-count {
+    margin-left: 0;
+  }
+}
