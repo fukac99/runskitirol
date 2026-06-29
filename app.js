@@ -5,6 +5,10 @@
 const PAGE = (typeof window !== "undefined" && window.RUNSKITIROL_PAGE) || {};
 const COLLECTION = PAGE.collection === "skimo" ? "skimo" : "run";
 
+const URL_PARAMS = new URLSearchParams(window.location.search);
+const EMBED_MODE = URL_PARAMS.get("embed") === "1";
+const SINGLE_ROUTE_SLUG = URL_PARAMS.get("route");
+
 const COLLECTION_LABELS = { run: "RUN", skimo: "SKIMO" };
 const COLLECTION_STYLES = {
   run: { color: "#e35f28", weight: 4, opacity: 0.85 },
@@ -121,8 +125,14 @@ const recordById = new Map();
 let allRoutes = [];
 let activeLayer = null;
 
-const ui = buildFilterBar();
-wireFilterEvents();
+if (EMBED_MODE) {
+  document.body.classList.add("embed");
+  const topbar = document.getElementById("topbar");
+  if (topbar) topbar.style.display = "none";
+}
+
+const ui = EMBED_MODE ? null : buildFilterBar();
+if (ui) wireFilterEvents();
 
 loadRoutes();
 
@@ -149,13 +159,31 @@ async function loadRoutes() {
     });
     routesLayer.addTo(map);
 
-    fitToVisible(true);
-    populateRegionOptions(allRoutes);
-    initSliderRanges(allRoutes);
-    applyStateFromUrl();
+    if (SINGLE_ROUTE_SLUG) {
+      const target = allRoutes.find((r) => r.slug === SINGLE_ROUTE_SLUG);
+      if (target) {
+        allRoutes.forEach((r) => {
+          if (r.id !== target.id) {
+            const l = layerById.get(r.id);
+            if (l) routesLayer.removeLayer(l);
+          }
+        });
+        selectRoute(target.id, { zoom: true, openPopup: !EMBED_MODE });
+      } else {
+        showMessage(`Route "${SINGLE_ROUTE_SLUG}" not found.`);
+      }
+    } else {
+      fitToVisible(true);
+    }
+
+    if (ui) {
+      populateRegionOptions(allRoutes);
+      initSliderRanges(allRoutes);
+      if (!SINGLE_ROUTE_SLUG) applyStateFromUrl();
+    }
   } catch (error) {
     console.error(error);
-    ui.count.textContent = "Route data could not be loaded. Run a local web server and reload.";
+    showMessage("Route data could not be loaded.");
   }
 }
 
@@ -163,6 +191,17 @@ async function fetchJson(url) {
   const response = await fetch(url);
   if (!response.ok) throw new Error(`Failed to load ${url}: ${response.status}`);
   return response.json();
+}
+
+function showMessage(text) {
+  if (ui && ui.count) {
+    ui.count.textContent = text;
+  } else {
+    const el = document.createElement("div");
+    el.className = "map-message";
+    el.textContent = text;
+    document.getElementById("map").appendChild(el);
+  }
 }
 
 // --- Filtering -------------------------------------------------------------
@@ -215,8 +254,8 @@ function applyFilters(options = {}) {
     }
   });
 
-  ui.count.textContent = `Showing ${visible} of ${allRoutes.length} routes`;
-  if (!options.skipUrl) writeStateToUrl(filters);
+  if (ui) ui.count.textContent = `Showing ${visible} of ${allRoutes.length} routes`;
+  if (!options.skipUrl && ui) writeStateToUrl(filters);
   if (options.fit) fitToVisible(false);
 }
 
