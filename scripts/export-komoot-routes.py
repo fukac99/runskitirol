@@ -85,6 +85,9 @@ def load_overrides() -> dict[str, dict[str, Any]]:
         payload = json.load(file)
 
     routes = payload.get("routes", {})
+    if not isinstance(routes, dict):
+        raise ValueError(f"{OVERRIDES_PATH.relative_to(ROOT)} must contain a routes object")
+
     return {str(route_id): data for route_id, data in routes.items()}
 
 

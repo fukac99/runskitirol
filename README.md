@@ -31,9 +31,12 @@ Generated files:
 
 Manual metadata that is not available from Komoot, such as blog URLs, tags, and regions, belongs in `data/route-overrides.json`.
 
+See `docs/data-contract.md` for the full route data contract, required and optional fields, stable route ID/slug rules, and the override workflow.
+
 ## Project Workflow
 
 - `PLAN.md`: product and implementation plan.
 - `ENGINEERING_LOOP.md`: minimal Linear-centered agent loop for PM triage, execution, and human review.
+- `docs/data-contract.md`: route data contract and override workflow.
 
 See `PLAN.md` for the full implementation plan.
