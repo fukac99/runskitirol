@@ -179,11 +179,6 @@ function readFilters() {
     emin: emin > Number(ui.emin.min) ? emin : null,
     emax: emax < Number(ui.emax.max) ? emax : null,
     region: ui.region.value,
-    minTech: parseNumber(ui.rTech.value),
-    minFitness: parseNumber(ui.rFitness.value),
-    minDanger: parseNumber(ui.rDanger.value),
-    minScenery: parseNumber(ui.rScenery.value),
-    maxBusy: parseNumber(ui.rBusy.value),
   };
 }
 
@@ -199,13 +194,6 @@ function routeMatches(route, f) {
   if (f.emax != null && !(climb <= f.emax)) return false;
 
   if (f.region && route.region !== f.region) return false;
-
-  const r = route.ratings || {};
-  if (f.minTech != null && !(r.technical_difficulty >= f.minTech)) return false;
-  if (f.minFitness != null && !(r.fitness >= f.minFitness)) return false;
-  if (f.minDanger != null && !(r.objective_danger >= f.minDanger)) return false;
-  if (f.minScenery != null && !(r.landscape >= f.minScenery)) return false;
-  if (f.maxBusy != null && !(r.busy <= f.maxBusy)) return false;
 
   return true;
 }
@@ -344,14 +332,6 @@ function buildFilterBar() {
       <select id="f-region" aria-label="Filter by region">
         <option value="">All regions</option>
       </select>
-      <div class="rating-filters" role="group" aria-label="Rating filters (minimum)">
-        <label class="rating-filters__label">Min ratings</label>
-        <select id="f-tech" aria-label="Min technical difficulty"><option value="">Tech</option></select>
-        <select id="f-fitness" aria-label="Min fitness"><option value="">Fitness</option></select>
-        <select id="f-danger" aria-label="Min danger"><option value="">Danger</option></select>
-        <select id="f-scenery" aria-label="Min scenery"><option value="">Scenery</option></select>
-        <select id="f-busy" aria-label="Max busy"><option value="">Busy</option></select>
-      </div>
       <button id="f-reset" type="button">Reset</button>
     </div>
     <span class="results-count" id="results-count" aria-live="polite"></span>
@@ -368,25 +348,9 @@ function buildFilterBar() {
     eminVal: bar.querySelector("#f-emin-val"),
     emaxVal: bar.querySelector("#f-emax-val"),
     region: bar.querySelector("#f-region"),
-    rTech: bar.querySelector("#f-tech"),
-    rFitness: bar.querySelector("#f-fitness"),
-    rDanger: bar.querySelector("#f-danger"),
-    rScenery: bar.querySelector("#f-scenery"),
-    rBusy: bar.querySelector("#f-busy"),
     reset: bar.querySelector("#f-reset"),
     count: bar.querySelector("#results-count"),
   };
-
-  [refs.rTech, refs.rFitness, refs.rDanger, refs.rScenery, refs.rBusy].forEach((sel) => {
-    for (let i = 1; i <= 10; i++) {
-      const opt = document.createElement("option");
-      opt.value = i;
-      opt.textContent = i;
-      sel.appendChild(opt);
-    }
-  });
-
-  return refs;
 }
 
 function syncSliderLabels() {
@@ -420,9 +384,6 @@ function wireFilterEvents() {
     })
   );
   ui.region.addEventListener("change", () => applyFilters());
-  [ui.rTech, ui.rFitness, ui.rDanger, ui.rScenery, ui.rBusy].forEach((sel) =>
-    sel.addEventListener("change", () => applyFilters())
-  );
   ui.reset.addEventListener("click", () => {
     ui.search.value = "";
     ui.dmin.value = ui.dmin.min;
@@ -430,7 +391,6 @@ function wireFilterEvents() {
     ui.emin.value = ui.emin.min;
     ui.emax.value = ui.emax.max;
     ui.region.value = "";
-    [ui.rTech, ui.rFitness, ui.rDanger, ui.rScenery, ui.rBusy].forEach((s) => (s.value = ""));
     syncSliderLabels();
     applyFilters({ fit: true });
   });
@@ -482,11 +442,6 @@ function applyStateFromUrl() {
   if (params.has("emin")) ui.emin.value = params.get("emin");
   if (params.has("emax")) ui.emax.value = params.get("emax");
   if (params.has("region")) ui.region.value = params.get("region");
-  if (params.has("tech")) ui.rTech.value = params.get("tech");
-  if (params.has("fitness")) ui.rFitness.value = params.get("fitness");
-  if (params.has("danger")) ui.rDanger.value = params.get("danger");
-  if (params.has("scenery")) ui.rScenery.value = params.get("scenery");
-  if (params.has("busy")) ui.rBusy.value = params.get("busy");
 
   syncSliderLabels();
   applyFilters({ skipUrl: true });
@@ -510,11 +465,6 @@ function writeStateToUrl(filters) {
   set("emin", filters.emin);
   set("emax", filters.emax);
   set("region", filters.region);
-  set("tech", filters.minTech);
-  set("fitness", filters.minFitness);
-  set("danger", filters.minDanger);
-  set("scenery", filters.minScenery);
-  set("busy", filters.maxBusy);
   const query = params.toString();
   const url = query ? `${window.location.pathname}?${query}` : window.location.pathname;
   window.history.replaceState(null, "", url);
