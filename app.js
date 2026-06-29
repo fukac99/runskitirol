@@ -7,10 +7,10 @@ const COLLECTION = PAGE.collection === "skimo" ? "skimo" : "run";
 
 const COLLECTION_LABELS = { run: "RUN", skimo: "SKIMO" };
 const COLLECTION_STYLES = {
-  run: { color: "#e35f28", weight: 3, opacity: 0.85 },
-  skimo: { color: "#2077b4", weight: 3, opacity: 0.85 },
+  run: { color: "#e35f28", weight: 4, opacity: 0.85 },
+  skimo: { color: "#2077b4", weight: 4, opacity: 0.85 },
 };
-const SELECTED_STYLE = { weight: 6, opacity: 1 };
+const SELECTED_STYLE = { weight: 7, opacity: 1 };
 
 const ROUTES_JSON_URL = `data/routes.${COLLECTION}.json`;
 const ROUTES_GEOJSON_URL = `data/routes.${COLLECTION}.geojson`;
@@ -109,7 +109,9 @@ attachAutoFallback(openTopo);
 
 // --- Route state -----------------------------------------------------------
 
-const canvasRenderer = L.canvas({ padding: 0.5 });
+// tolerance widens the clickable/tappable area around each line beyond its
+// drawn width, so thin routes are still easy to select (especially on touch).
+const canvasRenderer = L.canvas({ padding: 0.5, tolerance: 8 });
 const routesLayer = L.geoJSON(null, {
   renderer: canvasRenderer,
   style: () => COLLECTION_STYLES[COLLECTION],
