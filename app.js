@@ -11,8 +11,8 @@ const SINGLE_ROUTE_SLUG = URL_PARAMS.get("route");
 
 const COLLECTION_LABELS = { run: "RUN", skimo: "SKIMO" };
 const COLLECTION_STYLES = {
-  run: { color: "#e35f28", weight: 4, opacity: 0.85 },
-  skimo: { color: "#2077b4", weight: 4, opacity: 0.85 },
+  run: { color: "#5f9a84", weight: 4, opacity: 0.85 },
+  skimo: { color: "#1e868d", weight: 4, opacity: 0.85 },
 };
 const SELECTED_STYLE = { weight: 7, opacity: 1 };
 
