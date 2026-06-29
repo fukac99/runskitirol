@@ -1,0 +1,14 @@
+---
+description: Project workflow for Linear task tracking and pull requests
+alwaysApply: true
+---
+
+# Project Workflow
+
+- Use Linear as the task tracker for this project: https://linear.app/grocerlo/team/RUN/all
+- Before starting non-trivial implementation work, identify or create the relevant Linear issue in the RUN team when Linear access is available.
+- Keep code changes tied to a Linear issue whenever possible. Mention the issue key in branch names, commit messages, and PR descriptions when known.
+- Make a pull request for every changeset before it is considered complete.
+- Keep each changeset small enough to review comfortably. Split unrelated work into separate branches and PRs.
+- Do not push directly to `main` unless the user explicitly asks for it.
+- If Linear or GitHub access is unavailable, complete the local work that is possible and clearly tell the user what still needs to happen outside the agent.

@@ -1,2 +1,39 @@
-# runskitirol
-Map app for runskitirol.com
+# Run.Ski.Tirol Route Map
+
+Static route explorer for the Run.Ski.Tirol trails page, intended to be hosted for free on GitHub Pages and embedded in Squarespace.
+
+## Upstream Source
+
+Routes are exported from these Komoot collections:
+
+- RUN: https://www.komoot.com/collection/3093627/-run-by-runskitirol-com
+- SKIMO: https://www.komoot.com/collection/3128981/-skimo-by-runskitirol-com
+
+The import uses these discovered JSON endpoint patterns:
+
+```text
+https://api.komoot.de/v007/collections/{collection_id}/compilation/?page=0&limit=100
+https://api.komoot.de/v007/collections/{collection_id}/compilation_lines_extended/?page=0&limit=100
+```
+
+## Data Export
+
+Regenerate the baseline static data files:
+
+```bash
+python3 scripts/export-komoot-routes.py
+```
+
+Generated files:
+
+- `data/routes.json`: route metadata for search, filters, cards, and links.
+- `data/routes.geojson`: route line geometry for the map.
+
+Manual metadata that is not available from Komoot, such as blog URLs, tags, and regions, belongs in `data/route-overrides.json`.
+
+## Project Workflow
+
+- `PLAN.md`: product and implementation plan.
+- `ENGINEERING_LOOP.md`: minimal Linear-centered agent loop for PM triage, execution, and human review.
+
+See `PLAN.md` for the full implementation plan.
