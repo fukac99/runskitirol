@@ -47,7 +47,45 @@ Then open http://localhost:8000/ in a browser.
 
 ## Basemap
 
-The baseline map uses the free hosted OpenTopoMap layer and defaults to Tirol.
+The map defaults to Tirol and offers a layer switcher. The primary basemap is **Mapbox Outdoors**, a topographic style tuned for trails. The other layers are free, no-API-key fallbacks:
+
+- **Mapbox Outdoors** (default, requires a token): topographic style. Shown only when a Mapbox access token is configured.
+- **Outdoor topo**: Esri World Topo Map. Free, reliable, no API key. Used as the automatic fallback if Mapbox tiles fail or no token is set.
+- **OpenTopoMap**: nicer hillshade/contour terrain look, but less reliable. Falls back to Outdoor topo if its tiles fail.
+- **Streets**: standard OpenStreetMap, very reliable.
+
+### Mapbox token
+
+The token is loaded at runtime from `config.js`, which is gitignored so it is never committed to the repository.
+
+1. Create a free token at https://account.mapbox.com/access-tokens/.
+2. In the Mapbox dashboard, restrict the token to your site's domain(s) (URL restrictions) so it cannot be abused — it is served publicly on the static page.
+3. Copy the template and add your token:
+
+```bash
+cp config.example.js config.js
+```
+
+```js
+// config.js
+window.RUNSKITIROL_CONFIG = {
+  mapboxToken: "pk.your_token_here",
+  mapboxStyle: "mapbox/outdoors-v12",
+};
+```
+
+If `config.js` is missing or the token is empty, invalid, or over quota, the map automatically falls back to the free Esri Outdoor topo layer, so it never goes blank.
+
+Mapbox's free tier covers 50,000 web map loads per month; usage and billing are managed in the Mapbox dashboard. Mapbox's terms require keeping the Mapbox and OpenStreetMap attribution visible (already included in the map).
+
+### Deploying to GitHub Pages with a token
+
+Because `config.js` is gitignored, it is not deployed automatically. To serve Mapbox tiles in production, choose one:
+
+- Store the token as a repository secret and generate `config.js` during a GitHub Pages deploy workflow (recommended — keeps the token out of git).
+- Or commit a `config.js` with a domain-restricted public token (simpler, but the token lives in the repo).
+
+Without either, the deployed site still works using the free Esri fallback basemap.
 
 ## Project Workflow
 
