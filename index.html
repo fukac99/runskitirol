@@ -13,60 +13,8 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main class="app-shell">
-      <section class="map-panel" aria-label="Route map">
-        <div id="map"></div>
-      </section>
-
-      <aside class="sidebar" aria-label="Route summary">
-        <header class="sidebar-header">
-          <p class="eyebrow">Run.Ski.Tirol</p>
-          <h1>Route Map</h1>
-          <p class="intro">
-            Static preview of real RUN and SKIMO routes exported from Komoot.
-          </p>
-        </header>
-
-        <section class="status-card" aria-live="polite">
-          <div id="load-status">Loading route data...</div>
-          <dl class="stats-grid" id="route-stats" hidden>
-            <div>
-              <dt>Total</dt>
-              <dd id="total-count">0</dd>
-            </div>
-            <div>
-              <dt>RUN</dt>
-              <dd id="run-count">0</dd>
-            </div>
-            <div>
-              <dt>SKIMO</dt>
-              <dd id="skimo-count">0</dd>
-            </div>
-          </dl>
-        </section>
-
-        <section class="legend" aria-label="Map legend">
-          <h2>Collections</h2>
-          <div class="legend-row">
-            <span class="legend-swatch run"></span>
-            <span>RUN routes</span>
-          </div>
-          <div class="legend-row">
-            <span class="legend-swatch skimo"></span>
-            <span>SKIMO routes</span>
-          </div>
-        </section>
-
-        <section class="selected-route" id="selected-route" aria-live="polite">
-          <h2>Select a Route</h2>
-          <p>Click a line on the map or choose a route below to inspect its metadata.</p>
-        </section>
-
-        <section class="route-list-section" aria-label="Route list">
-          <h2>Routes</h2>
-          <div class="route-list" id="route-list"></div>
-        </section>
-      </aside>
+    <main class="map-shell" aria-label="Tirol map">
+      <div id="map"></div>
     </main>
 
     <script

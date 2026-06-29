@@ -1,6 +1,8 @@
 # Run.Ski.Tirol Route Map
 
-Static route explorer for the Run.Ski.Tirol trails page, intended to be hosted for free on GitHub Pages and embedded in Squarespace.
+Static map app for the Run.Ski.Tirol trails page, intended to be hosted for free on GitHub Pages and embedded in Squarespace.
+
+The current browser app is intentionally a minimal Tirol-centered basemap. Route overlays and custom data are kept out of the UI until the baseline map interaction feels good.
 
 ## Upstream Source
 
@@ -35,7 +37,7 @@ See `docs/data-contract.md` for the full route data contract, required and optio
 
 ## Local Preview
 
-The map is a static GitHub Pages-ready app with no build step. Preview it from the repository root with a local web server so the browser can fetch files from `data/`:
+The map is a static GitHub Pages-ready app with no build step. Preview it from the repository root with a local web server:
 
 ```bash
 python3 -m http.server 8000
@@ -45,7 +47,7 @@ Then open http://localhost:8000/ in a browser.
 
 ## Basemap
 
-The visible route map uses the free hosted `basemap.at` terrain layer for Austria-focused visual inspection. Route overlays, metadata, and links remain controlled by this static app.
+The baseline map uses the free hosted OpenTopoMap layer and defaults to Tirol.
 
 ## Project Workflow
 
