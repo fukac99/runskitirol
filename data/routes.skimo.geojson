@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "exported_at": "2026-06-29T21:35:54.222257+00:00",
+    "exported_at": "2026-06-29T21:39:03.430964+00:00",
     "source": "komoot",
     "route_count": 73
   },
@@ -28217,11 +28217,20 @@
         "distance_km": 28.16,
         "elevation_up_m": 1664.0,
         "komoot_url": "https://www.komoot.com/tour/1912464418",
-        "blog_url": null,
-        "difficulty": null,
-        "ratings": null,
+        "blog_url": "https://www.runskitirol.com/skimo/pitztal-spring-skimo",
+        "difficulty": "very hard",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 9,
+          "landscape": 10,
+          "busy": 4
+        },
         "region": null,
-        "tags": []
+        "tags": [
+          "pitztal",
+          "skimo",
+          "ötztal"
+        ]
       }
     },
     {
@@ -58016,11 +58025,20 @@
         "distance_km": 8.29,
         "elevation_up_m": 954.7,
         "komoot_url": "https://www.komoot.com/tour/2704222976",
-        "blog_url": null,
-        "difficulty": null,
-        "ratings": null,
+        "blog_url": "https://www.runskitirol.com/skimo/hochtennspitze",
+        "difficulty": "hard",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 4,
+          "objective_danger": 5,
+          "landscape": 7,
+          "busy": 7
+        },
         "region": null,
-        "tags": []
+        "tags": [
+          "axamer lizum",
+          "skimo"
+        ]
       }
     },
     {

@@ -1215,6 +1215,21 @@
         "ötztal"
       ]
     },
+    "1912464418": {
+      "blog_url": "https://www.runskitirol.com/skimo/pitztal-spring-skimo",
+      "ratings": {
+        "technical_difficulty": 8,
+        "fitness": 9,
+        "landscape": 10,
+        "busy": 4
+      },
+      "difficulty": "very hard",
+      "tags": [
+        "pitztal",
+        "skimo",
+        "ötztal"
+      ]
+    },
     "1919740787": {
       "blog_url": "https://www.runskitirol.com/trails/schnapskofel",
       "ratings": {
@@ -1972,6 +1987,21 @@
       "tags": [
         "trail running",
         "Stubai"
+      ]
+    },
+    "2704222976": {
+      "blog_url": "https://www.runskitirol.com/skimo/hochtennspitze",
+      "ratings": {
+        "technical_difficulty": 7,
+        "fitness": 4,
+        "objective_danger": 5,
+        "landscape": 7,
+        "busy": 7
+      },
+      "difficulty": "hard",
+      "tags": [
+        "axamer lizum",
+        "skimo"
       ]
     },
     "2711586045": {
