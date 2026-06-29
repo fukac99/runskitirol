@@ -83,7 +83,7 @@ const osmStreets = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 });
 
-openTopo.addTo(map);
+(SINGLE_ROUTE_SLUG ? openTopo : (mapboxOutdoors ?? esriTopo)).addTo(map);
 
 const baseLayers = {};
 if (mapboxOutdoors) baseLayers["Mapbox Outdoors"] = mapboxOutdoors;
@@ -125,13 +125,17 @@ const recordById = new Map();
 let allRoutes = [];
 let activeLayer = null;
 
+const HIDE_FILTERS = EMBED_MODE && SINGLE_ROUTE_SLUG;
+
 if (EMBED_MODE) {
   document.body.classList.add("embed");
+}
+if (HIDE_FILTERS) {
   const topbar = document.getElementById("topbar");
   if (topbar) topbar.style.display = "none";
 }
 
-const ui = EMBED_MODE ? null : buildFilterBar();
+const ui = HIDE_FILTERS ? null : buildFilterBar();
 if (ui) wireFilterEvents();
 
 loadRoutes();
