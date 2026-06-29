@@ -11,4 +11,7 @@ alwaysApply: true
 - Make a pull request for every changeset before it is considered complete.
 - Keep each changeset small enough to review comfortably. Split unrelated work into separate branches and PRs.
 - Do not push directly to `main` unless the user explicitly asks for it.
+- When launching or reacting to recurring agent loops, follow `ENGINEERING_LOOP.md` as the source of truth.
+- Loops should run the PM pass first, then process at most one actionable `Todo` issue by default, and pause when all remaining work is `Blocked`, `Human Review`, or `In Review`.
+- If work needs an explicit human decision, create or move a Linear issue to `Human Review` with the decision needed, options, recommendation, consequences, and next action.
 - If Linear or GitHub access is unavailable, complete the local work that is possible and clearly tell the user what still needs to happen outside the agent.
