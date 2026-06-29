@@ -405,17 +405,18 @@ body.landing {
    All rules are scoped under body.theme-run so only run.html is affected. */
 
 body.theme-run {
+  --rst-sage: #76b39d;
+  --rst-sage-dark: #5f9a84;
+  --rst-sage-light: #97c5b4;
   --rst-teal: #1e868d;
-  --rst-teal-dark: #155e63;
-  --rst-green: #76b39d;
   --rst-on-brand: #ffffff;
   font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
 body.theme-run .topbar {
-  background: var(--rst-teal);
-  border-bottom: 1px solid var(--rst-teal-dark);
-  box-shadow: 0 2px 12px rgba(21, 94, 99, 0.28);
+  background: var(--rst-sage);
+  border-bottom: 1px solid var(--rst-sage-dark);
+  box-shadow: 0 2px 12px rgba(95, 154, 132, 0.28);
   gap: 10px 14px;
 }
 
@@ -448,8 +449,8 @@ body.theme-run .filters input::placeholder {
 body.theme-run .filters input:focus,
 body.theme-run .filters select:focus {
   outline: none;
-  border-color: var(--rst-green);
-  box-shadow: 0 0 0 3px rgba(118, 179, 157, 0.55);
+  border-color: var(--rst-sage-dark);
+  box-shadow: 0 0 0 3px rgba(95, 154, 132, 0.55);
 }
 
 body.theme-run .range label {
@@ -462,14 +463,14 @@ body.theme-run .filters .range span[aria-hidden="true"] {
 }
 
 body.theme-run .filters button {
-  background: var(--rst-green);
-  color: #10342c;
+  background: var(--rst-sage-dark);
+  color: #fff;
   border-color: transparent;
   font-weight: 600;
 }
 
 body.theme-run .filters button:hover {
-  background: #69a890;
+  background: #4e876e;
 }
 
 body.theme-run .results-count {
@@ -703,21 +704,21 @@ body.theme-run .range-slider__track input[type="range"]::-moz-range-track {
 }
 
 body.theme-run .range-slider__track input[type="range"]::-webkit-slider-thumb {
-  background: var(--rst-green, #76b39d);
-  border-color: #fff;
+  background: #fff;
+  border-color: var(--rst-sage-dark);
 }
 
 body.theme-run .range-slider__track input[type="range"]::-moz-range-thumb {
-  background: var(--rst-green, #76b39d);
-  border-color: #fff;
+  background: #fff;
+  border-color: var(--rst-sage-dark);
 }
 
 body.theme-run .range-slider__track input[type="range"]:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 3px rgba(118, 179, 157, 0.55);
+  box-shadow: 0 0 0 3px rgba(95, 154, 132, 0.55);
 }
 
 body.theme-run .range-slider__track input[type="range"]:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 3px rgba(118, 179, 157, 0.55);
+  box-shadow: 0 0 0 3px rgba(95, 154, 132, 0.55);
 }
 
 /* Theme: skimo */
