@@ -34,6 +34,40 @@ OVERRIDES_PATH = DATA_DIR / "route-overrides.json"
 ROUTES_JSON_PATH = DATA_DIR / "routes.json"
 ROUTES_GEOJSON_PATH = DATA_DIR / "routes.geojson"
 
+
+def routes_json_path(collection_key: str) -> Path:
+    return DATA_DIR / f"routes.{collection_key}.json"
+
+
+def routes_geojson_path(collection_key: str) -> Path:
+    return DATA_DIR / f"routes.{collection_key}.geojson"
+
+
+def write_json(path: Path, payload: Any) -> None:
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
+
+
+def routes_payload(exported_at: str, collections: list[dict[str, Any]], records: list[dict[str, Any]]) -> dict[str, Any]:
+    return {
+        "exported_at": exported_at,
+        "source": "komoot",
+        "collections": collections,
+        "route_count": len(records),
+        "routes": records,
+    }
+
+
+def geojson_payload(exported_at: str, features: list[dict[str, Any]]) -> dict[str, Any]:
+    return {
+        "type": "FeatureCollection",
+        "properties": {
+            "exported_at": exported_at,
+            "source": "komoot",
+            "route_count": len(features),
+        },
+        "features": features,
+    }
+
 HEADERS = {
     "Accept": "application/hal+json,application/json",
     "User-Agent": "runskitirol-route-map/0.1 (+https://www.runskitirol.com)",
@@ -200,6 +234,7 @@ def main() -> int:
 
     records: list[dict[str, Any]] = []
     features: list[dict[str, Any]] = []
+    written_paths: list[Path] = []
 
     for collection in COLLECTIONS:
         collection_records, collection_features = export_collection(collection, overrides)
@@ -210,29 +245,17 @@ def main() -> int:
             f"{collection['key']} collection {collection['id']}"
         )
 
-    routes_payload = {
-        "exported_at": exported_at,
-        "source": "komoot",
-        "collections": COLLECTIONS,
-        "route_count": len(records),
-        "routes": records,
-    }
-    geojson_payload = {
-        "type": "FeatureCollection",
-        "properties": {
-            "exported_at": exported_at,
-            "source": "komoot",
-            "route_count": len(features),
-        },
-        "features": features,
-    }
+        # Per-collection files so each map page loads only its own routes.
+        per_json = routes_json_path(collection["key"])
+        per_geojson = routes_geojson_path(collection["key"])
+        write_json(per_json, routes_payload(exported_at, [collection], collection_records))
+        write_json(per_geojson, geojson_payload(exported_at, collection_features))
+        written_paths.extend([per_json, per_geojson])
 
-    ROUTES_JSON_PATH.write_text(
-        json.dumps(routes_payload, ensure_ascii=False, indent=2) + "\n"
-    )
-    ROUTES_GEOJSON_PATH.write_text(
-        json.dumps(geojson_payload, ensure_ascii=False, indent=2) + "\n"
-    )
+    # Combined files, kept for back-compat and validation.
+    write_json(ROUTES_JSON_PATH, routes_payload(exported_at, COLLECTIONS, records))
+    write_json(ROUTES_GEOJSON_PATH, geojson_payload(exported_at, features))
+    written_paths.extend([ROUTES_JSON_PATH, ROUTES_GEOJSON_PATH])
 
     overridden_ids = set(overrides)
     exported_ids = {record["id"] for record in records}
@@ -240,8 +263,8 @@ def main() -> int:
     if stale_overrides:
         print(f"Warning: stale overrides for missing route IDs: {', '.join(stale_overrides)}")
 
-    print(f"Wrote {ROUTES_JSON_PATH.relative_to(ROOT)}")
-    print(f"Wrote {ROUTES_GEOJSON_PATH.relative_to(ROOT)}")
+    for path in written_paths:
+        print(f"Wrote {path.relative_to(ROOT)}")
     print(f"Total routes: {len(records)}")
     return 0
 

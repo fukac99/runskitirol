@@ -45,6 +45,24 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000/ in a browser.
 
+## Pages
+
+The app is split into per-collection map pages so each one only downloads the routes it needs:
+
+- `index.html`: landing page linking to the two maps.
+- `run.html`: RUN (trail running) routes. Loads `data/routes.run.*` only.
+- `skimo.html`: SKIMO (ski mountaineering) routes. Loads `data/routes.skimo.*` only.
+
+Each map page is map-only with a top filter bar:
+
+- Search by route name.
+- Distance range (km) and climb range (m, ascent).
+- Tag filter (populated from route tags once they are added via overrides).
+- A results counter ("Showing N of M routes"). Clearing all filters shows every route in the collection.
+- Click a route on the map to see its details (distance, climb, Komoot link, and blog link when available).
+
+Filter and selection state is shareable via URL parameters: `q`, `dmin`, `dmax`, `emin`, `emax`, `tag`, and `route=<slug>` to focus a single route.
+
 ## Basemap
 
 The map defaults to Tirol and offers a layer switcher. The primary basemap is **Mapbox Outdoors**, a topographic style tuned for trails. The other layers are free, no-API-key fallbacks:
