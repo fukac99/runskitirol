@@ -1,13 +1,172 @@
 {
-  "routes": {},
+  "routes": {
+    "2927296867": {
+      "blog_url": "https://www.runskitirol.com/trails/judenkopf-round",
+      "tags": ["trail running"]
+    },
+    "2998802280": {
+      "blog_url": "https://www.runskitirol.com/trails/alpbach-ridge-round",
+      "tags": ["trail running"]
+    },
+    "3028696793": {
+      "blog_url": "https://www.runskitirol.com/trails/stubai-west",
+      "tags": ["trail running", "Stubai"]
+    },
+    "3020018189": {
+      "blog_url": "https://www.runskitirol.com/trails/unnutz-round",
+      "tags": ["trail running", "Rofan"]
+    },
+    "3001580901": {
+      "blog_url": "https://www.runskitirol.com/trails/wannig-handschuhspitze",
+      "tags": ["trail running"]
+    },
+    "2965888891": {
+      "blog_url": "https://www.runskitirol.com/trails/haidersee-schafber-bruggeralm",
+      "tags": ["trail running"]
+    },
+    "2688640205": {
+      "blog_url": "https://www.runskitirol.com/trails/south-side-rotwand",
+      "tags": ["trail running", "Stubai"]
+    },
+    "2680185402": {
+      "blog_url": "https://www.runskitirol.com/trails/wettersteinrunde",
+      "tags": ["trail running", "Wetterstein"]
+    },
+    "2667722344": {
+      "blog_url": "https://www.runskitirol.com/trails/fallbach-waterfall",
+      "tags": ["trail running"]
+    },
+    "2656062361": {
+      "blog_url": "https://www.runskitirol.com/trails/naviser-almenrunde",
+      "tags": ["trail running", "Wipptal"]
+    },
+    "2647617360": {
+      "blog_url": "https://www.runskitirol.com/trails/start-stubaier-hohenweg",
+      "tags": ["trail running", "Stubai"]
+    },
+    "2631908628": {
+      "blog_url": "https://www.runskitirol.com/trails/gahwinden-round",
+      "tags": ["trail running"]
+    },
+    "2539144978": {
+      "blog_url": "https://www.runskitirol.com/trails/telfs-round",
+      "tags": ["trail running", "Inntal"]
+    },
+    "2596521887": {
+      "blog_url": "https://www.runskitirol.com/trails/schlaitner-berge",
+      "tags": ["trail running"]
+    },
+    "2524030567": {
+      "blog_url": "https://www.runskitirol.com/trails/the-blaser-round",
+      "tags": ["trail running", "Wipptal"]
+    },
+    "2554812057": {
+      "blog_url": "https://www.runskitirol.com/trails/tuxer-sonnespitzen-express",
+      "tags": ["trail running", "Tux Alps"]
+    },
+    "2544729658": {
+      "blog_url": "https://www.runskitirol.com/trails/exploring-arztal",
+      "tags": ["trail running"]
+    },
+    "2398304488": {
+      "blog_url": "https://www.runskitirol.com/trails/leachtaler-hohenweg-day-2",
+      "tags": ["trail running", "Lechtal"]
+    },
+    "2397269622": {
+      "blog_url": "https://www.runskitirol.com/trails/leachtaler-hohenweg-day-1",
+      "tags": ["trail running", "Lechtal"]
+    },
+    "2459672960": {
+      "blog_url": "https://www.runskitirol.com/trails/weissspitze-round",
+      "tags": ["trail running"]
+    },
+    "2963497024": {
+      "blog_url": "https://www.runskitirol.com/skimo/mittlere-schwenzerspitze",
+      "tags": ["medium", "Ötztal"]
+    },
+    "2948555523": {
+      "blog_url": "https://www.runskitirol.com/skimo/linker-fernerkogel",
+      "tags": ["very hard", "Pitztal"]
+    },
+    "2940218167": {
+      "blog_url": "https://www.runskitirol.com/skimo/k2",
+      "tags": ["very hard", "Pitztal"]
+    },
+    "2913780157": {
+      "blog_url": "https://www.runskitirol.com/skimo/essener-spitze",
+      "tags": ["hard", "Ötztal"]
+    },
+    "2898831103": {
+      "blog_url": "https://www.runskitirol.com/skimo/rostizkogel",
+      "tags": ["hard", "Pitztal"]
+    },
+    "2886725783": {
+      "blog_url": "https://www.runskitirol.com/skimo/keilspitze",
+      "tags": ["very hard", "Dolomites"]
+    },
+    "2869962573": {
+      "blog_url": "https://www.runskitirol.com/skimo/glungezer",
+      "tags": ["medium", "Tux Alps"]
+    },
+    "2853406377": {
+      "blog_url": "https://www.runskitirol.com/skimo/padasterkogel",
+      "tags": ["medium", "Wipptal"]
+    },
+    "2830628138": {
+      "blog_url": "https://www.runskitirol.com/skimo/kraspesspitz",
+      "tags": ["hard", "Stubai"]
+    },
+    "2822267155": {
+      "blog_url": "https://www.runskitirol.com/skimo/krovenzreiben",
+      "tags": ["very hard", "Karwendel"]
+    },
+    "2806193280": {
+      "blog_url": "https://www.runskitirol.com/skimo/steinmandlspitze",
+      "tags": ["medium"]
+    },
+    "2795034464": {
+      "blog_url": "https://www.runskitirol.com/skimo/archbrandkopfl",
+      "tags": ["medium", "Inntal"]
+    },
+    "2787298079": {
+      "blog_url": "https://www.runskitirol.com/skimo/tullenkogel",
+      "tags": ["medium"]
+    },
+    "2773088656": {
+      "blog_url": "https://www.runskitirol.com/skimo/ochsenkopf-barenkopf",
+      "tags": ["hard", "Karwendel"]
+    },
+    "2763686695": {
+      "blog_url": "https://www.runskitirol.com/skimo/rosskopf-from-scheibe",
+      "tags": ["easy"]
+    },
+    "2755844632": {
+      "blog_url": "https://www.runskitirol.com/skimo/steinernes-lamm",
+      "tags": ["medium", "Wipptal"]
+    },
+    "2747933167": {
+      "blog_url": "https://www.runskitirol.com/skimo/klammerschober",
+      "tags": ["hard", "Wipptal"]
+    },
+    "2740536971": {
+      "blog_url": "https://www.runskitirol.com/skimo/rappenspitze-luntskopf-from-pertisau",
+      "tags": ["hard", "Karwendel"]
+    },
+    "2734282729": {
+      "blog_url": "https://www.runskitirol.com/skimo/brandenburger-haus-from-vent",
+      "tags": ["hard", "Ötztal"]
+    },
+    "2723870963": {
+      "blog_url": "https://www.runskitirol.com/skimo/vorderer-wilder-turm",
+      "tags": ["hard", "Stubai"]
+    }
+  },
   "_examples": {
     "1234567890": {
       "slug": "example-route",
       "blog_url": "https://www.runskitirol.com/blog/example-route",
       "region": "Example Region",
-      "tags": [
-        "example-tag"
-      ]
+      "tags": ["example-tag"]
     }
   }
 }

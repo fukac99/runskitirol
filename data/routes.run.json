@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-29T17:08:10.361276+00:00",
+  "exported_at": "2026-06-29T21:19:57.680462+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -33,7 +33,11 @@
       "komoot_url": "https://www.komoot.com/tour/1878119644",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "medium",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1885942841",
@@ -57,7 +61,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885942841",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1885947526",
@@ -81,7 +89,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885947526",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1885950629",
@@ -105,7 +117,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885950629",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "extreme",
+        "trail running",
+        "ultra"
+      ]
     },
     {
       "id": "1885953847",
@@ -129,7 +145,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885953847",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1885958052",
@@ -153,7 +173,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885958052",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "extreme",
+        "trail running",
+        "ultra"
+      ]
     },
     {
       "id": "1885961892",
@@ -177,7 +201,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885961892",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1885964386",
@@ -201,7 +229,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885964386",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1885967300",
@@ -225,7 +257,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885967300",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "medium",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1885970945",
@@ -249,7 +285,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885970945",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "medium",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1885973796",
@@ -273,7 +313,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885973796",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1885976286",
@@ -297,7 +341,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885976286",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1885978799",
@@ -321,7 +369,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885978799",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "medium",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1885980888",
@@ -345,7 +397,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885980888",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1885982866",
@@ -369,7 +425,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885982866",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1885984764",
@@ -393,7 +453,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885984764",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "flat",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1885987145",
@@ -417,7 +481,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885987145",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1885989951",
@@ -441,7 +509,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885989951",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1885992440",
@@ -465,7 +537,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885992440",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1885995454",
@@ -489,7 +565,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885995454",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "medium",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1885997422",
@@ -513,7 +593,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885997422",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "medium",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1885999914",
@@ -537,7 +621,11 @@
       "komoot_url": "https://www.komoot.com/tour/1885999914",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1886001829",
@@ -561,7 +649,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886001829",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "flat",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1886003796",
@@ -585,7 +677,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886003796",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1886005907",
@@ -609,7 +705,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886005907",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1886008036",
@@ -633,7 +733,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886008036",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1886010487",
@@ -657,7 +761,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886010487",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1886012344",
@@ -681,7 +789,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886012344",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1886015292",
@@ -705,7 +817,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886015292",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1886017482",
@@ -729,7 +845,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886017482",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1886019684",
@@ -753,7 +873,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886019684",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1886021935",
@@ -777,7 +901,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886021935",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "short",
+        "trail running"
+      ]
     },
     {
       "id": "1886024307",
@@ -801,7 +929,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886024307",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1886026518",
@@ -825,7 +957,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886026518",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1886029122",
@@ -849,7 +985,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886029122",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1886031506",
@@ -873,7 +1013,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886031506",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1886033707",
@@ -897,7 +1041,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886033707",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1886035845",
@@ -921,7 +1069,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886035845",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "short",
+        "trail running"
+      ]
     },
     {
       "id": "1886037946",
@@ -945,7 +1097,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886037946",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "long",
+        "trail running"
+      ]
     },
     {
       "id": "1886040343",
@@ -969,7 +1125,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886040343",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "medium",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1886043082",
@@ -993,7 +1153,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886043082",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1886045060",
@@ -1017,7 +1181,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886045060",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1886047351",
@@ -1041,7 +1209,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886047351",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1886049262",
@@ -1065,7 +1237,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886049262",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "extreme",
+        "long",
+        "trail running"
+      ]
     },
     {
       "id": "1886051627",
@@ -1089,7 +1265,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886051627",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1886053820",
@@ -1113,7 +1293,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886053820",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1886055917",
@@ -1137,7 +1321,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886055917",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1886057795",
@@ -1161,7 +1349,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886057795",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1886059788",
@@ -1185,7 +1377,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886059788",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "flat",
+        "short",
+        "trail running"
+      ]
     },
     {
       "id": "1886061598",
@@ -1209,7 +1405,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886061598",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1886063622",
@@ -1233,7 +1433,11 @@
       "komoot_url": "https://www.komoot.com/tour/1886063622",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "medium",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1887896750",
@@ -1257,7 +1461,11 @@
       "komoot_url": "https://www.komoot.com/tour/1887896750",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1901212314",
@@ -1281,7 +1489,11 @@
       "komoot_url": "https://www.komoot.com/tour/1901212314",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hike",
+        "long",
+        "mountain"
+      ]
     },
     {
       "id": "1908341806",
@@ -1305,7 +1517,11 @@
       "komoot_url": "https://www.komoot.com/tour/1908341806",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "1919740787",
@@ -1329,7 +1545,11 @@
       "komoot_url": "https://www.komoot.com/tour/1919740787",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1932968411",
@@ -1353,7 +1573,11 @@
       "komoot_url": "https://www.komoot.com/tour/1932968411",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "medium",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1945409277",
@@ -1377,7 +1601,11 @@
       "komoot_url": "https://www.komoot.com/tour/1945409277",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1953604945",
@@ -1401,7 +1629,11 @@
       "komoot_url": "https://www.komoot.com/tour/1953604945",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "medium",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "1961279260",
@@ -1425,7 +1657,11 @@
       "komoot_url": "https://www.komoot.com/tour/1961279260",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "medium",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "2273994833",
@@ -1449,7 +1685,11 @@
       "komoot_url": "https://www.komoot.com/tour/2273994833",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "2292281886",
@@ -1473,7 +1713,11 @@
       "komoot_url": "https://www.komoot.com/tour/2292281886",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "2328935595",
@@ -1497,7 +1741,11 @@
       "komoot_url": "https://www.komoot.com/tour/2328935595",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "2348290705",
@@ -1521,7 +1769,11 @@
       "komoot_url": "https://www.komoot.com/tour/2348290705",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "2361467862",
@@ -1545,7 +1797,11 @@
       "komoot_url": "https://www.komoot.com/tour/2361467862",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "extreme",
+        "trail running",
+        "ultra"
+      ]
     },
     {
       "id": "2386986320",
@@ -1569,7 +1825,11 @@
       "komoot_url": "https://www.komoot.com/tour/2386986320",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "medium",
+        "trail running"
+      ]
     },
     {
       "id": "2383051016",
@@ -1593,7 +1853,11 @@
       "komoot_url": "https://www.komoot.com/tour/2383051016",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "2422163656",
@@ -1617,7 +1881,11 @@
       "komoot_url": "https://www.komoot.com/tour/2422163656",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "2446691411",
@@ -1641,7 +1909,11 @@
       "komoot_url": "https://www.komoot.com/tour/2446691411",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "long",
+        "mountain",
+        "trail running"
+      ]
     },
     {
       "id": "2453102089",
@@ -1665,7 +1937,11 @@
       "komoot_url": "https://www.komoot.com/tour/2453102089",
       "blog_url": null,
       "region": null,
-      "tags": []
+      "tags": [
+        "hilly",
+        "short",
+        "trail running"
+      ]
     },
     {
       "id": "2459672960",
@@ -1687,9 +1963,11 @@
       "date": "2025-08-03T07:07:26.000Z",
       "changed_at": "2025-08-11T09:26:45.312Z",
       "komoot_url": "https://www.komoot.com/tour/2459672960",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/weissspitze-round",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running"
+      ]
     },
     {
       "id": "2397269622",
@@ -1711,9 +1989,12 @@
       "date": "2025-07-11T03:59:38.000Z",
       "changed_at": "2025-08-17T16:22:09.678Z",
       "komoot_url": "https://www.komoot.com/tour/2397269622",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/leachtaler-hohenweg-day-1",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running",
+        "Lechtal"
+      ]
     },
     {
       "id": "2398304488",
@@ -1735,9 +2016,12 @@
       "date": "2025-07-12T05:59:48.000Z",
       "changed_at": "2025-08-24T20:02:23.558Z",
       "komoot_url": "https://www.komoot.com/tour/2398304488",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/leachtaler-hohenweg-day-2",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running",
+        "Lechtal"
+      ]
     },
     {
       "id": "2544729658",
@@ -1759,9 +2043,11 @@
       "date": "2025-09-01T14:54:31.155Z",
       "changed_at": "2025-09-01T15:13:12.859Z",
       "komoot_url": "https://www.komoot.com/tour/2544729658",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/exploring-arztal",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running"
+      ]
     },
     {
       "id": "2554812057",
@@ -1783,9 +2069,12 @@
       "date": "2025-09-07T17:30:36.770Z",
       "changed_at": "2025-09-08T17:45:34.558Z",
       "komoot_url": "https://www.komoot.com/tour/2554812057",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/tuxer-sonnespitzen-express",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running",
+        "Tux Alps"
+      ]
     },
     {
       "id": "2524030567",
@@ -1807,9 +2096,12 @@
       "date": "2025-08-24T08:51:16.000Z",
       "changed_at": "2025-09-15T10:55:31.835Z",
       "komoot_url": "https://www.komoot.com/tour/2524030567",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/the-blaser-round",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running",
+        "Wipptal"
+      ]
     },
     {
       "id": "2596521887",
@@ -1831,9 +2123,11 @@
       "date": "2024-10-27T08:35:41.000Z",
       "changed_at": "2025-09-24T08:44:11.795Z",
       "komoot_url": "https://www.komoot.com/tour/2596521887",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/schlaitner-berge",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running"
+      ]
     },
     {
       "id": "2539144978",
@@ -1855,9 +2149,12 @@
       "date": "2025-08-30T10:04:11.000Z",
       "changed_at": "2025-09-29T08:19:05.209Z",
       "komoot_url": "https://www.komoot.com/tour/2539144978",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/telfs-round",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running",
+        "Inntal"
+      ]
     },
     {
       "id": "2631908628",
@@ -1879,9 +2176,11 @@
       "date": "2025-10-13T09:57:11.506Z",
       "changed_at": "2025-10-13T09:57:34.240Z",
       "komoot_url": "https://www.komoot.com/tour/2631908628",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/gahwinden-round",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running"
+      ]
     },
     {
       "id": "2647617360",
@@ -1903,9 +2202,12 @@
       "date": "2025-10-22T07:41:17.714Z",
       "changed_at": "2025-10-22T17:54:34.809Z",
       "komoot_url": "https://www.komoot.com/tour/2647617360",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/start-stubaier-hohenweg",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running",
+        "Stubai"
+      ]
     },
     {
       "id": "2667722344",
@@ -1927,9 +2229,11 @@
       "date": "2025-07-01T15:49:35.000Z",
       "changed_at": "2025-11-04T14:42:16.495Z",
       "komoot_url": "https://www.komoot.com/tour/2667722344",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/fallbach-waterfall",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running"
+      ]
     },
     {
       "id": "2656062361",
@@ -1951,9 +2255,12 @@
       "date": "2025-10-27T14:57:03.581Z",
       "changed_at": "2025-10-27T19:02:27.604Z",
       "komoot_url": "https://www.komoot.com/tour/2656062361",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/naviser-almenrunde",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running",
+        "Wipptal"
+      ]
     },
     {
       "id": "2680185402",
@@ -1975,9 +2282,12 @@
       "date": "2025-11-10T22:42:03.649Z",
       "changed_at": "2025-11-11T12:06:45.078Z",
       "komoot_url": "https://www.komoot.com/tour/2680185402",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/wettersteinrunde",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running",
+        "Wetterstein"
+      ]
     },
     {
       "id": "2688640205",
@@ -1999,9 +2309,12 @@
       "date": "2025-11-14T11:10:49.000Z",
       "changed_at": "2025-11-17T08:56:54.927Z",
       "komoot_url": "https://www.komoot.com/tour/2688640205",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/south-side-rotwand",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running",
+        "Stubai"
+      ]
     },
     {
       "id": "2965888891",
@@ -2023,9 +2336,11 @@
       "date": "2026-05-22T16:36:51.987Z",
       "changed_at": "2026-05-26T08:21:17.402Z",
       "komoot_url": "https://www.komoot.com/tour/2965888891",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/haidersee-schafber-bruggeralm",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running"
+      ]
     },
     {
       "id": "3001580901",
@@ -2047,9 +2362,11 @@
       "date": "2026-05-31T06:43:49.000Z",
       "changed_at": "2026-06-02T10:43:33.258Z",
       "komoot_url": "https://www.komoot.com/tour/3001580901",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/wannig-handschuhspitze",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running"
+      ]
     },
     {
       "id": "3020018189",
@@ -2071,9 +2388,12 @@
       "date": "2026-06-07T06:32:49.000Z",
       "changed_at": "2026-06-08T08:22:53.790Z",
       "komoot_url": "https://www.komoot.com/tour/3020018189",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/unnutz-round",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running",
+        "Rofan"
+      ]
     },
     {
       "id": "3028696793",
@@ -2095,9 +2415,12 @@
       "date": "2026-06-15T08:53:40.064Z",
       "changed_at": "2026-06-15T08:53:52.802Z",
       "komoot_url": "https://www.komoot.com/tour/3028696793",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/stubai-west",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running",
+        "Stubai"
+      ]
     },
     {
       "id": "2998802280",
@@ -2119,9 +2442,11 @@
       "date": "2026-05-30T07:52:27.000Z",
       "changed_at": "2026-06-22T11:04:52.563Z",
       "komoot_url": "https://www.komoot.com/tour/2998802280",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/alpbach-ridge-round",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running"
+      ]
     },
     {
       "id": "2927296867",
@@ -2143,9 +2468,11 @@
       "date": "2026-05-02T08:54:20.000Z",
       "changed_at": "2026-06-29T10:19:28.696Z",
       "komoot_url": "https://www.komoot.com/tour/2927296867",
-      "blog_url": null,
+      "blog_url": "https://www.runskitirol.com/trails/judenkopf-round",
       "region": null,
-      "tags": []
+      "tags": [
+        "trail running"
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "exported_at": "2026-06-29T17:08:10.361276+00:00",
+    "exported_at": "2026-06-29T21:19:57.680462+00:00",
     "source": "komoot",
     "route_count": 73
   },
@@ -998,7 +998,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912333048",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "long",
+          "mountain",
+          "skitour"
+        ]
       }
     },
     {
@@ -2383,7 +2387,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912335201",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "medium",
+          "skitour"
+        ]
       }
     },
     {
@@ -3538,7 +3546,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912336962",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -4248,7 +4260,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912341259",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -5268,7 +5284,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912343251",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -5918,7 +5938,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912413735",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -6863,7 +6887,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912415029",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -8648,7 +8676,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912416289",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "medium",
+          "skitour"
+        ]
       }
     },
     {
@@ -10053,7 +10085,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912417840",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "medium",
+          "mountain",
+          "skitour"
+        ]
       }
     },
     {
@@ -11273,7 +11309,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912424679",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "medium",
+          "skitour"
+        ]
       }
     },
     {
@@ -12808,7 +12848,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912427260",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -13583,7 +13627,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912429388",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -14198,7 +14246,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912430690",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -15398,7 +15450,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912434822",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -16618,7 +16674,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912435919",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "medium",
+          "skitour"
+        ]
       }
     },
     {
@@ -18373,7 +18433,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912437580",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "medium",
+          "skitour"
+        ]
       }
     },
     {
@@ -18963,7 +19027,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912442531",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "mountain",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -19968,7 +20036,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912443723",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "flat",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -20238,7 +20310,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912446061",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "mountain",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -21263,7 +21339,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912447125",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "mountain",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -21923,7 +22003,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912448310",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "medium",
+          "skitour"
+        ]
       }
     },
     {
@@ -23308,7 +23392,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912450118",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "medium",
+          "mountain",
+          "skitour"
+        ]
       }
     },
     {
@@ -24048,7 +24136,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912459151",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "mountain",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -25113,7 +25205,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912460350",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "mountain",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -25838,7 +25934,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912461706",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -26673,7 +26773,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912463684",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "medium",
+          "mountain",
+          "skitour"
+        ]
       }
     },
     {
@@ -27933,7 +28037,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912464418",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "long",
+          "mountain",
+          "skitour"
+        ]
       }
     },
     {
@@ -29273,7 +29381,11 @@
         "komoot_url": "https://www.komoot.com/tour/1978722153",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -30563,7 +30675,11 @@
         "komoot_url": "https://www.komoot.com/tour/1990244932",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "mountaineering",
+          "short"
+        ]
       }
     },
     {
@@ -31483,7 +31599,11 @@
         "komoot_url": "https://www.komoot.com/tour/1999382483",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "medium",
+          "mountain",
+          "skitour"
+        ]
       }
     },
     {
@@ -32583,7 +32703,11 @@
         "komoot_url": "https://www.komoot.com/tour/2008143758",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "medium",
+          "skitour"
+        ]
       }
     },
     {
@@ -34278,7 +34402,11 @@
         "komoot_url": "https://www.komoot.com/tour/2015760139",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -35623,7 +35751,11 @@
         "komoot_url": "https://www.komoot.com/tour/2024021697",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "medium",
+          "skitour"
+        ]
       }
     },
     {
@@ -37528,7 +37660,11 @@
         "komoot_url": "https://www.komoot.com/tour/2031618111",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "medium",
+          "mountain",
+          "skitour"
+        ]
       }
     },
     {
@@ -38263,7 +38399,11 @@
         "komoot_url": "https://www.komoot.com/tour/2040317239",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -39198,7 +39338,11 @@
         "komoot_url": "https://www.komoot.com/tour/2049640232",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -39523,7 +39667,11 @@
         "komoot_url": "https://www.komoot.com/tour/2058591613",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "medium",
+          "skitour"
+        ]
       }
     },
     {
@@ -41198,7 +41346,11 @@
         "komoot_url": "https://www.komoot.com/tour/2062090597",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "medium",
+          "mountain",
+          "skitour"
+        ]
       }
     },
     {
@@ -42248,7 +42400,11 @@
         "komoot_url": "https://www.komoot.com/tour/2068471871",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "medium",
+          "skitour"
+        ]
       }
     },
     {
@@ -43598,7 +43754,11 @@
         "komoot_url": "https://www.komoot.com/tour/2079435311",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -44908,7 +45068,11 @@
         "komoot_url": "https://www.komoot.com/tour/2100413717",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "extreme",
+          "skitour",
+          "ultra"
+        ]
       }
     },
     {
@@ -47193,7 +47357,11 @@
         "komoot_url": "https://www.komoot.com/tour/2104529470",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -47973,7 +48141,11 @@
         "komoot_url": "https://www.komoot.com/tour/2128904942",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -49278,7 +49450,11 @@
         "komoot_url": "https://www.komoot.com/tour/2145208001",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -50703,7 +50879,11 @@
         "komoot_url": "https://www.komoot.com/tour/2178608808",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "medium",
+          "skitour"
+        ]
       }
     },
     {
@@ -51963,7 +52143,11 @@
         "komoot_url": "https://www.komoot.com/tour/2197059741",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "medium",
+          "skitour"
+        ]
       }
     },
     {
@@ -53193,7 +53377,11 @@
         "komoot_url": "https://www.komoot.com/tour/2221216419",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -53803,7 +53991,11 @@
         "komoot_url": "https://www.komoot.com/tour/2237385149",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "medium",
+          "skitour"
+        ]
       }
     },
     {
@@ -55173,7 +55365,11 @@
         "komoot_url": "https://www.komoot.com/tour/2255313241",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "medium",
+          "mountain",
+          "skitour"
+        ]
       }
     },
     {
@@ -56338,7 +56534,11 @@
         "komoot_url": "https://www.komoot.com/tour/1912419696",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -57478,7 +57678,11 @@
         "komoot_url": "https://www.komoot.com/tour/2704222976",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "short",
+          "skitour"
+        ]
       }
     },
     {
@@ -58863,7 +59067,11 @@
         "komoot_url": "https://www.komoot.com/tour/2711586045",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "hilly",
+          "medium",
+          "skitour"
+        ]
       }
     },
     {
@@ -60973,7 +61181,11 @@
         "komoot_url": "https://www.komoot.com/tour/2716878206",
         "blog_url": null,
         "region": null,
-        "tags": []
+        "tags": [
+          "medium",
+          "mountain",
+          "skitour"
+        ]
       }
     },
     {
@@ -61591,9 +61803,12 @@
         "distance_km": 11.91,
         "elevation_up_m": 966.1,
         "komoot_url": "https://www.komoot.com/tour/2723870963",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/vorderer-wilder-turm",
         "region": null,
-        "tags": []
+        "tags": [
+          "hard",
+          "Stubai"
+        ]
       }
     },
     {
@@ -62206,9 +62421,12 @@
         "distance_km": 14.95,
         "elevation_up_m": 1371.8,
         "komoot_url": "https://www.komoot.com/tour/2734282729",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/brandenburger-haus-from-vent",
         "region": null,
-        "tags": []
+        "tags": [
+          "hard",
+          "Ötztal"
+        ]
       }
     },
     {
@@ -63746,9 +63964,12 @@
         "distance_km": 23.6,
         "elevation_up_m": 1482.6,
         "komoot_url": "https://www.komoot.com/tour/2740536971",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/rappenspitze-luntskopf-from-pertisau",
         "region": null,
-        "tags": []
+        "tags": [
+          "hard",
+          "Karwendel"
+        ]
       }
     },
     {
@@ -65011,9 +65232,12 @@
         "distance_km": 16.07,
         "elevation_up_m": 1058.9,
         "komoot_url": "https://www.komoot.com/tour/2747933167",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/klammerschober",
         "region": null,
-        "tags": []
+        "tags": [
+          "hard",
+          "Wipptal"
+        ]
       }
     },
     {
@@ -66061,9 +66285,12 @@
         "distance_km": 10.82,
         "elevation_up_m": 978.0,
         "komoot_url": "https://www.komoot.com/tour/2755844632",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/steinernes-lamm",
         "region": null,
-        "tags": []
+        "tags": [
+          "medium",
+          "Wipptal"
+        ]
       }
     },
     {
@@ -67201,9 +67428,11 @@
         "distance_km": 6.03,
         "elevation_up_m": 847.4,
         "komoot_url": "https://www.komoot.com/tour/2763686695",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/rosskopf-from-scheibe",
         "region": null,
-        "tags": []
+        "tags": [
+          "easy"
+        ]
       }
     },
     {
@@ -69486,9 +69715,12 @@
         "distance_km": 16.88,
         "elevation_up_m": 1661.7,
         "komoot_url": "https://www.komoot.com/tour/2773088656",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/ochsenkopf-barenkopf",
         "region": null,
-        "tags": []
+        "tags": [
+          "hard",
+          "Karwendel"
+        ]
       }
     },
     {
@@ -70706,9 +70938,11 @@
         "distance_km": 16.2,
         "elevation_up_m": 1262.3,
         "komoot_url": "https://www.komoot.com/tour/2787298079",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/tullenkogel",
         "region": null,
-        "tags": []
+        "tags": [
+          "medium"
+        ]
       }
     },
     {
@@ -72116,9 +72350,12 @@
         "distance_km": 8.66,
         "elevation_up_m": 1091.8,
         "komoot_url": "https://www.komoot.com/tour/2795034464",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/archbrandkopfl",
         "region": null,
-        "tags": []
+        "tags": [
+          "medium",
+          "Inntal"
+        ]
       }
     },
     {
@@ -73056,9 +73293,11 @@
         "distance_km": 13.36,
         "elevation_up_m": 1169.7,
         "komoot_url": "https://www.komoot.com/tour/2806193280",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/steinmandlspitze",
         "region": null,
-        "tags": []
+        "tags": [
+          "medium"
+        ]
       }
     },
     {
@@ -75601,9 +75840,12 @@
         "distance_km": 26.83,
         "elevation_up_m": 2664.0,
         "komoot_url": "https://www.komoot.com/tour/2822267155",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/krovenzreiben",
         "region": null,
-        "tags": []
+        "tags": [
+          "very hard",
+          "Karwendel"
+        ]
       }
     },
     {
@@ -76816,9 +77058,12 @@
         "distance_km": 13.92,
         "elevation_up_m": 1112.6,
         "komoot_url": "https://www.komoot.com/tour/2830628138",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/kraspesspitz",
         "region": null,
-        "tags": []
+        "tags": [
+          "hard",
+          "Stubai"
+        ]
       }
     },
     {
@@ -78201,9 +78446,12 @@
         "distance_km": 12.41,
         "elevation_up_m": 1046.2,
         "komoot_url": "https://www.komoot.com/tour/2853406377",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/padasterkogel",
         "region": null,
-        "tags": []
+        "tags": [
+          "medium",
+          "Wipptal"
+        ]
       }
     },
     {
@@ -79526,9 +79774,12 @@
         "distance_km": 10.59,
         "elevation_up_m": 1123.2,
         "komoot_url": "https://www.komoot.com/tour/2869962573",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/glungezer",
         "region": null,
-        "tags": []
+        "tags": [
+          "medium",
+          "Tux Alps"
+        ]
       }
     },
     {
@@ -82416,9 +82667,12 @@
         "distance_km": 20.1,
         "elevation_up_m": 1609.3,
         "komoot_url": "https://www.komoot.com/tour/2886725783",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/keilspitze",
         "region": null,
-        "tags": []
+        "tags": [
+          "very hard",
+          "Dolomites"
+        ]
       }
     },
     {
@@ -83756,9 +84010,12 @@
         "distance_km": 18.0,
         "elevation_up_m": 1629.8,
         "komoot_url": "https://www.komoot.com/tour/2898831103",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/rostizkogel",
         "region": null,
-        "tags": []
+        "tags": [
+          "hard",
+          "Pitztal"
+        ]
       }
     },
     {
@@ -84451,9 +84708,12 @@
         "distance_km": 6.99,
         "elevation_up_m": 1191.0,
         "komoot_url": "https://www.komoot.com/tour/2913780157",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/essener-spitze",
         "region": null,
-        "tags": []
+        "tags": [
+          "hard",
+          "Ötztal"
+        ]
       }
     },
     {
@@ -85371,9 +85631,12 @@
         "distance_km": 16.94,
         "elevation_up_m": 1498.9,
         "komoot_url": "https://www.komoot.com/tour/2940218167",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/k2",
         "region": null,
-        "tags": []
+        "tags": [
+          "very hard",
+          "Pitztal"
+        ]
       }
     },
     {
@@ -86926,9 +87189,12 @@
         "distance_km": 17.91,
         "elevation_up_m": 1490.0,
         "komoot_url": "https://www.komoot.com/tour/2948555523",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/linker-fernerkogel",
         "region": null,
-        "tags": []
+        "tags": [
+          "very hard",
+          "Pitztal"
+        ]
       }
     },
     {
@@ -87146,9 +87412,12 @@
         "distance_km": 4.48,
         "elevation_up_m": 914.0,
         "komoot_url": "https://www.komoot.com/tour/2963497024",
-        "blog_url": null,
+        "blog_url": "https://www.runskitirol.com/skimo/mittlere-schwenzerspitze",
         "region": null,
-        "tags": []
+        "tags": [
+          "medium",
+          "Ötztal"
+        ]
       }
     }
   ]
