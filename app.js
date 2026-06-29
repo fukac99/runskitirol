@@ -150,7 +150,7 @@ async function loadRoutes() {
     routesLayer.addTo(map);
 
     fitToVisible(true);
-    populateTagOptions(allRoutes);
+    populateRegionOptions(allRoutes);
     initSliderRanges(allRoutes);
     applyStateFromUrl();
   } catch (error) {
@@ -178,7 +178,7 @@ function readFilters() {
     dmax: dmax < Number(ui.dmax.max) ? dmax : null,
     emin: emin > Number(ui.emin.min) ? emin : null,
     emax: emax < Number(ui.emax.max) ? emax : null,
-    tag: ui.tag.value,
+    region: ui.region.value,
   };
 }
 
@@ -193,7 +193,7 @@ function routeMatches(route, f) {
   if (f.emin != null && !(climb >= f.emin)) return false;
   if (f.emax != null && !(climb <= f.emax)) return false;
 
-  if (f.tag && !(Array.isArray(route.tags) && route.tags.includes(f.tag))) return false;
+  if (f.region && route.region !== f.region) return false;
 
   return true;
 }
@@ -261,21 +261,45 @@ function renderPopup(route) {
   const blog = route.blog_url
     ? `<a class="route-link" href="${escapeAttr(route.blog_url)}" target="_blank" rel="noopener">Blog post</a>`
     : "";
-  const tags =
-    Array.isArray(route.tags) && route.tags.length
-      ? `<div class="popup-tags">${route.tags.map((t) => `<span class="popup-tag">${escapeHtml(t)}</span>`).join("")}</div>`
-      : "";
+  const region = route.region
+    ? `<span class="popup-region">${escapeHtml(route.region)}</span>`
+    : "";
+  const difficulty = route.difficulty
+    ? `<span class="popup-difficulty">${escapeHtml(route.difficulty)}</span>`
+    : "";
+  const meta = [formatDistance(route), formatClimb(route)].join(" &middot; ");
+  const ratings = renderRatings(route.ratings);
   return `
     <div class="route-popup">
+      <div class="popup-header">${difficulty}${region}</div>
       <h3>${escapeHtml(route.name)}</h3>
-      <p class="popup-meta">${formatDistance(route)} &middot; ${formatClimb(route)}</p>
-      ${tags}
+      <p class="popup-meta">${meta}</p>
+      ${ratings}
       <div class="popup-links">
-        <a class="route-link" href="${escapeAttr(route.komoot_url)}" target="_blank" rel="noopener">Komoot route</a>
+        <a class="route-link" href="${escapeAttr(route.komoot_url)}" target="_blank" rel="noopener">Komoot</a>
         ${blog}
       </div>
     </div>
   `;
+}
+
+function renderRatings(ratings) {
+  if (!ratings) return "";
+  const items = [
+    ["Tech", ratings.technical_difficulty],
+    ["Fitness", ratings.fitness],
+    ["Danger", ratings.objective_danger],
+    ["Scenery", ratings.landscape],
+    ["Busy", ratings.busy],
+  ];
+  const bars = items
+    .filter(([, v]) => v != null)
+    .map(([label, value]) => {
+      const pct = (value / 10) * 100;
+      return `<div class="rating-row"><span class="rating-label">${label}</span><span class="rating-bar"><span class="rating-fill" style="width:${pct}%"></span></span><span class="rating-val">${value}</span></div>`;
+    })
+    .join("");
+  return `<div class="popup-ratings">${bars}</div>`;
 }
 
 // --- Filter bar UI ---------------------------------------------------------
@@ -307,8 +331,8 @@ function buildFilterBar() {
           <input id="f-emax" type="range" min="0" max="3000" value="3000" aria-label="Maximum climb m">
         </span>
       </span>
-      <select id="f-tag" aria-label="Filter by tag">
-        <option value="">All tags</option>
+      <select id="f-region" aria-label="Filter by region">
+        <option value="">All regions</option>
       </select>
       <button id="f-reset" type="button">Reset</button>
     </div>
@@ -325,7 +349,7 @@ function buildFilterBar() {
     dmaxVal: bar.querySelector("#f-dmax-val"),
     eminVal: bar.querySelector("#f-emin-val"),
     emaxVal: bar.querySelector("#f-emax-val"),
-    tag: bar.querySelector("#f-tag"),
+    region: bar.querySelector("#f-region"),
     reset: bar.querySelector("#f-reset"),
     count: bar.querySelector("#results-count"),
   };
@@ -361,14 +385,14 @@ function wireFilterEvents() {
       onInput();
     })
   );
-  ui.tag.addEventListener("change", () => applyFilters());
+  ui.region.addEventListener("change", () => applyFilters());
   ui.reset.addEventListener("click", () => {
     ui.search.value = "";
     ui.dmin.value = ui.dmin.min;
     ui.dmax.value = ui.dmax.max;
     ui.emin.value = ui.emin.min;
     ui.emax.value = ui.emax.max;
-    ui.tag.value = "";
+    ui.region.value = "";
     syncSliderLabels();
     applyFilters({ fit: true });
   });
@@ -398,20 +422,16 @@ function initSliderRanges(routes) {
   syncSliderLabels();
 }
 
-function populateTagOptions(routes) {
-  const tags = new Set();
-  routes.forEach((route) => (route.tags || []).forEach((tag) => tags.add(tag)));
-  const sorted = [...tags].sort((a, b) => a.localeCompare(b));
-  sorted.forEach((tag) => {
+function populateRegionOptions(routes) {
+  const regions = new Set();
+  routes.forEach((route) => { if (route.region) regions.add(route.region); });
+  const sorted = [...regions].sort((a, b) => a.localeCompare(b));
+  sorted.forEach((region) => {
     const option = document.createElement("option");
-    option.value = tag;
-    option.textContent = tag;
-    ui.tag.appendChild(option);
+    option.value = region;
+    option.textContent = region;
+    ui.region.appendChild(option);
   });
-  if (sorted.length === 0) {
-    ui.tag.disabled = true;
-    ui.tag.title = "No tags available yet";
-  }
 }
 
 // --- URL state -------------------------------------------------------------
@@ -423,7 +443,7 @@ function applyStateFromUrl() {
   if (params.has("dmax")) ui.dmax.value = params.get("dmax");
   if (params.has("emin")) ui.emin.value = params.get("emin");
   if (params.has("emax")) ui.emax.value = params.get("emax");
-  if (params.has("tag")) ui.tag.value = params.get("tag");
+  if (params.has("region")) ui.region.value = params.get("region");
 
   syncSliderLabels();
   applyFilters({ skipUrl: true });
@@ -446,7 +466,7 @@ function writeStateToUrl(filters) {
   set("dmax", filters.dmax);
   set("emin", filters.emin);
   set("emax", filters.emax);
-  set("tag", filters.tag);
+  set("region", filters.region);
   const query = params.toString();
   const url = query ? `${window.location.pathname}?${query}` : window.location.pathname;
   window.history.replaceState(null, "", url);
