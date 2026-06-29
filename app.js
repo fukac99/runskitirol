@@ -278,10 +278,6 @@ function buildFilterBar() {
   bar.classList.add("topbar");
   bar.innerHTML = `
     <a class="brand" href="index.html" aria-label="Back to overview">Run.Ski.Tirol</a>
-    <nav class="collection-switch" aria-label="Collection">
-      <a href="run.html" data-collection="run">RUN</a>
-      <a href="skimo.html" data-collection="skimo">SKIMO</a>
-    </nav>
     <div class="filters">
       <input id="f-search" type="search" placeholder="Search by name" aria-label="Search routes by name">
       <span class="range" role="group" aria-label="Distance range (km)">
@@ -303,9 +299,6 @@ function buildFilterBar() {
     </div>
     <span class="results-count" id="results-count" aria-live="polite"></span>
   `;
-
-  const active = bar.querySelector(`.collection-switch a[data-collection="${COLLECTION}"]`);
-  if (active) active.classList.add("is-active");
 
   return {
     search: bar.querySelector("#f-search"),
