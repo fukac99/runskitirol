@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "exported_at": "2026-06-29T17:08:10.361276+00:00",
+    "exported_at": "2026-06-29T21:52:05.477710+00:00",
     "source": "komoot",
     "route_count": 89
   },
@@ -2436,9 +2436,16 @@
         "distance_km": 24.83,
         "elevation_up_m": 2114.8,
         "komoot_url": "https://www.komoot.com/tour/1878119644",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/munde-runde",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 7,
+          "objective_danger": 7,
+          "landscape": 8,
+          "busy": 2
+        },
+        "region": "Inntal"
       }
     },
     {
@@ -4231,9 +4238,16 @@
         "distance_km": 28.81,
         "elevation_up_m": 2028.4,
         "komoot_url": "https://www.komoot.com/tour/1885942841",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/knappensteig",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 7,
+          "objective_danger": 4,
+          "landscape": 7,
+          "busy": 2
+        },
+        "region": "Karwendel"
       }
     },
     {
@@ -6501,9 +6515,16 @@
         "distance_km": 30.97,
         "elevation_up_m": 2279.3,
         "komoot_url": "https://www.komoot.com/tour/1885947526",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/achensee-loop",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 7,
+          "objective_danger": 3,
+          "landscape": 8,
+          "busy": 5
+        },
+        "region": "Achensee"
       }
     },
     {
@@ -9051,9 +9072,15 @@
         "distance_km": 84.55,
         "elevation_up_m": 6627.5,
         "komoot_url": "https://www.komoot.com/tour/1885950629",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/sellrainer-huttenrunde",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 10,
+          "objective_danger": 2,
+          "landscape": 8
+        },
+        "region": "Sellrain"
       }
     },
     {
@@ -11006,9 +11033,16 @@
         "distance_km": 11.14,
         "elevation_up_m": 928.5,
         "komoot_url": "https://www.komoot.com/tour/1885953847",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/brandjochspitze-south-ridge",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 9,
+          "fitness": 6,
+          "objective_danger": 7,
+          "landscape": 8,
+          "busy": 2
+        },
+        "region": "Nordkette"
       }
     },
     {
@@ -12936,9 +12970,16 @@
         "distance_km": 56.08,
         "elevation_up_m": 3830.6,
         "komoot_url": "https://www.komoot.com/tour/1885958052",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/venediger-hohenweg",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 10,
+          "objective_danger": 3,
+          "landscape": 9,
+          "busy": 3
+        },
+        "region": "East Tirol"
       }
     },
     {
@@ -15416,9 +15457,16 @@
         "distance_km": 15.02,
         "elevation_up_m": 1171.5,
         "komoot_url": "https://www.komoot.com/tour/1885961892",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/kalkkogel-through-alpenklubscharte",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 5,
+          "objective_danger": 4,
+          "landscape": 8,
+          "busy": 4
+        },
+        "region": "Kalkkögel"
       }
     },
     {
@@ -16921,9 +16969,16 @@
         "distance_km": 14.91,
         "elevation_up_m": 803.0,
         "komoot_url": "https://www.komoot.com/tour/1885964386",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/thaurer-alm-vintlalm-rumer-alm",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 4,
+          "objective_danger": 1,
+          "landscape": 6,
+          "busy": 7
+        },
+        "region": "Nordkette"
       }
     },
     {
@@ -18716,9 +18771,16 @@
         "distance_km": 14.89,
         "elevation_up_m": 1594.8,
         "komoot_url": "https://www.komoot.com/tour/1885967300",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/lusener-fernerkogel-north-ridge",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 9,
+          "fitness": 7,
+          "objective_danger": 7,
+          "landscape": 10,
+          "busy": 1
+        },
+        "region": "Kalkkögel"
       }
     },
     {
@@ -19391,9 +19453,16 @@
         "distance_km": 15.57,
         "elevation_up_m": 2249.6,
         "komoot_url": "https://www.komoot.com/tour/1885970945",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/nordkette-east",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 7,
+          "objective_danger": 4,
+          "landscape": 8,
+          "busy": 6
+        },
+        "region": "Nordkette"
       }
     },
     {
@@ -20456,9 +20525,16 @@
         "distance_km": 42.09,
         "elevation_up_m": 2897.4,
         "komoot_url": "https://www.komoot.com/tour/1885973796",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/pendling-express",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 9,
+          "objective_danger": 2,
+          "landscape": 7,
+          "busy": 1
+        },
+        "region": "Unterland"
       }
     },
     {
@@ -22836,9 +22912,16 @@
         "distance_km": 18.04,
         "elevation_up_m": 957.2,
         "komoot_url": "https://www.komoot.com/tour/1885976286",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/alms-around-elferspitze",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 4,
+          "objective_danger": 1,
+          "landscape": 6,
+          "busy": 6
+        },
+        "region": "Stubai"
       }
     },
     {
@@ -25516,9 +25599,16 @@
         "distance_km": 24.77,
         "elevation_up_m": 2060.6,
         "komoot_url": "https://www.komoot.com/tour/1885978799",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/the-12-summits-of-lake-achen",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 9,
+          "fitness": 8,
+          "objective_danger": 7,
+          "landscape": 7,
+          "busy": 8
+        },
+        "region": "Achensee"
       }
     },
     {
@@ -28121,9 +28211,16 @@
         "distance_km": 17.62,
         "elevation_up_m": 1492.6,
         "komoot_url": "https://www.komoot.com/tour/1885980888",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/the-seblaskreuz-to-brennerspitze-ridge",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 5,
+          "objective_danger": 5,
+          "landscape": 7,
+          "busy": 1
+        },
+        "region": "Stubai"
       }
     },
     {
@@ -29466,9 +29563,16 @@
         "distance_km": 17.87,
         "elevation_up_m": 984.8,
         "komoot_url": "https://www.komoot.com/tour/1885982866",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/round-around-martinswand",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 4,
+          "objective_danger": 3,
+          "landscape": 4,
+          "busy": 2
+        },
+        "region": "Innsbruck"
       }
     },
     {
@@ -30971,9 +31075,16 @@
         "distance_km": 11.15,
         "elevation_up_m": 230.1,
         "komoot_url": "https://www.komoot.com/tour/1885984764",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/obernberger-see",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 1,
+          "fitness": 1,
+          "objective_danger": 1,
+          "landscape": 6,
+          "busy": 5
+        },
+        "region": "Brenner"
       }
     },
     {
@@ -32266,9 +32377,16 @@
         "distance_km": 12.36,
         "elevation_up_m": 856.6,
         "komoot_url": "https://www.komoot.com/tour/1885987145",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/lanser-sistranser-aldranser-alm",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 1,
+          "fitness": 2,
+          "objective_danger": 1,
+          "landscape": 3,
+          "busy": 2
+        },
+        "region": "Innsbruck"
       }
     },
     {
@@ -34866,9 +34984,16 @@
         "distance_km": 25.8,
         "elevation_up_m": 1823.0,
         "komoot_url": "https://www.komoot.com/tour/1885989951",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/malgruber-to-largoz-ridge",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 5,
+          "objective_danger": 6,
+          "landscape": 6,
+          "busy": 1
+        },
+        "region": "Wattener Lizum"
       }
     },
     {
@@ -37871,9 +37996,16 @@
         "distance_km": 11.52,
         "elevation_up_m": 776.2,
         "komoot_url": "https://www.komoot.com/tour/1885992440",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/grawa-alm-to-blaue-lacke",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 1,
+          "fitness": 2,
+          "objective_danger": 1,
+          "landscape": 7,
+          "busy": 8
+        },
+        "region": "Stubai"
       }
     },
     {
@@ -39101,9 +39233,16 @@
         "distance_km": 23.57,
         "elevation_up_m": 2032.4,
         "komoot_url": "https://www.komoot.com/tour/1885995454",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/ups-express",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 6,
+          "objective_danger": 4,
+          "landscape": 7,
+          "busy": 2
+        },
+        "region": "Fernpass"
       }
     },
     {
@@ -40951,9 +41090,16 @@
         "distance_km": 22.5,
         "elevation_up_m": 1561.0,
         "komoot_url": "https://www.komoot.com/tour/1885997422",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/via-mandani",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 6,
+          "objective_danger": 4,
+          "landscape": 7,
+          "busy": 3
+        },
+        "region": "Sellrain"
       }
     },
     {
@@ -43141,9 +43287,16 @@
         "distance_km": 12.11,
         "elevation_up_m": 923.7,
         "komoot_url": "https://www.komoot.com/tour/1885999914",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/kellerjoch-sunset",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 3,
+          "objective_danger": 2,
+          "landscape": 9,
+          "busy": 4
+        },
+        "region": "Inntal"
       }
     },
     {
@@ -44641,9 +44794,16 @@
         "distance_km": 13.25,
         "elevation_up_m": 340.3,
         "komoot_url": "https://www.komoot.com/tour/1886001829",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/gleirschklamm",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 3,
+          "objective_danger": 2,
+          "landscape": 6,
+          "busy": 7
+        },
+        "region": "Karwendel"
       }
     },
     {
@@ -45931,9 +46091,16 @@
         "distance_km": 27.18,
         "elevation_up_m": 1709.6,
         "komoot_url": "https://www.komoot.com/tour/1886003796",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/jaufenkamm",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 6,
+          "objective_danger": 3,
+          "landscape": 8,
+          "busy": 2
+        },
+        "region": "South Tirol"
       }
     },
     {
@@ -47356,9 +47523,16 @@
         "distance_km": 25.06,
         "elevation_up_m": 1897.8,
         "komoot_url": "https://www.komoot.com/tour/1886005907",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/inntaler-hohenweg-west",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 7,
+          "objective_danger": 2,
+          "landscape": 7,
+          "busy": 7
+        },
+        "region": "Inntal"
       }
     },
     {
@@ -48071,9 +48245,16 @@
         "distance_km": 46.5,
         "elevation_up_m": 2135.4,
         "komoot_url": "https://www.komoot.com/tour/1886008036",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/karwendelmarsch",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 9,
+          "objective_danger": 2,
+          "landscape": 9,
+          "busy": 7
+        },
+        "region": "Karwendel"
       }
     },
     {
@@ -49481,9 +49662,16 @@
         "distance_km": 15.29,
         "elevation_up_m": 1173.1,
         "komoot_url": "https://www.komoot.com/tour/1886010487",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/salfeinssee",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 2,
+          "objective_danger": 1,
+          "landscape": 7,
+          "busy": 7
+        },
+        "region": "Sellrain"
       }
     },
     {
@@ -51446,9 +51634,16 @@
         "distance_km": 12.61,
         "elevation_up_m": 813.1,
         "komoot_url": "https://www.komoot.com/tour/1886012344",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/forcella-del-lago-lagazuoi",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 3,
+          "objective_danger": 2,
+          "landscape": 9,
+          "busy": 3
+        },
+        "region": "South Tirol"
       }
     },
     {
@@ -53476,9 +53671,16 @@
         "distance_km": 32.26,
         "elevation_up_m": 2342.0,
         "komoot_url": "https://www.komoot.com/tour/1886015292",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/bierkette",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 7,
+          "objective_danger": 5,
+          "landscape": 8,
+          "busy": 7
+        },
+        "region": "Nordkette"
       }
     },
     {
@@ -55931,9 +56133,16 @@
         "distance_km": 17.65,
         "elevation_up_m": 1244.8,
         "komoot_url": "https://www.komoot.com/tour/1886017482",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/nurnberger-hutte-sulzenau-hutte",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 5,
+          "objective_danger": 3,
+          "landscape": 7,
+          "busy": 4
+        },
+        "region": "Stubai"
       }
     },
     {
@@ -57401,9 +57610,16 @@
         "distance_km": 19.61,
         "elevation_up_m": 1005.2,
         "komoot_url": "https://www.komoot.com/tour/1886019684",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/vomperloch",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 45,
+          "fitness": 5,
+          "objective_danger": 3,
+          "landscape": 7,
+          "busy": 1
+        },
+        "region": "South Tirol"
       }
     },
     {
@@ -59636,9 +59852,16 @@
         "distance_km": 9.94,
         "elevation_up_m": 1097.0,
         "komoot_url": "https://www.komoot.com/tour/1886021935",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/mountain-round-axamer-lizum",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 6,
+          "objective_danger": 7,
+          "landscape": 9,
+          "busy": 3
+        },
+        "region": "Kalkkögel"
       }
     },
     {
@@ -61576,9 +61799,16 @@
         "distance_km": 33.12,
         "elevation_up_m": 1798.7,
         "komoot_url": "https://www.komoot.com/tour/1886024307",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/gratlspitze-kundl-klamm",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 7,
+          "objective_danger": 2,
+          "landscape": 6,
+          "busy": 5
+        },
+        "region": "Unterland"
       }
     },
     {
@@ -63556,9 +63786,16 @@
         "distance_km": 17.39,
         "elevation_up_m": 1246.0,
         "komoot_url": "https://www.komoot.com/tour/1886026518",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/zirler-schutzensteig",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 5,
+          "objective_danger": 7,
+          "landscape": 7,
+          "busy": 4
+        },
+        "region": "Nordkette"
       }
     },
     {
@@ -64941,9 +65178,16 @@
         "distance_km": 15.6,
         "elevation_up_m": 952.7,
         "komoot_url": "https://www.komoot.com/tour/1886029122",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/alm-travers-mutters-schlick",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 2,
+          "objective_danger": 1,
+          "landscape": 4,
+          "busy": 7
+        },
+        "region": "Kalkkögel"
       }
     },
     {
@@ -67466,9 +67710,16 @@
         "distance_km": 27.02,
         "elevation_up_m": 1691.2,
         "komoot_url": "https://www.komoot.com/tour/1886031506",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/ridge-dente-del-sief",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 6,
+          "objective_danger": 6,
+          "landscape": 7,
+          "busy": 3
+        },
+        "region": "South Tirol"
       }
     },
     {
@@ -69041,9 +69292,16 @@
         "distance_km": 29.58,
         "elevation_up_m": 1586.4,
         "komoot_url": "https://www.komoot.com/tour/1886033707",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/ridge-obernberg-north",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 5,
+          "objective_danger": 3,
+          "landscape": 6,
+          "busy": 2
+        },
+        "region": "Brenner"
       }
     },
     {
@@ -70921,9 +71179,16 @@
         "distance_km": 7.0,
         "elevation_up_m": 590.6,
         "komoot_url": "https://www.komoot.com/tour/1886035845",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/wilder-kaiser-short-loop",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 3,
+          "objective_danger": 8,
+          "landscape": 6,
+          "busy": 6
+        },
+        "region": "Wilder Kaiser"
       }
     },
     {
@@ -71856,9 +72121,16 @@
         "distance_km": 25.09,
         "elevation_up_m": 837.4,
         "komoot_url": "https://www.komoot.com/tour/1886037946",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/sass-dlacia-to-cortina",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 7,
+          "objective_danger": 1,
+          "landscape": 8,
+          "busy": 6
+        },
+        "region": "South Tirol"
       }
     },
     {
@@ -73246,9 +73518,16 @@
         "distance_km": 21.08,
         "elevation_up_m": 1645.2,
         "komoot_url": "https://www.komoot.com/tour/1886040343",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/stanser-joch-loop",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 7,
+          "objective_danger": 2,
+          "landscape": 6,
+          "busy": 2
+        },
+        "region": "Karwendel"
       }
     },
     {
@@ -74891,9 +75170,16 @@
         "distance_km": 16.75,
         "elevation_up_m": 826.6,
         "komoot_url": "https://www.komoot.com/tour/1886043082",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/mittagskopf-and-zunlkopf-loop-from-scharnitz",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 3,
+          "objective_danger": 4,
+          "landscape": 6,
+          "busy": 3
+        },
+        "region": "Karwendel"
       }
     },
     {
@@ -76856,9 +77142,16 @@
         "distance_km": 14.48,
         "elevation_up_m": 1114.9,
         "komoot_url": "https://www.komoot.com/tour/1886045060",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/montscheinspitze",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 4,
+          "objective_danger": 7,
+          "landscape": 7,
+          "busy": 2
+        },
+        "region": "Karwendel"
       }
     },
     {
@@ -78601,9 +78894,16 @@
         "distance_km": 22.29,
         "elevation_up_m": 1477.6,
         "komoot_url": "https://www.komoot.com/tour/1886047351",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/loop-otztal-piccard-brucke",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 7,
+          "objective_danger": 5,
+          "landscape": 7,
+          "busy": 3
+        },
+        "region": "Ötztal"
       }
     },
     {
@@ -80876,9 +81176,16 @@
         "distance_km": 43.73,
         "elevation_up_m": 3543.4,
         "komoot_url": "https://www.komoot.com/tour/1886049262",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/berliner-hohenweg-1-2",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 9,
+          "objective_danger": 8,
+          "landscape": 10,
+          "busy": 3
+        },
+        "region": "Zillertal"
       }
     },
     {
@@ -83021,9 +83328,16 @@
         "distance_km": 42.95,
         "elevation_up_m": 2751.8,
         "komoot_url": "https://www.komoot.com/tour/1886051627",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/berliner-hohenweg-2-2",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 9,
+          "objective_danger": 7,
+          "landscape": 10,
+          "busy": 3
+        },
+        "region": "Zillertal"
       }
     },
     {
@@ -85596,9 +85910,16 @@
         "distance_km": 14.93,
         "elevation_up_m": 1359.1,
         "komoot_url": "https://www.komoot.com/tour/1886053820",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/ehrwalder-sonnenspitze",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 10,
+          "fitness": 6,
+          "objective_danger": 9,
+          "landscape": 9,
+          "busy": 2
+        },
+        "region": "Ehrwald"
       }
     },
     {
@@ -87161,9 +87482,16 @@
         "distance_km": 41.83,
         "elevation_up_m": 2730.3,
         "komoot_url": "https://www.komoot.com/tour/1886055917",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/stubaier-hohenweg-second-half",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 9,
+          "objective_danger": 6,
+          "landscape": 8,
+          "busy": 6
+        },
+        "region": "Stubai"
       }
     },
     {
@@ -88736,9 +89064,16 @@
         "distance_km": 14.27,
         "elevation_up_m": 685.6,
         "komoot_url": "https://www.komoot.com/tour/1886057795",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/round-alta-badia",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 2,
+          "objective_danger": 1,
+          "landscape": 4,
+          "busy": 6
+        },
+        "region": "South Tirol"
       }
     },
     {
@@ -89731,9 +90066,16 @@
         "distance_km": 7.51,
         "elevation_up_m": 76.5,
         "komoot_url": "https://www.komoot.com/tour/1886059788",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/easy-round-haiming",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 1,
+          "fitness": 1,
+          "objective_danger": 0,
+          "landscape": 3,
+          "busy": 5
+        },
+        "region": "Inntal"
       }
     },
     {
@@ -91391,9 +91733,16 @@
         "distance_km": 14.5,
         "elevation_up_m": 1207.0,
         "komoot_url": "https://www.komoot.com/tour/1886061598",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/schoebergspitze-jochgrubenkopf",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 4,
+          "objective_danger": 2,
+          "landscape": 9,
+          "busy": 2
+        },
+        "region": "Brenner"
       }
     },
     {
@@ -93826,9 +94175,16 @@
         "distance_km": 24.83,
         "elevation_up_m": 2093.8,
         "komoot_url": "https://www.komoot.com/tour/1886063622",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/munde-runde",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 7,
+          "objective_danger": 7,
+          "landscape": 8,
+          "busy": 2
+        },
+        "region": "Inntal"
       }
     },
     {
@@ -95246,9 +95602,16 @@
         "distance_km": 14.09,
         "elevation_up_m": 1158.0,
         "komoot_url": "https://www.komoot.com/tour/1887896750",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/naunspitze-sw-ridge",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 4,
+          "objective_danger": 4,
+          "landscape": 7,
+          "busy": 5
+        },
+        "region": "Wilder Kaiser"
       }
     },
     {
@@ -97426,9 +97789,16 @@
         "distance_km": 29.87,
         "elevation_up_m": 1961.2,
         "komoot_url": "https://www.komoot.com/tour/1901212314",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/baerenkopf-ebner-joch",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 7,
+          "objective_danger": 5,
+          "landscape": 8,
+          "busy": 6
+        },
+        "region": "Achensee"
       }
     },
     {
@@ -100576,9 +100946,16 @@
         "distance_km": 13.65,
         "elevation_up_m": 1397.0,
         "komoot_url": "https://www.komoot.com/tour/1908341806",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/guffer-west-ridge",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 10,
+          "fitness": 4,
+          "objective_danger": 9,
+          "landscape": 7,
+          "busy": 1
+        },
+        "region": "Achensee"
       }
     },
     {
@@ -102311,9 +102688,16 @@
         "distance_km": 34.77,
         "elevation_up_m": 2263.5,
         "komoot_url": "https://www.komoot.com/tour/1919740787",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/schnapskofel",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 6,
+          "objective_danger": 1,
+          "landscape": 4,
+          "busy": 7
+        },
+        "region": "Inntal"
       }
     },
     {
@@ -105836,9 +106220,16 @@
         "distance_km": 20.97,
         "elevation_up_m": 2461.5,
         "komoot_url": "https://www.komoot.com/tour/1932968411",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/elmauer-halt-and-elmauer-tor",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 10,
+          "fitness": 8,
+          "objective_danger": 9,
+          "landscape": 10,
+          "busy": 3
+        },
+        "region": "Wilder Kaiser"
       }
     },
     {
@@ -107796,9 +108187,16 @@
         "distance_km": 26.35,
         "elevation_up_m": 1878.6,
         "komoot_url": "https://www.komoot.com/tour/1945409277",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/the-arnspitze-traverse",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 9,
+          "fitness": 8,
+          "objective_danger": 9,
+          "landscape": 9,
+          "busy": 4
+        },
+        "region": "Karwendel"
       }
     },
     {
@@ -109886,9 +110284,16 @@
         "distance_km": 16.97,
         "elevation_up_m": 1885.5,
         "komoot_url": "https://www.komoot.com/tour/1953604945",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/hohe-fuerleg-crossing",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 7,
+          "objective_danger": 9,
+          "landscape": 8,
+          "busy": 2
+        },
+        "region": "Karwendel"
       }
     },
     {
@@ -111996,9 +112401,16 @@
         "distance_km": 21.36,
         "elevation_up_m": 1732.1,
         "komoot_url": "https://www.komoot.com/tour/1961279260",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/serleskamm",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 7,
+          "objective_danger": 8,
+          "landscape": 8,
+          "busy": 3
+        },
+        "region": "Stubai"
       }
     },
     {
@@ -114171,9 +114583,16 @@
         "distance_km": 33.51,
         "elevation_up_m": 1881.7,
         "komoot_url": "https://www.komoot.com/tour/2273994833",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/low-achensee-loop",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 8,
+          "objective_danger": 2,
+          "landscape": 8,
+          "busy": 4
+        },
+        "region": "Achensee"
       }
     },
     {
@@ -115866,9 +116285,16 @@
         "distance_km": 11.13,
         "elevation_up_m": 554.6,
         "komoot_url": "https://www.komoot.com/tour/2292281886",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/toblacher-kreuz-from-lake-antorno",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 3,
+          "objective_danger": 3,
+          "landscape": 9,
+          "busy": 6
+        },
+        "region": "South Tirol"
       }
     },
     {
@@ -118211,9 +118637,16 @@
         "distance_km": 18.54,
         "elevation_up_m": 1341.2,
         "komoot_url": "https://www.komoot.com/tour/2328935595",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/gamsroas",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 5,
+          "objective_danger": 4,
+          "landscape": 8,
+          "busy": 5
+        },
+        "region": "Kitzbühel"
       }
     },
     {
@@ -120151,9 +120584,16 @@
         "distance_km": 33.06,
         "elevation_up_m": 2844.0,
         "komoot_url": "https://www.komoot.com/tour/2348290705",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/east-karwendel-lamsenspitze",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 8,
+          "objective_danger": 8,
+          "landscape": 8,
+          "busy": 4
+        },
+        "region": "Karwendel"
       }
     },
     {
@@ -122166,9 +122606,16 @@
         "distance_km": 51.84,
         "elevation_up_m": 3060.0,
         "komoot_url": "https://www.komoot.com/tour/2361467862",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/geier-lizumer-reckner-from-wattens",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 9,
+          "objective_danger": 2,
+          "landscape": 6,
+          "busy": 3
+        },
+        "region": "Wattener Lizum"
       }
     },
     {
@@ -123621,9 +124068,16 @@
         "distance_km": 21.94,
         "elevation_up_m": 1322.1,
         "komoot_url": "https://www.komoot.com/tour/2386986320",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/traverse-over-gilfert",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 4,
+          "objective_danger": 3,
+          "landscape": 8,
+          "busy": 5
+        },
+        "region": "Inntal"
       }
     },
     {
@@ -124921,9 +125375,16 @@
         "distance_km": 43.3,
         "elevation_up_m": 1607.0,
         "komoot_url": "https://www.komoot.com/tour/2383051016",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/long-valleys-karwendel",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 9,
+          "objective_danger": 2,
+          "landscape": 7,
+          "busy": 8
+        },
+        "region": "Karwendel"
       }
     },
     {
@@ -127611,9 +128072,16 @@
         "distance_km": 34.52,
         "elevation_up_m": 2424.0,
         "komoot_url": "https://www.komoot.com/tour/2422163656",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/freiungen-hohenweg",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 8,
+          "objective_danger": 8,
+          "landscape": 9,
+          "busy": 5
+        },
+        "region": "Karwendel"
       }
     },
     {
@@ -130021,9 +130489,16 @@
         "distance_km": 40.89,
         "elevation_up_m": 2278.5,
         "komoot_url": "https://www.komoot.com/tour/2446691411",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/debanttalrunde",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 8,
+          "objective_danger": 3,
+          "landscape": 8,
+          "busy": 4
+        },
+        "region": "East Tirol"
       }
     },
     {
@@ -131761,9 +132236,16 @@
         "distance_km": 9.21,
         "elevation_up_m": 959.0,
         "komoot_url": "https://www.komoot.com/tour/2453102089",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/short-halltal-round",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 2,
+          "objective_danger": 2,
+          "landscape": 6,
+          "busy": 6
+        },
+        "region": "Inntal"
       }
     },
     {
@@ -134196,9 +134678,16 @@
         "distance_km": 27.83,
         "elevation_up_m": 2547.0,
         "komoot_url": "https://www.komoot.com/tour/2459672960",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/weissspitze-round",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 7,
+          "objective_danger": 7,
+          "landscape": 7,
+          "busy": 3
+        },
+        "region": "East Tirol"
       }
     },
     {
@@ -135096,9 +135585,16 @@
         "distance_km": 49.07,
         "elevation_up_m": 3889.0,
         "komoot_url": "https://www.komoot.com/tour/2397269622",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/leachtaler-hohenweg-day-1",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 10,
+          "objective_danger": 7,
+          "landscape": 9,
+          "busy": 4
+        },
+        "region": "Lechtal"
       }
     },
     {
@@ -137411,9 +137907,16 @@
         "distance_km": 28.82,
         "elevation_up_m": 2355.0,
         "komoot_url": "https://www.komoot.com/tour/2398304488",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/leachtaler-hohenweg-day-2",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 8,
+          "objective_danger": 7,
+          "landscape": 9,
+          "busy": 5
+        },
+        "region": "Lechtal"
       }
     },
     {
@@ -138641,9 +139144,16 @@
         "distance_km": 19.98,
         "elevation_up_m": 1581.8,
         "komoot_url": "https://www.komoot.com/tour/2544729658",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/exploring-arztal",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 6,
+          "objective_danger": 3,
+          "landscape": 8,
+          "busy": 2
+        },
+        "region": "Brenner"
       }
     },
     {
@@ -140306,9 +140816,16 @@
         "distance_km": 35.05,
         "elevation_up_m": 2347.0,
         "komoot_url": "https://www.komoot.com/tour/2554812057",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/tuxer-sonnespitzen-express",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 9,
+          "objective_danger": 6,
+          "landscape": 9,
+          "busy": 2
+        },
+        "region": "Tux Alps"
       }
     },
     {
@@ -142026,9 +142543,16 @@
         "distance_km": 9.71,
         "elevation_up_m": 859.0,
         "komoot_url": "https://www.komoot.com/tour/2524030567",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/the-blaser-round",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 3,
+          "objective_danger": 3,
+          "landscape": 6,
+          "busy": 8
+        },
+        "region": "Wipptal"
       }
     },
     {
@@ -143451,9 +143975,16 @@
         "distance_km": 27.46,
         "elevation_up_m": 1383.1,
         "komoot_url": "https://www.komoot.com/tour/2596521887",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/schlaitner-berge",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 7,
+          "objective_danger": 3,
+          "landscape": 8,
+          "busy": 2
+        },
+        "region": "East Tirol"
       }
     },
     {
@@ -145126,9 +145657,16 @@
         "distance_km": 29.61,
         "elevation_up_m": 1402.0,
         "komoot_url": "https://www.komoot.com/tour/2539144978",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/telfs-round",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 1,
+          "fitness": 7,
+          "objective_danger": 1,
+          "landscape": 3,
+          "busy": 2
+        },
+        "region": "Inntal"
       }
     },
     {
@@ -147451,9 +147989,16 @@
         "distance_km": 14.44,
         "elevation_up_m": 1274.2,
         "komoot_url": "https://www.komoot.com/tour/2631908628",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/gahwinden-round",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 6,
+          "objective_danger": 5,
+          "landscape": 9,
+          "busy": 4
+        },
+        "region": "Pitztal"
       }
     },
     {
@@ -148931,9 +149476,16 @@
         "distance_km": 28.63,
         "elevation_up_m": 1828.1,
         "komoot_url": "https://www.komoot.com/tour/2647617360",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/start-stubaier-hohenweg",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 6,
+          "fitness": 7,
+          "objective_danger": 3,
+          "landscape": 8,
+          "busy": 5
+        },
+        "region": "Stubai"
       }
     },
     {
@@ -150386,9 +150938,16 @@
         "distance_km": 12.51,
         "elevation_up_m": 297.7,
         "komoot_url": "https://www.komoot.com/tour/2667722344",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/fallbach-waterfall",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 2,
+          "objective_danger": 2,
+          "landscape": 5,
+          "busy": 3
+        },
+        "region": "Inntal"
       }
     },
     {
@@ -152046,9 +152605,16 @@
         "distance_km": 23.17,
         "elevation_up_m": 1155.4,
         "komoot_url": "https://www.komoot.com/tour/2656062361",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/naviser-almenrunde",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 5,
+          "objective_danger": 2,
+          "landscape": 7,
+          "busy": 5
+        },
+        "region": "Wipptal"
       }
     },
     {
@@ -153561,9 +154127,16 @@
         "distance_km": 30.58,
         "elevation_up_m": 1306.3,
         "komoot_url": "https://www.komoot.com/tour/2680185402",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/wettersteinrunde",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 6,
+          "objective_danger": 2,
+          "landscape": 7,
+          "busy": 6
+        },
+        "region": "Wetterstein"
       }
     },
     {
@@ -155726,9 +156299,16 @@
         "distance_km": 10.83,
         "elevation_up_m": 572.6,
         "komoot_url": "https://www.komoot.com/tour/2688640205",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/south-side-rotwand",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 3,
+          "fitness": 3,
+          "objective_danger": 2,
+          "landscape": 10,
+          "busy": 8
+        },
+        "region": "Stubai"
       }
     },
     {
@@ -157636,9 +158216,16 @@
         "distance_km": 20.88,
         "elevation_up_m": 982.5,
         "komoot_url": "https://www.komoot.com/tour/2965888891",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/haidersee-schafber-bruggeralm",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 2,
+          "fitness": 6,
+          "objective_danger": 1,
+          "landscape": 7,
+          "busy": 6
+        },
+        "region": "South Tirol"
       }
     },
     {
@@ -159621,9 +160208,16 @@
         "distance_km": 18.83,
         "elevation_up_m": 1664.0,
         "komoot_url": "https://www.komoot.com/tour/3001580901",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/wannig-handschuhspitze",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 7,
+          "objective_danger": 7,
+          "landscape": 6,
+          "busy": 3
+        },
+        "region": "Inntal"
       }
     },
     {
@@ -161581,9 +162175,16 @@
         "distance_km": 23.66,
         "elevation_up_m": 1644.0,
         "komoot_url": "https://www.komoot.com/tour/3020018189",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/unnutz-round",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 4,
+          "fitness": 6,
+          "objective_danger": 7,
+          "landscape": 7,
+          "busy": 1
+        },
+        "region": "Rofan"
       }
     },
     {
@@ -163216,9 +163817,16 @@
         "distance_km": 40.4,
         "elevation_up_m": 2560.4,
         "komoot_url": "https://www.komoot.com/tour/3028696793",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/stubai-west",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 8,
+          "fitness": 9,
+          "objective_danger": 9,
+          "landscape": 10,
+          "busy": 1
+        },
+        "region": "Stubai"
       }
     },
     {
@@ -165676,9 +166284,16 @@
         "distance_km": 23.67,
         "elevation_up_m": 2241.0,
         "komoot_url": "https://www.komoot.com/tour/2998802280",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/alpbach-ridge-round",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 7,
+          "fitness": 7,
+          "objective_danger": 7,
+          "landscape": 6,
+          "busy": 2
+        },
+        "region": "Unterland"
       }
     },
     {
@@ -167531,9 +168146,16 @@
         "distance_km": 21.19,
         "elevation_up_m": 1539.0,
         "komoot_url": "https://www.komoot.com/tour/2927296867",
-        "blog_url": null,
-        "region": null,
-        "tags": []
+        "blog_url": "https://www.runskitirol.com/trails/judenkopf-round",
+        "difficulty": "trail running",
+        "ratings": {
+          "technical_difficulty": 5,
+          "fitness": 5,
+          "objective_danger": 3,
+          "landscape": 7,
+          "busy": 5
+        },
+        "region": "Inntal"
       }
     }
   ]
