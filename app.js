@@ -351,6 +351,8 @@ function buildFilterBar() {
     reset: bar.querySelector("#f-reset"),
     count: bar.querySelector("#results-count"),
   };
+
+  return refs;
 }
 
 function syncSliderLabels() {
