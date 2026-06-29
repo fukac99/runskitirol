@@ -105,6 +105,29 @@ Because `config.js` is gitignored, it is not deployed automatically. To serve Ma
 
 Without either, the deployed site still works using the free Esri fallback basemap.
 
+### Embedding
+
+The map supports single-route and reduced-chrome modes for embedding in Squarespace or other sites.
+
+**Show all routes (full map):**
+
+```html
+<iframe src="https://fukac99.github.io/runskitirol/run.html?embed=1" width="100%" height="500" frameborder="0"></iframe>
+```
+
+**Show a single route:**
+
+```html
+<iframe src="https://fukac99.github.io/runskitirol/run.html?route=judenkopf-round&embed=1" width="100%" height="400" frameborder="0"></iframe>
+```
+
+Parameters:
+
+- `embed=1` — hides the filter bar for a clean iframe experience.
+- `route=<slug>` — focuses on a single route, hiding all others and fitting the map to its bounds. The slug matches the route's `slug` field in the data.
+
+Both parameters work on `run.html` and `skimo.html`.
+
 ## Project Workflow
 
 - `PLAN.md`: product and implementation plan.
