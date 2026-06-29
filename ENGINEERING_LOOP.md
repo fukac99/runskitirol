@@ -35,6 +35,7 @@ The PM pass runs first on every loop tick.
 Responsibilities:
 
 - Inspect recently completed Linear issues.
+- Inspect In Review issues and complete them if PRs are merged.
 - Inspect open issues, known blockers, and current repo state.
 - Scope follow-up work when completed tasks reveal a next step.
 - Create new Linear issues in `Backlog` for future work.
