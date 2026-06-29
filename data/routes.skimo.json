@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-29T21:52:05.477710+00:00",
+  "exported_at": "2026-06-29T22:26:51.094127+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -164,7 +164,7 @@
         "landscape": 6,
         "busy": 3
       },
-      "region": "Tux Alps"
+      "region": "Wattental"
     },
     {
       "id": "1912413735",
@@ -567,7 +567,7 @@
         "landscape": 7,
         "busy": 9
       },
-      "region": "Rofan"
+      "region": "Achensee"
     },
     {
       "id": "1912446061",
@@ -1620,7 +1620,7 @@
         "landscape": 6,
         "busy": 5
       },
-      "region": "Tux Alps"
+      "region": "Wattental"
     },
     {
       "id": "2716878206",
@@ -1775,7 +1775,7 @@
         "landscape": 5,
         "busy": 4
       },
-      "region": "Brenner"
+      "region": "Wipptal"
     },
     {
       "id": "2755844632",
@@ -1806,7 +1806,7 @@
         "landscape": 7,
         "busy": 5
       },
-      "region": "Brenner"
+      "region": "Wipptal"
     },
     {
       "id": "2763686695",
@@ -2023,7 +2023,7 @@
         "landscape": 9,
         "busy": 4
       },
-      "region": "Kühtai"
+      "region": "Stubai"
     },
     {
       "id": "2853406377",
@@ -2054,7 +2054,7 @@
         "landscape": 7,
         "busy": 4
       },
-      "region": "Brenner"
+      "region": "Wipptal"
     },
     {
       "id": "2869962573",
@@ -2116,7 +2116,7 @@
         "landscape": 9,
         "busy": 3
       },
-      "region": "East Tirol"
+      "region": "Dolomites"
     },
     {
       "id": "2898831103",

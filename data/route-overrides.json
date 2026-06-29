@@ -9,7 +9,6 @@
         "landscape": 8,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Inntal"
     },
     "1885942841": {
@@ -21,7 +20,6 @@
         "landscape": 7,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Karwendel"
     },
     "1885947526": {
@@ -33,7 +31,6 @@
         "landscape": 8,
         "busy": 5
       },
-      "difficulty": "trail running",
       "region": "Achensee"
     },
     "1885950629": {
@@ -44,7 +41,6 @@
         "objective_danger": 2,
         "landscape": 8
       },
-      "difficulty": "trail running",
       "region": "Sellrain"
     },
     "1885953847": {
@@ -56,7 +52,6 @@
         "landscape": 8,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Nordkette"
     },
     "1885958052": {
@@ -68,7 +63,6 @@
         "landscape": 9,
         "busy": 3
       },
-      "difficulty": "trail running",
       "region": "East Tirol"
     },
     "1885961892": {
@@ -80,7 +74,6 @@
         "landscape": 8,
         "busy": 4
       },
-      "difficulty": "trail running",
       "region": "Kalkkögel"
     },
     "1885964386": {
@@ -92,7 +85,6 @@
         "landscape": 6,
         "busy": 7
       },
-      "difficulty": "trail running",
       "region": "Nordkette"
     },
     "1885967300": {
@@ -104,7 +96,6 @@
         "landscape": 10,
         "busy": 1
       },
-      "difficulty": "trail running",
       "region": "Kalkkögel"
     },
     "1885970945": {
@@ -116,7 +107,6 @@
         "landscape": 8,
         "busy": 6
       },
-      "difficulty": "trail running",
       "region": "Nordkette"
     },
     "1885973796": {
@@ -128,7 +118,6 @@
         "landscape": 7,
         "busy": 1
       },
-      "difficulty": "trail running",
       "region": "Unterland"
     },
     "1885976286": {
@@ -140,7 +129,6 @@
         "landscape": 6,
         "busy": 6
       },
-      "difficulty": "trail running",
       "region": "Stubai"
     },
     "1885978799": {
@@ -152,7 +140,6 @@
         "landscape": 7,
         "busy": 8
       },
-      "difficulty": "trail running",
       "region": "Achensee"
     },
     "1885980888": {
@@ -164,7 +151,6 @@
         "landscape": 7,
         "busy": 1
       },
-      "difficulty": "trail running",
       "region": "Stubai"
     },
     "1885982866": {
@@ -176,7 +162,6 @@
         "landscape": 4,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Innsbruck"
     },
     "1885984764": {
@@ -188,7 +173,6 @@
         "landscape": 6,
         "busy": 5
       },
-      "difficulty": "trail running",
       "region": "Brenner"
     },
     "1885987145": {
@@ -200,7 +184,6 @@
         "landscape": 3,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Innsbruck"
     },
     "1885989951": {
@@ -212,7 +195,6 @@
         "landscape": 6,
         "busy": 1
       },
-      "difficulty": "trail running",
       "region": "Wattener Lizum"
     },
     "1885992440": {
@@ -224,7 +206,6 @@
         "landscape": 7,
         "busy": 8
       },
-      "difficulty": "trail running",
       "region": "Stubai"
     },
     "1885995454": {
@@ -236,7 +217,6 @@
         "landscape": 7,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Fernpass"
     },
     "1885997422": {
@@ -248,7 +228,6 @@
         "landscape": 7,
         "busy": 3
       },
-      "difficulty": "trail running",
       "region": "Sellrain"
     },
     "1885999914": {
@@ -260,7 +239,6 @@
         "landscape": 9,
         "busy": 4
       },
-      "difficulty": "trail running",
       "region": "Inntal"
     },
     "1886001829": {
@@ -272,7 +250,6 @@
         "landscape": 6,
         "busy": 7
       },
-      "difficulty": "trail running",
       "region": "Karwendel"
     },
     "1886003796": {
@@ -284,7 +261,6 @@
         "landscape": 8,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "South Tirol"
     },
     "1886005907": {
@@ -296,7 +272,6 @@
         "landscape": 7,
         "busy": 7
       },
-      "difficulty": "trail running",
       "region": "Inntal"
     },
     "1886008036": {
@@ -308,7 +283,6 @@
         "landscape": 9,
         "busy": 7
       },
-      "difficulty": "trail running",
       "region": "Karwendel"
     },
     "1886010487": {
@@ -320,7 +294,6 @@
         "landscape": 7,
         "busy": 7
       },
-      "difficulty": "trail running",
       "region": "Sellrain"
     },
     "1886012344": {
@@ -332,7 +305,6 @@
         "landscape": 9,
         "busy": 3
       },
-      "difficulty": "trail running",
       "region": "South Tirol"
     },
     "1886015292": {
@@ -344,7 +316,6 @@
         "landscape": 8,
         "busy": 7
       },
-      "difficulty": "trail running",
       "region": "Nordkette"
     },
     "1886017482": {
@@ -356,7 +327,6 @@
         "landscape": 7,
         "busy": 4
       },
-      "difficulty": "trail running",
       "region": "Stubai"
     },
     "1886019684": {
@@ -368,7 +338,6 @@
         "landscape": 7,
         "busy": 1
       },
-      "difficulty": "trail running",
       "region": "South Tirol"
     },
     "1886021935": {
@@ -380,7 +349,6 @@
         "landscape": 9,
         "busy": 3
       },
-      "difficulty": "trail running",
       "region": "Kalkkögel"
     },
     "1886024307": {
@@ -392,7 +360,6 @@
         "landscape": 6,
         "busy": 5
       },
-      "difficulty": "trail running",
       "region": "Unterland"
     },
     "1886026518": {
@@ -404,7 +371,6 @@
         "landscape": 7,
         "busy": 4
       },
-      "difficulty": "trail running",
       "region": "Nordkette"
     },
     "1886029122": {
@@ -416,7 +382,6 @@
         "landscape": 4,
         "busy": 7
       },
-      "difficulty": "trail running",
       "region": "Kalkkögel"
     },
     "1886031506": {
@@ -428,7 +393,6 @@
         "landscape": 7,
         "busy": 3
       },
-      "difficulty": "trail running",
       "region": "South Tirol"
     },
     "1886033707": {
@@ -440,7 +404,6 @@
         "landscape": 6,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Brenner"
     },
     "1886035845": {
@@ -452,7 +415,6 @@
         "landscape": 6,
         "busy": 6
       },
-      "difficulty": "trail running",
       "region": "Wilder Kaiser"
     },
     "1886037946": {
@@ -464,7 +426,6 @@
         "landscape": 8,
         "busy": 6
       },
-      "difficulty": "trail running",
       "region": "South Tirol"
     },
     "1886040343": {
@@ -476,7 +437,6 @@
         "landscape": 6,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Karwendel"
     },
     "1886043082": {
@@ -488,7 +448,6 @@
         "landscape": 6,
         "busy": 3
       },
-      "difficulty": "trail running",
       "region": "Karwendel"
     },
     "1886045060": {
@@ -500,7 +459,6 @@
         "landscape": 7,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Karwendel"
     },
     "1886047351": {
@@ -512,7 +470,6 @@
         "landscape": 7,
         "busy": 3
       },
-      "difficulty": "trail running",
       "region": "Ötztal"
     },
     "1886049262": {
@@ -524,7 +481,6 @@
         "landscape": 10,
         "busy": 3
       },
-      "difficulty": "trail running",
       "region": "Zillertal"
     },
     "1886051627": {
@@ -536,7 +492,6 @@
         "landscape": 10,
         "busy": 3
       },
-      "difficulty": "trail running",
       "region": "Zillertal"
     },
     "1886053820": {
@@ -548,7 +503,6 @@
         "landscape": 9,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Ehrwald"
     },
     "1886055917": {
@@ -560,7 +514,6 @@
         "landscape": 8,
         "busy": 6
       },
-      "difficulty": "trail running",
       "region": "Stubai"
     },
     "1886057795": {
@@ -572,7 +525,6 @@
         "landscape": 4,
         "busy": 6
       },
-      "difficulty": "trail running",
       "region": "South Tirol"
     },
     "1886059788": {
@@ -584,7 +536,6 @@
         "landscape": 3,
         "busy": 5
       },
-      "difficulty": "trail running",
       "region": "Inntal"
     },
     "1886061598": {
@@ -596,7 +547,6 @@
         "landscape": 9,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Brenner"
     },
     "1886063622": {
@@ -608,7 +558,6 @@
         "landscape": 8,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Inntal"
     },
     "1887896750": {
@@ -620,7 +569,6 @@
         "landscape": 7,
         "busy": 5
       },
-      "difficulty": "trail running",
       "region": "Wilder Kaiser"
     },
     "1901212314": {
@@ -632,7 +580,6 @@
         "landscape": 8,
         "busy": 6
       },
-      "difficulty": "trail running",
       "region": "Achensee"
     },
     "1908341806": {
@@ -644,7 +591,6 @@
         "landscape": 7,
         "busy": 1
       },
-      "difficulty": "trail running",
       "region": "Achensee"
     },
     "1912333048": {
@@ -992,7 +938,6 @@
         "landscape": 4,
         "busy": 7
       },
-      "difficulty": "trail running",
       "region": "Inntal"
     },
     "1932968411": {
@@ -1004,7 +949,6 @@
         "landscape": 10,
         "busy": 3
       },
-      "difficulty": "trail running",
       "region": "Wilder Kaiser"
     },
     "1945409277": {
@@ -1016,7 +960,6 @@
         "landscape": 9,
         "busy": 4
       },
-      "difficulty": "trail running",
       "region": "Karwendel"
     },
     "1953604945": {
@@ -1028,7 +971,6 @@
         "landscape": 8,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Karwendel"
     },
     "1961279260": {
@@ -1040,7 +982,6 @@
         "landscape": 8,
         "busy": 3
       },
-      "difficulty": "trail running",
       "region": "Stubai"
     },
     "1978722153": {
@@ -1315,7 +1256,6 @@
         "landscape": 8,
         "busy": 4
       },
-      "difficulty": "trail running",
       "region": "Achensee"
     },
     "2292281886": {
@@ -1327,7 +1267,6 @@
         "landscape": 9,
         "busy": 6
       },
-      "difficulty": "trail running",
       "region": "South Tirol"
     },
     "2328935595": {
@@ -1339,7 +1278,6 @@
         "landscape": 8,
         "busy": 5
       },
-      "difficulty": "trail running",
       "region": "Kitzbühel"
     },
     "2348290705": {
@@ -1351,7 +1289,6 @@
         "landscape": 8,
         "busy": 4
       },
-      "difficulty": "trail running",
       "region": "Karwendel"
     },
     "2361467862": {
@@ -1363,7 +1300,6 @@
         "landscape": 6,
         "busy": 3
       },
-      "difficulty": "trail running",
       "region": "Wattener Lizum"
     },
     "2383051016": {
@@ -1375,7 +1311,6 @@
         "landscape": 7,
         "busy": 8
       },
-      "difficulty": "trail running",
       "region": "Karwendel"
     },
     "2386986320": {
@@ -1387,7 +1322,6 @@
         "landscape": 8,
         "busy": 5
       },
-      "difficulty": "trail running",
       "region": "Inntal"
     },
     "2397269622": {
@@ -1399,7 +1333,6 @@
         "landscape": 9,
         "busy": 4
       },
-      "difficulty": "trail running",
       "region": "Lechtal"
     },
     "2398304488": {
@@ -1411,7 +1344,6 @@
         "landscape": 9,
         "busy": 5
       },
-      "difficulty": "trail running",
       "region": "Lechtal"
     },
     "2422163656": {
@@ -1423,7 +1355,6 @@
         "landscape": 9,
         "busy": 5
       },
-      "difficulty": "trail running",
       "region": "Karwendel"
     },
     "2446691411": {
@@ -1435,7 +1366,6 @@
         "landscape": 8,
         "busy": 4
       },
-      "difficulty": "trail running",
       "region": "East Tirol"
     },
     "2453102089": {
@@ -1447,7 +1377,6 @@
         "landscape": 6,
         "busy": 6
       },
-      "difficulty": "trail running",
       "region": "Inntal"
     },
     "2459672960": {
@@ -1459,7 +1388,6 @@
         "landscape": 7,
         "busy": 3
       },
-      "difficulty": "trail running",
       "region": "East Tirol"
     },
     "2524030567": {
@@ -1471,7 +1399,6 @@
         "landscape": 6,
         "busy": 8
       },
-      "difficulty": "trail running",
       "region": "Wipptal"
     },
     "2539144978": {
@@ -1483,7 +1410,6 @@
         "landscape": 3,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Inntal"
     },
     "2544729658": {
@@ -1495,7 +1421,6 @@
         "landscape": 8,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Brenner"
     },
     "2554812057": {
@@ -1507,7 +1432,6 @@
         "landscape": 9,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Tux Alps"
     },
     "2596521887": {
@@ -1519,7 +1443,6 @@
         "landscape": 8,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "East Tirol"
     },
     "2631908628": {
@@ -1531,7 +1454,6 @@
         "landscape": 9,
         "busy": 4
       },
-      "difficulty": "trail running",
       "region": "Pitztal"
     },
     "2647617360": {
@@ -1543,7 +1465,6 @@
         "landscape": 8,
         "busy": 5
       },
-      "difficulty": "trail running",
       "region": "Stubai"
     },
     "2656062361": {
@@ -1555,7 +1476,6 @@
         "landscape": 7,
         "busy": 5
       },
-      "difficulty": "trail running",
       "region": "Wipptal"
     },
     "2667722344": {
@@ -1567,7 +1487,6 @@
         "landscape": 5,
         "busy": 3
       },
-      "difficulty": "trail running",
       "region": "Inntal"
     },
     "2680185402": {
@@ -1579,7 +1498,6 @@
         "landscape": 7,
         "busy": 6
       },
-      "difficulty": "trail running",
       "region": "Wetterstein"
     },
     "2688640205": {
@@ -1591,7 +1509,6 @@
         "landscape": 10,
         "busy": 8
       },
-      "difficulty": "trail running",
       "region": "Stubai"
     },
     "2704222976": {
@@ -1843,7 +1760,6 @@
         "landscape": 7,
         "busy": 5
       },
-      "difficulty": "trail running",
       "region": "Inntal"
     },
     "2940218167": {
@@ -1891,7 +1807,6 @@
         "landscape": 7,
         "busy": 6
       },
-      "difficulty": "trail running",
       "region": "South Tirol"
     },
     "2998802280": {
@@ -1903,7 +1818,6 @@
         "landscape": 6,
         "busy": 2
       },
-      "difficulty": "trail running",
       "region": "Unterland"
     },
     "3001580901": {
@@ -1915,7 +1829,6 @@
         "landscape": 6,
         "busy": 3
       },
-      "difficulty": "trail running",
       "region": "Inntal"
     },
     "3020018189": {
@@ -1927,7 +1840,6 @@
         "landscape": 7,
         "busy": 1
       },
-      "difficulty": "trail running",
       "region": "Rofan"
     },
     "3028696793": {
@@ -1939,7 +1851,6 @@
         "landscape": 10,
         "busy": 1
       },
-      "difficulty": "trail running",
       "region": "Stubai"
     }
   }
