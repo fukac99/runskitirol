@@ -1727,6 +1727,18 @@
       "difficulty": "very hard",
       "region": "Dolomites"
     },
+    "2895820198": {
+      "slug": "bayereuther-hutte-to-sonnwendbichlalm",
+      "blog_url": "https://www.runskitirol.com/trails/bayereuther-hutte-to-sonnwendbichlalm",
+      "ratings": {
+        "technical_difficulty": 1,
+        "fitness": 2,
+        "objective_danger": 1,
+        "landscape": 5,
+        "busy": 5
+      },
+      "region": "Rofan"
+    },
     "2898831103": {
       "blog_url": "https://www.runskitirol.com/skimo/rostizkogel",
       "ratings": {

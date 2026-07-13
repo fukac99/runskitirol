@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-06-29T22:26:51.094127+00:00",
+  "exported_at": "2026-07-13T10:52:49.221219+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 89,
+  "route_count": 90,
   "routes": [
     {
       "id": "1878119644",
@@ -2768,6 +2768,37 @@
         "busy": 5
       },
       "region": "Inntal"
+    },
+    {
+      "id": "2895820198",
+      "slug": "bayereuther-hutte-to-sonnwendbichlalm",
+      "name": "Bayreuther Hütte to Sonnwendbichlalm round",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "jogging",
+      "type": "tour_recorded",
+      "distance_m": 13324.0,
+      "distance_km": 13.32,
+      "duration_s": 8659,
+      "elevation_up_m": 1104.0,
+      "elevation_down_m": 1080.0,
+      "start_lat": 47.426257,
+      "start_lng": 11.82285,
+      "start_alt_m": 618.6,
+      "date": "2026-04-19T10:32:05.000Z",
+      "changed_at": "2026-07-13T08:56:11.562Z",
+      "komoot_url": "https://www.komoot.com/tour/2895820198",
+      "blog_url": "https://www.runskitirol.com/trails/bayereuther-hutte-to-sonnwendbichlalm",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 1,
+        "fitness": 2,
+        "objective_danger": 1,
+        "landscape": 5,
+        "busy": 5
+      },
+      "region": "Rofan"
     }
   ]
 }
