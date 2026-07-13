@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "properties": {
-    "exported_at": "2026-07-13T10:06:20.065617+00:00",
+    "exported_at": "2026-07-13T10:52:49.221219+00:00",
     "source": "komoot",
     "route_count": 90
   },
@@ -169740,7 +169740,13 @@
         "komoot_url": "https://www.komoot.com/tour/2895820198",
         "blog_url": "https://www.runskitirol.com/trails/bayereuther-hutte-to-sonnwendbichlalm",
         "difficulty": null,
-        "ratings": null,
+        "ratings": {
+          "technical_difficulty": 1,
+          "fitness": 2,
+          "objective_danger": 1,
+          "landscape": 5,
+          "busy": 5
+        },
         "region": "Rofan"
       }
     }
