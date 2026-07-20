@@ -1798,6 +1798,18 @@
       "difficulty": "very hard",
       "region": "Pitztal"
     },
+    "2953939393": {
+      "slug": "peter-anich-weg",
+      "blog_url": "https://www.runskitirol.com/trails/peter-anich-weg",
+      "ratings": {
+        "technical_difficulty": 1,
+        "fitness": 5,
+        "objective_danger": 0,
+        "landscape": 2,
+        "busy": 6
+      },
+      "region": "Inntal"
+    },
     "2963497024": {
       "blog_url": "https://www.runskitirol.com/skimo/mittlere-schwenzerspitze",
       "ratings": {
