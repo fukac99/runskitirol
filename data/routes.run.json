@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-07-13T10:52:49.221219+00:00",
+  "exported_at": "2026-07-20T11:05:07.921758+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 90,
+  "route_count": 91,
   "routes": [
     {
       "id": "1878119644",
@@ -2799,6 +2799,37 @@
         "busy": 5
       },
       "region": "Rofan"
+    },
+    {
+      "id": "2953939393",
+      "slug": "peter-anich-weg",
+      "name": "Peter-Anich Weg",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "jogging",
+      "type": "tour_recorded",
+      "distance_m": 26255.0,
+      "distance_km": 26.25,
+      "duration_s": 11108,
+      "elevation_up_m": 978.0,
+      "elevation_down_m": 975.0,
+      "start_lat": 47.257675,
+      "start_lng": 11.209982,
+      "start_alt_m": 821.2,
+      "date": "2026-05-14T09:03:53.000Z",
+      "changed_at": "2026-07-20T10:51:24.040Z",
+      "komoot_url": "https://www.komoot.com/tour/2953939393",
+      "blog_url": "https://www.runskitirol.com/trails/peter-anich-weg",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 1,
+        "fitness": 5,
+        "objective_danger": 0,
+        "landscape": 2,
+        "busy": 6
+      },
+      "region": "Inntal"
     }
   ]
 }
