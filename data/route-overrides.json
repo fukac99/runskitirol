@@ -1876,6 +1876,18 @@
         "busy": 1
       },
       "region": "Stubai"
+    },
+    "3140767520": {
+      "slug": "verpeilspitze-round",
+      "blog_url": "https://www.runskitirol.com/trails/verpeilspitze-round",
+      "ratings": {
+        "technical_difficulty": 9,
+        "fitness": 9,
+        "objective_danger": 9,
+        "landscape": 10,
+        "busy": 2
+      },
+      "region": "Kaunertal"
     }
   }
 }
