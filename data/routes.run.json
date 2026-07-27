@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-07-20T11:05:07.921758+00:00",
+  "exported_at": "2026-07-27T09:55:06.452889+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 91,
+  "route_count": 92,
   "routes": [
     {
       "id": "1878119644",
@@ -2830,6 +2830,37 @@
         "busy": 6
       },
       "region": "Inntal"
+    },
+    {
+      "id": "3140767520",
+      "slug": "verpeilspitze-round",
+      "name": "Verpeilspitze (3423m) Round",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "jogging",
+      "type": "tour_recorded",
+      "distance_m": 22118.0,
+      "distance_km": 22.12,
+      "duration_s": 26979,
+      "elevation_up_m": 2555.0,
+      "elevation_down_m": 2520.0,
+      "start_lat": 47.026768,
+      "start_lng": 10.763267,
+      "start_alt_m": 1779.2,
+      "date": "2026-07-25T06:07:38.000Z",
+      "changed_at": "2026-07-27T09:10:49.871Z",
+      "komoot_url": "https://www.komoot.com/tour/3140767520",
+      "blog_url": "https://www.runskitirol.com/trails/verpeilspitze-round",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 9,
+        "fitness": 9,
+        "objective_danger": 9,
+        "landscape": 10,
+        "busy": 2
+      },
+      "region": "Kaunertal"
     }
   ]
 }
