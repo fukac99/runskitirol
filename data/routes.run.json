@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-07-27T09:55:06.452889+00:00",
+  "exported_at": "2026-08-03T10:29:55.508573+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 92,
+  "route_count": 93,
   "routes": [
     {
       "id": "1878119644",
@@ -2861,6 +2861,37 @@
         "busy": 2
       },
       "region": "Kaunertal"
+    },
+    {
+      "id": "3136645403",
+      "slug": "pfeispitze-round",
+      "name": "Pfeisspitze (2345m) Round",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "jogging",
+      "type": "tour_recorded",
+      "distance_m": 13384.0,
+      "distance_km": 13.38,
+      "duration_s": 14488,
+      "elevation_up_m": 1695.0,
+      "elevation_down_m": 1675.0,
+      "start_lat": 47.299343,
+      "start_lng": 11.458233,
+      "start_alt_m": 839.6,
+      "date": "2026-07-24T05:03:02.000Z",
+      "changed_at": "2026-08-03T07:51:16.575Z",
+      "komoot_url": "https://www.komoot.com/tour/3136645403",
+      "blog_url": "https://www.runskitirol.com/trails/pfeispitze-round",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 8,
+        "fitness": 6,
+        "objective_danger": 8,
+        "landscape": 8,
+        "busy": 7
+      },
+      "region": "Inntal"
     }
   ]
 }
