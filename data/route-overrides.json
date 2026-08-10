@@ -1900,6 +1900,18 @@
         "busy": 2
       },
       "region": "Kaunertal"
+    },
+    "3188334943": {
+      "slug": "nafing-nurpens-round",
+      "blog_url": "https://www.runskitirol.com/trails/nafing-nurpens-round",
+      "ratings": {
+        "technical_difficulty": 2,
+        "fitness": 5,
+        "objective_danger": 1,
+        "landscape": 4,
+        "busy": 2
+      },
+      "region": "Tux Alps"
     }
   }
 }
