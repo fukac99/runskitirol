@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-08-03T10:29:55.508573+00:00",
+  "exported_at": "2026-08-10T16:15:12.180855+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 93,
+  "route_count": 94,
   "routes": [
     {
       "id": "1878119644",
@@ -2892,6 +2892,37 @@
         "busy": 7
       },
       "region": "Inntal"
+    },
+    {
+      "id": "3188334943",
+      "slug": "nafing-nurpens-round",
+      "name": "Nafing-Nurpens Round",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "jogging",
+      "type": "tour_planned",
+      "distance_m": 20826.9,
+      "distance_km": 20.83,
+      "duration_s": 11592,
+      "elevation_up_m": 1304.2,
+      "elevation_down_m": 1306.5,
+      "start_lat": 47.262861,
+      "start_lng": 11.695828,
+      "start_alt_m": 1260.5,
+      "date": "2026-08-10T15:50:43.511Z",
+      "changed_at": "2026-08-10T15:50:54.790Z",
+      "komoot_url": "https://www.komoot.com/tour/3188334943",
+      "blog_url": "https://www.runskitirol.com/trails/nafing-nurpens-round",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 2,
+        "fitness": 5,
+        "objective_danger": 1,
+        "landscape": 4,
+        "busy": 2
+      },
+      "region": "Tux Alps"
     }
   ]
 }
