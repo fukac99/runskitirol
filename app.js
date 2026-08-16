@@ -138,6 +138,8 @@ if (HIDE_FILTERS) {
 const ui = HIDE_FILTERS ? null : buildFilterBar();
 if (ui) wireFilterEvents();
 
+const gpxButton = createGpxButton();
+
 loadRoutes();
 
 // --- Data loading and rendering -------------------------------------------
@@ -185,6 +187,8 @@ async function loadRoutes() {
       initSliderRanges(allRoutes);
       if (!SINGLE_ROUTE_SLUG) applyStateFromUrl();
     }
+
+    updateGpxButton();
   } catch (error) {
     console.error(error);
     showMessage("Route data could not be loaded.");
@@ -261,6 +265,7 @@ function applyFilters(options = {}) {
   if (ui) ui.count.textContent = `Showing ${visible} of ${allRoutes.length} routes`;
   if (!options.skipUrl && ui) writeStateToUrl(filters);
   if (options.fit) fitToVisible(false);
+  updateGpxButton();
 }
 
 function fitToVisible(initial) {
@@ -342,6 +347,125 @@ function renderRatings(ratings) {
     })
     .join("");
   return `<div class="popup-ratings">${bars}</div>`;
+}
+
+// --- GPX download ----------------------------------------------------------
+
+// Routes are drawn from GeoJSON, so we generate GPX on the fly from the
+// visible line geometry. The button only appears when exactly one route is
+// shown on the map (via filters or the ?route= single-route mode).
+
+function createGpxButton() {
+  const container = document.getElementById("map");
+  if (!container) return null;
+  const button = document.createElement("button");
+  button.type = "button";
+  button.id = "gpx-download";
+  button.className = "gpx-download";
+  button.hidden = true;
+  button.innerHTML =
+    '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">' +
+    '<path d="M12 3v10m0 0 4-4m-4 4-4-4M5 17v2a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-2"/>' +
+    "</svg><span>Download GPX</span>";
+  button.addEventListener("click", () => {
+    const id = button.dataset.routeId;
+    if (id) downloadGpx(id);
+  });
+  // Keep map interactions (drag, scroll-zoom) from firing on the button.
+  if (typeof L !== "undefined" && L.DomEvent) {
+    L.DomEvent.disableClickPropagation(button);
+    L.DomEvent.disableScrollPropagation(button);
+  }
+  container.appendChild(button);
+  return button;
+}
+
+function getVisibleRouteIds() {
+  const ids = [];
+  allRoutes.forEach((route) => {
+    const layer = layerById.get(route.id);
+    if (layer && routesLayer.hasLayer(layer)) ids.push(route.id);
+  });
+  return ids;
+}
+
+function updateGpxButton() {
+  if (!gpxButton) return;
+  const ids = getVisibleRouteIds();
+  if (ids.length === 1) {
+    const route = recordById.get(ids[0]);
+    gpxButton.dataset.routeId = ids[0];
+    gpxButton.hidden = false;
+    gpxButton.setAttribute(
+      "aria-label",
+      route ? `Download GPX for ${route.name}` : "Download GPX"
+    );
+  } else {
+    gpxButton.hidden = true;
+    delete gpxButton.dataset.routeId;
+  }
+}
+
+function downloadGpx(routeId) {
+  const layer = layerById.get(routeId);
+  const route = recordById.get(routeId);
+  if (!layer || !route) return;
+
+  const coordinates =
+    layer.feature && layer.feature.geometry && layer.feature.geometry.coordinates;
+  if (!Array.isArray(coordinates) || coordinates.length === 0) {
+    showMessage("GPX data is not available for this route.");
+    return;
+  }
+
+  const gpx = buildGpx(route, coordinates);
+  const blob = new Blob([gpx], { type: "application/gpx+xml" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `${route.slug || route.id}.gpx`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
+function buildGpx(route, coordinates) {
+  const name = escapeXml(route.name || route.slug || "Route");
+  const link = route.komoot_url
+    ? `\n    <link href="${escapeXml(route.komoot_url)}"><text>Komoot</text></link>`
+    : "";
+  const trackpoints = coordinates
+    .map(([lng, lat, alt]) => {
+      if (!Number.isFinite(lat) || !Number.isFinite(lng)) return "";
+      const ele = Number.isFinite(alt) ? `<ele>${alt}</ele>` : "";
+      return `      <trkpt lat="${lat}" lon="${lng}">${ele}</trkpt>`;
+    })
+    .filter(Boolean)
+    .join("\n");
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="runskitirol-route-map" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>${name}</name>${link}
+  </metadata>
+  <trk>
+    <name>${name}</name>
+    <trkseg>
+${trackpoints}
+    </trkseg>
+  </trk>
+</gpx>
+`;
+}
+
+function escapeXml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&apos;");
 }
 
 // --- Filter bar UI ---------------------------------------------------------

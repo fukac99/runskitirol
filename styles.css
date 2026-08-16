@@ -135,6 +135,78 @@ body.embed #map {
   z-index: 1000;
 }
 
+/* --- GPX download button --------------------------------------------------- */
+
+/* #map is the Leaflet container (position: relative), so this overlays the map.
+   Sits above Leaflet panes/controls; bottom-left keeps it clear of the zoom
+   (top-left), layers (top-right), and attribution (bottom-right) controls. */
+.gpx-download {
+  position: absolute;
+  left: 12px;
+  bottom: 24px;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 14px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--ink);
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 3px 12px rgba(20, 30, 45, 0.28);
+  cursor: pointer;
+  transition: background 0.15s, transform 0.12s, box-shadow 0.15s;
+}
+
+.gpx-download[hidden] {
+  display: none;
+}
+
+.gpx-download:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 16px rgba(20, 30, 45, 0.32);
+}
+
+.gpx-download:focus-visible {
+  outline: 3px solid rgba(255, 255, 255, 0.65);
+  outline-offset: 2px;
+}
+
+.gpx-download svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+body.theme-run .gpx-download {
+  background: var(--rst-teal);
+}
+
+body.theme-run .gpx-download:hover {
+  background: var(--rst-teal-dark, #155e63);
+}
+
+body.theme-skimo .gpx-download {
+  background: var(--skimo-header-bg);
+}
+
+body.theme-skimo .gpx-download:hover {
+  background: var(--skimo-header-bg-dark);
+}
+
+@media (max-width: 560px) {
+  .gpx-download {
+    bottom: 16px;
+  }
+}
+
 /* --- Route popup ---------------------------------------------------------- */
 
 .leaflet-popup-content {
