@@ -1701,7 +1701,7 @@
         "busy": 4
       },
       "difficulty": "medium",
-      "region": "Wipptal"
+      "region": "Brenner"
     },
     "2869962573": {
       "blog_url": "https://www.runskitirol.com/skimo/glungezer",
@@ -1912,6 +1912,18 @@
         "busy": 2
       },
       "region": "Tux Alps"
+    },
+    "3194413403": {
+      "slug": "schafseiten-round",
+      "blog_url": "https://www.runskitirol.com/trails/schafseiten-round",
+      "ratings": {
+        "technical_difficulty": 7,
+        "fitness": 7,
+        "objective_danger": 7,
+        "landscape": 7,
+        "busy": 1
+      },
+      "region": "Brenner"
     }
   }
 }

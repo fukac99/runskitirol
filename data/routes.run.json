@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-08-10T16:15:12.180855+00:00",
+  "exported_at": "2026-08-17T10:10:58.915722+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 94,
+  "route_count": 95,
   "routes": [
     {
       "id": "1878119644",
@@ -2923,6 +2923,37 @@
         "busy": 2
       },
       "region": "Tux Alps"
+    },
+    {
+      "id": "3194413403",
+      "slug": "schafseiten-round",
+      "name": "Schafseiten Round",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "jogging",
+      "type": "tour_planned",
+      "distance_m": 22721.0,
+      "distance_km": 22.72,
+      "duration_s": 16559,
+      "elevation_up_m": 1698.0,
+      "elevation_down_m": 1706.0,
+      "start_lat": 47.081392,
+      "start_lng": 11.480538,
+      "start_alt_m": 1100.9,
+      "date": "2026-08-17T08:55:40.514Z",
+      "changed_at": "2026-08-17T08:55:50.373Z",
+      "komoot_url": "https://www.komoot.com/tour/3194413403",
+      "blog_url": "https://www.runskitirol.com/trails/schafseiten-round",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 7,
+        "fitness": 7,
+        "objective_danger": 7,
+        "landscape": 7,
+        "busy": 1
+      },
+      "region": "Brenner"
     }
   ]
 }
