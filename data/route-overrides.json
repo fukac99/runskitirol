@@ -1924,6 +1924,17 @@
         "busy": 1
       },
       "region": "Brenner"
+    },
+    "3220947379": {
+      "blog_url": "https://www.runskitirol.com/trails/offenbacher-hoehenweg",
+      "ratings": {
+        "technical_difficulty": 8,
+        "fitness": 8,
+        "objective_danger": 8,
+        "landscape": 10,
+        "busy": 2
+      },
+      "region": "Pitztal"
     }
   }
 }

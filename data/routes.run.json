@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-08-17T10:10:58.915722+00:00",
+  "exported_at": "2026-08-25T10:28:41.573559+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 95,
+  "route_count": 96,
   "routes": [
     {
       "id": "1878119644",
@@ -2954,6 +2954,37 @@
         "busy": 1
       },
       "region": "Brenner"
+    },
+    {
+      "id": "3220947379",
+      "slug": "offenbacher-h-henweg",
+      "name": "Offenbacher Höhenweg",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "jogging",
+      "type": "tour_recorded",
+      "distance_m": 25051.0,
+      "distance_km": 25.05,
+      "duration_s": 20897,
+      "elevation_up_m": 1743.0,
+      "elevation_down_m": 1734.0,
+      "start_lat": 46.968428,
+      "start_lng": 10.86999,
+      "start_alt_m": 1677.4,
+      "date": "2026-08-22T06:29:07.000Z",
+      "changed_at": "2026-08-25T10:06:00.646Z",
+      "komoot_url": "https://www.komoot.com/tour/3220947379",
+      "blog_url": "https://www.runskitirol.com/trails/offenbacher-hoehenweg",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 8,
+        "fitness": 8,
+        "objective_danger": 8,
+        "landscape": 10,
+        "busy": 2
+      },
+      "region": "Pitztal"
     }
   ]
 }
