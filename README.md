@@ -63,6 +63,23 @@ Each map page is map-only with a top filter bar:
 
 Filter and selection state is shareable via URL parameters: `q`, `dmin`, `dmax`, `emin`, `emax`, `tag`, and `route=<slug>` to focus a single route.
 
+## Route Colors
+
+Every route is drawn in its own color, so overlapping trails stay tellable apart. `route-colors.js` holds a fixed 10-color palette and assigns it at page load; no color is stored in the route data.
+
+Routes that run close together are given colors that are far apart, while routes in different valleys are free to reuse the same color:
+
+- Each route is reduced to the bounding box of its geometry, and the gap between two boxes (0 when they overlap) is the proximity measure.
+- The crowded areas are colored first, so they get first pick of the palette.
+- For each route, the chosen color is the one that creates the smallest worst-case resemblance to any route within 25 km, judged as OKLab distance so "looks alike" means perceived difference rather than raw RGB.
+- Two tie-breaks follow, in strict order: fewer middling clashes overall, then the least-used color. They are applied in order rather than summed, so a tie-break can never override a real clash.
+
+The assignment is deterministic: the same data produces the same colors on every load, so a route's color is stable between visits. Adding a route can shift the colors of nearby routes.
+
+The palette is 10 muted earth tones spread evenly around the hue wheel. Saturation is capped at roughly half of what a maximally-distinct palette would use, so the lines sit on the terrain rather than shouting over it; the cost is about a quarter of the available separation between colors. Every color is kept mid-dark for contrast against light topographic tiles, so none of them washes out over beige rock or glaciers. Adding more colors would force in near-duplicates, and two overlapping routes in near-duplicate colors read worse than two distant routes sharing a color.
+
+Selecting a route thickens its line and keeps its color.
+
 ## Basemap
 
 The map defaults to Tirol and offers a layer switcher. The primary basemap is **Mapbox Outdoors**, a topographic style tuned for trails. The other layers are free, no-API-key fallbacks:

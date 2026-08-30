@@ -10,11 +10,18 @@ const EMBED_MODE = URL_PARAMS.get("embed") === "1";
 const SINGLE_ROUTE_SLUG = URL_PARAMS.get("route");
 
 const COLLECTION_LABELS = { run: "RUN", skimo: "SKIMO" };
+// Fallback color per collection. Each route normally gets its own palette color
+// from route-colors.js; this only applies if that script is missing.
 const COLLECTION_STYLES = {
   run: { color: "#5f9a84", weight: 4, opacity: 0.85 },
   skimo: { color: "#1e868d", weight: 4, opacity: 0.85 },
 };
 const SELECTED_STYLE = { weight: 7, opacity: 1 };
+
+const ROUTE_COLORS =
+  typeof window !== "undefined" && window.RUNSKITIROL_COLORS
+    ? window.RUNSKITIROL_COLORS
+    : null;
 
 const ROUTES_JSON_URL = `data/routes.${COLLECTION}.json`;
 const ROUTES_GEOJSON_URL = `data/routes.${COLLECTION}.geojson`;
@@ -118,10 +125,12 @@ attachAutoFallback(openTopo);
 const canvasRenderer = L.canvas({ padding: 0.5, tolerance: 8 });
 const routesLayer = L.geoJSON(null, {
   renderer: canvasRenderer,
-  style: () => COLLECTION_STYLES[COLLECTION],
+  style: (feature) =>
+    baseStyle(feature && feature.properties ? feature.properties.id : null),
 });
 const layerById = new Map();
 const recordById = new Map();
+const colorById = new Map();
 let allRoutes = [];
 let activeLayer = null;
 
@@ -153,6 +162,8 @@ async function loadRoutes() {
 
     allRoutes = routesData.routes || [];
     allRoutes.forEach((route) => recordById.set(route.id, route));
+
+    assignColors(geojsonData.features);
 
     routesLayer.addData(geojsonData);
     routesLayer.eachLayer((layer) => {
@@ -210,6 +221,26 @@ function showMessage(text) {
     el.textContent = text;
     document.getElementById("map").appendChild(el);
   }
+}
+
+// --- Route colors ----------------------------------------------------------
+
+function assignColors(features) {
+  if (!ROUTE_COLORS) return;
+  ROUTE_COLORS.assignRouteColors(features).forEach((color, id) => {
+    colorById.set(id, color);
+  });
+}
+
+function baseStyle(id) {
+  const style = COLLECTION_STYLES[COLLECTION];
+  const color = id == null ? null : colorById.get(String(id));
+  return color ? { ...style, color } : style;
+}
+
+function resetLayerStyle(layer) {
+  const id = layer.feature && layer.feature.properties ? layer.feature.properties.id : null;
+  layer.setStyle(baseStyle(id));
 }
 
 // --- Filtering -------------------------------------------------------------
@@ -286,7 +317,7 @@ function selectRoute(id, options = {}) {
 
   if (!routesLayer.hasLayer(layer)) routesLayer.addLayer(layer);
   if (activeLayer && activeLayer !== layer) {
-    activeLayer.setStyle(COLLECTION_STYLES[COLLECTION]);
+    resetLayerStyle(activeLayer);
   }
   activeLayer = layer;
   layer.setStyle(SELECTED_STYLE);
@@ -300,7 +331,7 @@ function selectRoute(id, options = {}) {
 
 function clearSelection() {
   if (activeLayer) {
-    activeLayer.setStyle(COLLECTION_STYLES[COLLECTION]);
+    resetLayerStyle(activeLayer);
     activeLayer = null;
   }
 }
