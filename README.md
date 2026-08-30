@@ -71,11 +71,12 @@ Routes that run close together are given colors that are far apart, while routes
 
 - Each route is reduced to the bounding box of its geometry, and the gap between two boxes (0 when they overlap) is the proximity measure.
 - The crowded areas are colored first, so they get first pick of the palette.
-- For each route, the chosen color is the one that creates the smallest worst-case resemblance to any route within 25 km, judged as OKLab distance so "looks alike" means perceived difference rather than raw RGB. Usage is balanced as a tie-break.
+- For each route, the chosen color is the one that creates the smallest worst-case resemblance to any route within 25 km, judged as OKLab distance so "looks alike" means perceived difference rather than raw RGB.
+- Two tie-breaks follow, in strict order: fewer middling clashes overall, then the least-used color. They are applied in order rather than summed, so a tie-break can never override a real clash.
 
 The assignment is deterministic: the same data produces the same colors on every load, so a route's color is stable between visits. Adding a route can shift the colors of nearby routes.
 
-The palette is 10 saturated, mid-dark colors. Pale colors are avoided because the lines are drawn over light topographic tiles. Adding more colors would force in near-duplicates such as azure beside blue, and two overlapping routes in near-duplicate colors read worse than two distant routes sharing a color.
+The palette is 10 muted earth tones spread evenly around the hue wheel. Saturation is capped at roughly half of what a maximally-distinct palette would use, so the lines sit on the terrain rather than shouting over it; the cost is about a quarter of the available separation between colors. Every color is kept mid-dark for contrast against light topographic tiles, so none of them washes out over beige rock or glaciers. Adding more colors would force in near-duplicates, and two overlapping routes in near-duplicate colors read worse than two distant routes sharing a color.
 
 Selecting a route thickens its line and keeps its color.
 

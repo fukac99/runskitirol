@@ -13,24 +13,28 @@
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   else root.RUNSKITIROL_COLORS = api;
 })(typeof self !== "undefined" ? self : this, function () {
-  // Saturated, mid-dark hues. Pale colors are avoided because the routes are
-  // drawn over light topographic tiles (beige rock, white glaciers).
+  // Muted earth tones spread evenly around the hue wheel. Saturation is capped
+  // at roughly half of what a maximally-distinct palette would use, so the
+  // lines sit on the terrain instead of shouting over it.
   //
-  // Ten colors rather than twelve: adding more forces in near-duplicates such
-  // as azure next to blue, and two overlapping routes in near-duplicate colors
-  // read worse than two distant routes sharing a color. The teal is the brand
-  // dark teal, which also sits far enough from the green.
+  // Every color is kept mid-dark (OKLab lightness 0.40-0.60) for contrast
+  // against light topographic tiles, and none is pale enough to disappear over
+  // beige rock or glaciers.
+  //
+  // Ten colors rather than twelve: more would force in near-duplicates, and two
+  // overlapping routes in near-duplicate colors read worse than two distant
+  // routes sharing a color.
   const PALETTE = [
-    "#e6194b", // red
-    "#4363d8", // blue
-    "#f58231", // orange
-    "#3cb44b", // green
-    "#911eb4", // purple
-    "#155e63", // dark teal
-    "#9a6324", // brown
-    "#f032e6", // magenta
-    "#000075", // navy
-    "#800000", // maroon
+    "#af5053", // brick red
+    "#997b29", // bronze
+    "#2f6d22", // moss green
+    "#2f9375", // jade
+    "#256a7e", // petrol
+    "#4981ca", // steel blue
+    "#373d8b", // indigo
+    "#8754a0", // plum
+    "#742557", // mulberry
+    "#73471c", // coffee brown
   ];
 
   // Distance at which a neighbouring route counts for half as much. Two routes
@@ -175,16 +179,21 @@
 
     const assigned = new Array(routes.length).fill(-1);
     const uses = new Array(PALETTE.length).fill(0);
-    const fairShare = Math.max(1, routes.length / PALETTE.length);
+
+    // The three criteria are applied in strict order rather than summed. A sum
+    // lets the tie-breaks override a real clash, which is how two overlapping
+    // routes end up sharing a color.
+    const EPSILON = 1e-6;
 
     order.forEach((index) => {
-      let best = 0;
-      let bestCost = Infinity;
+      let best = -1;
+      let bestWorst = Infinity;
+      let bestAverage = Infinity;
 
       for (let candidate = 0; candidate < PALETTE.length; candidate += 1) {
-        // Score the single worst confusion this color would create rather than
-        // the sum: one hard-to-tell-apart neighbour is the whole problem, and a
-        // sum would let a crowd of harmless distant routes outvote it.
+        // Primary: the single worst confusion this color would create. One
+        // hard-to-tell-apart neighbour is the whole problem, whereas a sum would
+        // let a crowd of harmless distant routes outvote it.
         let worst = 0;
         let total = 0;
         let neighbours = 0;
@@ -200,16 +209,21 @@
           neighbours += 1;
         }
 
-        const cost =
-          worst +
-          // Small secondary terms: prefer fewer mediocre clashes overall, then
-          // spread usage so the map does not drift toward a few colors.
-          0.1 * (neighbours ? total / neighbours : 0) +
-          0.05 * (uses[candidate] / fairShare);
+        const average = neighbours ? total / neighbours : 0;
 
-        if (cost < bestCost) {
-          bestCost = cost;
+        // Then: fewer mediocre clashes overall. Then: the least used color, so
+        // the map does not drift toward a handful of colors.
+        let take = best < 0 || worst < bestWorst - EPSILON;
+        if (!take && worst <= bestWorst + EPSILON) {
+          take =
+            average < bestAverage - EPSILON ||
+            (average <= bestAverage + EPSILON && uses[candidate] < uses[best]);
+        }
+
+        if (take) {
           best = candidate;
+          bestWorst = worst;
+          bestAverage = average;
         }
       }
 
