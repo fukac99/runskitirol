@@ -1935,6 +1935,17 @@
         "busy": 2
       },
       "region": "Pitztal"
+    },
+    "3243872429": {
+      "blog_url": "https://www.runskitirol.com/trails/schwarze-wand-ridge",
+      "ratings": {
+        "technical_difficulty": 8,
+        "fitness": 7,
+        "objective_danger": 9,
+        "landscape": 9,
+        "busy": 1
+      },
+      "region": "Brenner"
     }
   }
 }
