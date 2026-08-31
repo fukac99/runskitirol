@@ -74,7 +74,9 @@ Routes that run close together are given colors that are far apart, while routes
 - For each route, the chosen color is the one that creates the smallest worst-case resemblance to any route within 25 km, judged as OKLab distance so "looks alike" means perceived difference rather than raw RGB.
 - Two tie-breaks follow, in strict order: fewer middling clashes overall, then the least-used color. They are applied in order rather than summed, so a tie-break can never override a real clash.
 
-The assignment is deterministic: the same data produces the same colors on every load, so a route's color is stable between visits. Adding a route can shift the colors of nearby routes.
+The assignment is deterministic: the same data produces the same colors on every load, so a route's color is stable for as long as the route set does not change.
+
+Adding a route reshuffles colors across the whole map, not just near the new route. Adding the 97th RUN route changed the color of 74 of the existing 96. A new route changes the neighbour counts around it, that changes the order routes are colored in, and greedy coloring cascades from there. This is a deliberate trade: coloring the crowded areas first is what keeps overlapping routes off the same color, and ordering by route ID instead would hold every existing color fixed but put one overlapping SKIMO pair in the same color. Do not describe a route by its color anywhere outside the map.
 
 The palette is 10 muted earth tones spread evenly around the hue wheel. Saturation is capped at roughly half of what a maximally-distinct palette would use, so the lines sit on the terrain rather than shouting over it; the cost is about a quarter of the available separation between colors. Every color is kept mid-dark for contrast against light topographic tiles, so none of them washes out over beige rock or glaciers. Adding more colors would force in near-duplicates, and two overlapping routes in near-duplicate colors read worse than two distant routes sharing a color.
 
