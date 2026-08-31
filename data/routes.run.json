@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-08-25T10:28:41.573559+00:00",
+  "exported_at": "2026-08-31T10:04:38.223253+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 96,
+  "route_count": 97,
   "routes": [
     {
       "id": "1878119644",
@@ -2985,6 +2985,37 @@
         "busy": 2
       },
       "region": "Pitztal"
+    },
+    {
+      "id": "3243872429",
+      "slug": "schwarze-wand-ridge-round",
+      "name": "Schwarze Wand Ridge Round",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "jogging",
+      "type": "tour_recorded",
+      "distance_m": 21999.0,
+      "distance_km": 22.0,
+      "duration_s": 21382,
+      "elevation_up_m": 2120.0,
+      "elevation_down_m": 2109.0,
+      "start_lat": 47.006618,
+      "start_lng": 11.401902,
+      "start_alt_m": 1446.8,
+      "date": "2026-08-30T05:36:48.000Z",
+      "changed_at": "2026-08-31T09:13:28.741Z",
+      "komoot_url": "https://www.komoot.com/tour/3243872429",
+      "blog_url": "https://www.runskitirol.com/trails/schwarze-wand-ridge",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 8,
+        "fitness": 7,
+        "objective_danger": 9,
+        "landscape": 9,
+        "busy": 1
+      },
+      "region": "Brenner"
     }
   ]
 }
