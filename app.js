@@ -43,6 +43,8 @@ const BLANK_TILE =
 const TIROL_CENTER = [47.253, 11.398];
 const TIROL_ZOOM = 9;
 
+const MAP_EL = document.getElementById("map");
+
 const map = L.map("map", {
   attributionControl: true,
   zoomControl: true,
@@ -223,6 +225,70 @@ function showMessage(text) {
   }
 }
 
+// --- Map framing -----------------------------------------------------------
+
+// Leaflet derives the zoom for fitBounds from the container size. When an embed
+// is placed in a tab, accordion, or lazily revealed block, the iframe can load
+// with no size at all, and the computed zoom is then meaningless and clamps to
+// the maxZoom below, which lands the map on a single hillside. So the requested
+// framing is remembered and reapplied once the container has a real size.
+
+let requestedFit = null;
+let userAdjusted = false;
+let sizeWatch = null;
+
+function hasUsableSize() {
+  return Boolean(MAP_EL) && MAP_EL.clientWidth > 0 && MAP_EL.clientHeight > 0;
+}
+
+function requestFit(fit) {
+  requestedFit = fit;
+  if (hasUsableSize()) fit();
+  else watchForSize();
+}
+
+// A ResizeObserver is not enough on its own: while the iframe sits in a
+// display:none container its document is not rendered, so the observer reports
+// 0x0 once and then stays silent through the reveal. Poll instead, but only
+// while a fit is actually waiting for a size, and stop as soon as it arrives.
+function watchForSize() {
+  if (sizeWatch !== null) return;
+  sizeWatch = setInterval(() => {
+    if (!hasUsableSize()) return;
+    clearInterval(sizeWatch);
+    sizeWatch = null;
+    handleContainerResize();
+  }, 200);
+}
+
+// Keep the padding proportional on short embeds, where a fixed 40px inset
+// would eat a quarter of the height and push the route needlessly far away.
+function fitPadding(max) {
+  if (!hasUsableSize()) return [max, max];
+  const shortest = Math.min(MAP_EL.clientWidth, MAP_EL.clientHeight);
+  const inset = Math.max(8, Math.min(max, Math.round(shortest * 0.08)));
+  return [inset, inset];
+}
+
+function handleContainerResize() {
+  map.invalidateSize({ animate: false });
+  // Stop reframing once the visitor has taken control of the map.
+  if (requestedFit && !userAdjusted && hasUsableSize()) requestedFit();
+}
+
+if (MAP_EL) {
+  ["pointerdown", "wheel", "keydown"].forEach((type) => {
+    MAP_EL.addEventListener(type, () => { userAdjusted = true; }, { passive: true });
+  });
+
+  if (typeof ResizeObserver !== "undefined") {
+    // Held in a variable so the observer is not collected while observing.
+    const observer = new ResizeObserver(handleContainerResize);
+    observer.observe(MAP_EL);
+  }
+  window.addEventListener("resize", handleContainerResize);
+}
+
 // --- Route colors ----------------------------------------------------------
 
 function assignColors(features) {
@@ -302,7 +368,7 @@ function applyFilters(options = {}) {
 function fitToVisible(initial) {
   const bounds = routesLayer.getBounds();
   if (bounds && bounds.isValid()) {
-    map.fitBounds(bounds, { padding: [28, 28] });
+    requestFit(() => map.fitBounds(bounds, { padding: fitPadding(28) }));
   } else if (initial) {
     map.setView(TIROL_CENTER, TIROL_ZOOM);
   }
@@ -324,7 +390,9 @@ function selectRoute(id, options = {}) {
   layer.bringToFront();
 
   if (options.zoom) {
-    map.fitBounds(layer.getBounds(), { maxZoom: 14, padding: [40, 40] });
+    requestFit(() =>
+      map.fitBounds(layer.getBounds(), { maxZoom: 14, padding: fitPadding(40) })
+    );
   }
   if (options.openPopup !== false) layer.openPopup();
 }
