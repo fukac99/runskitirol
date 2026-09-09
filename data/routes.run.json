@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-08-31T10:04:38.223253+00:00",
+  "exported_at": "2026-09-09T14:16:38.869242+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 97,
+  "route_count": 98,
   "routes": [
     {
       "id": "1878119644",
@@ -3016,6 +3016,37 @@
         "busy": 1
       },
       "region": "Brenner"
+    },
+    {
+      "id": "3269725720",
+      "slug": "kranebitter-klamm",
+      "name": "Kranebitter Klamm",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "jogging",
+      "type": "tour_recorded",
+      "distance_m": 14799.5,
+      "distance_km": 14.8,
+      "duration_s": 11088,
+      "elevation_up_m": 804.2,
+      "elevation_down_m": 825.8,
+      "start_lat": 47.265074,
+      "start_lng": 11.324908,
+      "start_alt_m": 618,
+      "date": "2026-09-08T06:56:43.627Z",
+      "changed_at": "2026-09-09T11:46:28.128Z",
+      "komoot_url": "https://www.komoot.com/tour/3269725720",
+      "blog_url": "https://www.runskitirol.com/trails/kranebitter-klamm",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 5,
+        "fitness": 3,
+        "objective_danger": 6,
+        "landscape": 5,
+        "busy": 3
+      },
+      "region": "Nordkette"
     }
   ]
 }

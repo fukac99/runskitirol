@@ -1946,6 +1946,17 @@
         "busy": 1
       },
       "region": "Brenner"
+    },
+    "3269725720": {
+      "blog_url": "https://www.runskitirol.com/trails/kranebitter-klamm",
+      "ratings": {
+        "technical_difficulty": 5,
+        "fitness": 3,
+        "objective_danger": 6,
+        "landscape": 5,
+        "busy": 3
+      },
+      "region": "Nordkette"
     }
   }
 }
