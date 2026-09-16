@@ -1957,6 +1957,17 @@
         "busy": 3
       },
       "region": "Nordkette"
+    },
+    "3286826801": {
+      "blog_url": "https://www.runskitirol.com/trails/sudetendeutsche-hohenweg",
+      "ratings": {
+        "technical_difficulty": 8,
+        "fitness": 8,
+        "objective_danger": 6,
+        "landscape": 8,
+        "busy": 3
+      },
+      "region": "East Tirol"
     }
   }
 }

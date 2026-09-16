@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-09-09T14:16:38.869242+00:00",
+  "exported_at": "2026-09-16T12:59:04.166680+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 98,
+  "route_count": 99,
   "routes": [
     {
       "id": "1878119644",
@@ -3047,6 +3047,37 @@
         "busy": 3
       },
       "region": "Nordkette"
+    },
+    {
+      "id": "3286826801",
+      "slug": "sudetendeutscher-h-henweg-with-blauspitze-2575-m-and-rotenkogel-2762-m",
+      "name": "Sudetendeutscher Höhenweg with Blauspitze (2575 m) and Rotenkogel (2762 m)",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "jogging",
+      "type": "tour_recorded",
+      "distance_m": 32208.2,
+      "distance_km": 32.21,
+      "duration_s": 29173,
+      "elevation_up_m": 2134.2,
+      "elevation_down_m": 2192.0,
+      "start_lat": 47.012429,
+      "start_lng": 12.55624,
+      "start_alt_m": 1538.3,
+      "date": "2025-08-13T05:46:23.000Z",
+      "changed_at": "2026-09-16T12:37:40.095Z",
+      "komoot_url": "https://www.komoot.com/tour/3286826801",
+      "blog_url": "https://www.runskitirol.com/trails/sudetendeutsche-hohenweg",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 8,
+        "fitness": 8,
+        "objective_danger": 6,
+        "landscape": 8,
+        "busy": 3
+      },
+      "region": "East Tirol"
     }
   ]
 }
