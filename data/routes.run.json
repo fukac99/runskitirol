@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-09-16T12:59:04.166680+00:00",
+  "exported_at": "2026-09-22T16:21:48.959737+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 99,
+  "route_count": 100,
   "routes": [
     {
       "id": "1878119644",
@@ -3078,6 +3078,37 @@
         "busy": 3
       },
       "region": "East Tirol"
+    },
+    {
+      "id": "3293178372",
+      "slug": "hochnissl-2546m",
+      "name": "Hochnissl (2546m)",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "jogging",
+      "type": "tour_recorded",
+      "distance_m": 13119.0,
+      "distance_km": 13.12,
+      "duration_s": 19111,
+      "elevation_up_m": 1692.0,
+      "elevation_down_m": 1686.0,
+      "start_lat": 47.34618,
+      "start_lng": 11.655672,
+      "start_alt_m": 871.2,
+      "date": "2026-09-19T04:54:01.000Z",
+      "changed_at": "2026-09-22T08:47:07.498Z",
+      "komoot_url": "https://www.komoot.com/tour/3293178372",
+      "blog_url": "https://www.runskitirol.com/trails/hochnissl",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 8,
+        "fitness": 7,
+        "objective_danger": 6,
+        "landscape": 7,
+        "busy": 1
+      },
+      "region": "Karwendel"
     }
   ]
 }
