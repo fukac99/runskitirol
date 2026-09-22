@@ -1968,6 +1968,17 @@
         "busy": 3
       },
       "region": "East Tirol"
+    },
+    "3293178372": {
+      "blog_url": "https://www.runskitirol.com/trails/hochnissl",
+      "ratings": {
+        "technical_difficulty": 8,
+        "fitness": 7,
+        "objective_danger": 6,
+        "landscape": 7,
+        "busy": 1
+      },
+      "region": "Karwendel"
     }
   }
 }
