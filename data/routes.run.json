@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-09-22T16:21:48.959737+00:00",
+  "exported_at": "2026-09-28T09:02:00.582246+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 100,
+  "route_count": 101,
   "routes": [
     {
       "id": "1878119644",
@@ -3109,6 +3109,37 @@
         "busy": 1
       },
       "region": "Karwendel"
+    },
+    {
+      "id": "3314804590",
+      "slug": "hirzerkamm",
+      "name": "Hirzerkamm",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "jogging",
+      "type": "tour_planned",
+      "distance_m": 30799.0,
+      "distance_km": 30.8,
+      "duration_s": 17499,
+      "elevation_up_m": 1816.0,
+      "elevation_down_m": 1816.0,
+      "start_lat": 47.210954,
+      "start_lng": 11.624443,
+      "start_alt_m": 1398.8,
+      "date": "2026-09-28T08:07:54.680Z",
+      "changed_at": "2026-09-28T08:08:19.242Z",
+      "komoot_url": "https://www.komoot.com/tour/3314804590",
+      "blog_url": "https://www.runskitirol.com/trails/hirzerkamm",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 7,
+        "fitness": 8,
+        "objective_danger": 8,
+        "landscape": 9,
+        "busy": 2
+      },
+      "region": "Wattener Lizum"
     }
   ]
 }
