@@ -1979,6 +1979,17 @@
         "busy": 1
       },
       "region": "Karwendel"
+    },
+    "3314804590": {
+      "blog_url": "https://www.runskitirol.com/trails/hirzerkamm",
+      "ratings": {
+        "technical_difficulty": 7,
+        "fitness": 8,
+        "objective_danger": 8,
+        "landscape": 9,
+        "busy": 2
+      },
+      "region": "Wattener Lizum"
     }
   }
 }
