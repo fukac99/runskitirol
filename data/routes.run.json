@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-09-28T09:02:00.582246+00:00",
+  "exported_at": "2026-09-28T14:02:24.549459+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -3111,7 +3111,7 @@
       "region": "Karwendel"
     },
     {
-      "id": "3314804590",
+      "id": "3315429112",
       "slug": "hirzerkamm",
       "name": "Hirzerkamm",
       "collection": "run",
@@ -3119,17 +3119,17 @@
       "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
       "sport": "jogging",
       "type": "tour_planned",
-      "distance_m": 30799.0,
-      "distance_km": 30.8,
-      "duration_s": 17499,
-      "elevation_up_m": 1816.0,
-      "elevation_down_m": 1816.0,
-      "start_lat": 47.210954,
-      "start_lng": 11.624443,
-      "start_alt_m": 1398.8,
-      "date": "2026-09-28T08:07:54.680Z",
-      "changed_at": "2026-09-28T08:08:19.242Z",
-      "komoot_url": "https://www.komoot.com/tour/3314804590",
+      "distance_m": 33664.1,
+      "distance_km": 33.66,
+      "duration_s": 18562,
+      "elevation_up_m": 1928.4,
+      "elevation_down_m": 1933.5,
+      "start_lat": 47.207666,
+      "start_lng": 11.625414,
+      "start_alt_m": 1410.1,
+      "date": "2026-09-28T14:01:17.275Z",
+      "changed_at": "2026-09-28T14:01:22.829Z",
+      "komoot_url": "https://www.komoot.com/tour/3315429112",
       "blog_url": "https://www.runskitirol.com/trails/hirzerkamm",
       "difficulty": null,
       "ratings": {
