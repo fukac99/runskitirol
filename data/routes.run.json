@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-09-28T14:02:24.549459+00:00",
+  "exported_at": "2026-10-05T09:56:52.659735Z",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 101,
+  "route_count": 102,
   "routes": [
     {
       "id": "1878119644",
@@ -3140,6 +3140,37 @@
         "busy": 2
       },
       "region": "Wattener Lizum"
+    },
+    {
+      "id": "3307298919",
+      "slug": "salfeinsee-ridge-loop-long",
+      "name": "Salfeinsee Ridge Loop Long",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "jogging",
+      "type": "tour_recorded",
+      "distance_m": 15671.0,
+      "distance_km": 15.67,
+      "duration_s": 11123,
+      "elevation_up_m": 1166.0,
+      "elevation_down_m": 1150.0,
+      "start_lat": 47.191002,
+      "start_lng": 11.261502,
+      "start_alt_m": 1455.8,
+      "date": "2026-09-25T10:44:27.000Z",
+      "changed_at": "2026-10-05T09:25:18.181Z",
+      "komoot_url": "https://www.komoot.com/tour/3307298919",
+      "blog_url": "https://www.runskitirol.com/trails/salfeins-ridge-loop-long",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 4,
+        "fitness": 4,
+        "objective_danger": 2,
+        "landscape": 8,
+        "busy": 2
+      },
+      "region": "Sellrain"
     }
   ]
 }
