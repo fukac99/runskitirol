@@ -73,14 +73,24 @@ This appends to three files (never modifies existing entries):
 
 ### 4. Commit and push
 
-Commit the changes and open a PR:
+Always update `main` first, then branch from it and open a PR:
 
 ```bash
+git checkout main
+git pull origin main
 git checkout -b add-route-SLUG
 git add data/
 git commit -m "Add route: ROUTE_NAME"
 git push -u origin add-route-SLUG
 gh pr create --title "Add route: ROUTE_NAME" --body "Adds ROUTE_NAME to the COLLECTION map."
+```
+
+If the feature branch already exists and `main` has moved, rebase before pushing:
+
+```bash
+git fetch origin
+git rebase origin/main
+git push --force-with-lease
 ```
 
 ## Safety
