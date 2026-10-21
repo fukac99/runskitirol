@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-10-05T09:56:52.659735Z",
+  "exported_at": "2026-10-21T08:35:16.321252+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 102,
+  "route_count": 103,
   "routes": [
     {
       "id": "1878119644",
@@ -3171,6 +3171,37 @@
         "busy": 2
       },
       "region": "Sellrain"
+    },
+    {
+      "id": "3352878366",
+      "slug": "scheffauer-sonneck-ridge",
+      "name": "Scheffauer - Sonneck ridge",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "jogging",
+      "type": "tour_recorded",
+      "distance_m": 19574.0,
+      "distance_km": 19.57,
+      "duration_s": 17043,
+      "elevation_up_m": 2016.0,
+      "elevation_down_m": 2001.0,
+      "start_lat": 47.542335,
+      "start_lng": 12.22325,
+      "start_alt_m": 887.2,
+      "date": "2026-10-17T08:16:18.000Z",
+      "changed_at": "2026-10-21T07:31:38.853Z",
+      "komoot_url": "https://www.komoot.com/tour/3352878366",
+      "blog_url": "https://www.runskitirol.com/trails/scheffauer-sonneck-ridge",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 10,
+        "fitness": 7,
+        "objective_danger": 9,
+        "landscape": 9,
+        "busy": 1
+      },
+      "region": "Wilder Kaiser"
     }
   ]
 }
