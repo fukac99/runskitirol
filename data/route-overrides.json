@@ -2012,6 +2012,17 @@
         "busy": 1
       },
       "region": "Wilder Kaiser"
+    },
+    "3368391198": {
+      "blog_url": "https://www.runskitirol.com/trails/eastern-rofan-loop",
+      "ratings": {
+        "technical_difficulty": 3,
+        "fitness": 7,
+        "objective_danger": 4,
+        "landscape": 6,
+        "busy": 3
+      },
+      "region": "Rofan"
     }
   }
 }

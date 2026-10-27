@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-10-21T08:35:16.321252+00:00",
+  "exported_at": "2026-10-27T15:20:55.315098+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 103,
+  "route_count": 104,
   "routes": [
     {
       "id": "1878119644",
@@ -3202,6 +3202,37 @@
         "busy": 1
       },
       "region": "Wilder Kaiser"
+    },
+    {
+      "id": "3368391198",
+      "slug": "eastern-rofan-loop-with-tiefenbachklamm",
+      "name": "Eastern Rofan Loop with Tiefenbachklamm",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "jogging",
+      "type": "tour_recorded",
+      "distance_m": 33919.0,
+      "distance_km": 33.92,
+      "duration_s": 20419,
+      "elevation_up_m": 1555.0,
+      "elevation_down_m": 1553.4,
+      "start_lat": 47.451027,
+      "start_lng": 11.865482,
+      "start_alt_m": 556.3,
+      "date": "2026-10-26T09:32:54.000Z",
+      "changed_at": "2026-10-27T15:09:02.385Z",
+      "komoot_url": "https://www.komoot.com/tour/3368391198",
+      "blog_url": "https://www.runskitirol.com/trails/eastern-rofan-loop",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 3,
+        "fitness": 7,
+        "objective_danger": 4,
+        "landscape": 6,
+        "busy": 3
+      },
+      "region": "Rofan"
     }
   ]
 }
