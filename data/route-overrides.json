@@ -2023,6 +2023,17 @@
         "busy": 3
       },
       "region": "Rofan"
+    },
+    "3374678891": {
+      "blog_url": "https://www.runskitirol.com/trails/zahmer-kaiser-loop",
+      "ratings": {
+        "technical_difficulty": 7,
+        "fitness": 5,
+        "objective_danger": 9,
+        "landscape": 8,
+        "busy": 7
+      },
+      "region": "Wilder Kaiser"
     }
   }
 }
