@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-10-27T15:20:55.315098+00:00",
+  "exported_at": "2026-11-04T12:55:08.856612+00:00",
   "source": "komoot",
   "collections": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com"
     }
   ],
-  "route_count": 104,
+  "route_count": 105,
   "routes": [
     {
       "id": "1878119644",
@@ -3233,6 +3233,37 @@
         "busy": 3
       },
       "region": "Rofan"
+    },
+    {
+      "id": "3374678891",
+      "slug": "zahmer-kaiser-loop",
+      "name": "Zahmer Kaiser Loop",
+      "collection": "run",
+      "collection_name": "RUN by runskitirol.com",
+      "collection_url": "https://www.komoot.com/collection/3093627/-run-by-runskitirol-com",
+      "sport": "other",
+      "type": "tour_recorded",
+      "distance_m": 17179.0,
+      "distance_km": 17.18,
+      "duration_s": 26174,
+      "elevation_up_m": 1842.0,
+      "elevation_down_m": 1846.0,
+      "start_lat": 47.629252,
+      "start_lng": 12.274447,
+      "start_alt_m": 967.2,
+      "date": "2026-10-31T07:19:16.000Z",
+      "changed_at": "2026-11-03T17:05:16.862Z",
+      "komoot_url": "https://www.komoot.com/tour/3374678891",
+      "blog_url": "https://www.runskitirol.com/trails/zahmer-kaiser-loop",
+      "difficulty": null,
+      "ratings": {
+        "technical_difficulty": 7,
+        "fitness": 5,
+        "objective_danger": 9,
+        "landscape": 8,
+        "busy": 7
+      },
+      "region": "Wilder Kaiser"
     }
   ]
 }
